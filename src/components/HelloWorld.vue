@@ -1,53 +1,50 @@
 <template>
 <div>
+  
+
+  <v-jumbotron id="main-jumbotron" class="cyan darken-2" dark style="height:600px;">
+    <v-container fill-height>
+      <v-layout align-center text-xs-center>
+        <v-flex>
+          <h3 class="display-3">Welcome to the site</h3>
+          <span class="subheading">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
+          <v-divider class="my-3"></v-divider>
+          <div class="title mb-3">Check out our newest features!</div>
+        </v-flex>
+      </v-layout>
+
+      <!-- scroll dots-->
+      <v-layout>
+        <ul id="scroll-dots">
+          <li class="nav-item">
+            <a class="nav-link btn-circle" href="#section-1"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-circle" href="#section-2"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-circle" href="#section-3"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-circle" href="#section-4"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn-circle" href="#section-5"></a>
+          </li>
+        </ul>
+      </v-layout>
+    </v-container>
+
+      
+  </v-jumbotron>
 
   
   
     <v-layout wrap >
 
        
-      <v-flex class="cyan darken-2 white--text">
-        <header>
-          <div>
-            <h1 class="text-xs-center ">Welcome to Scrolling Nav</h1>
-            <p class="text-xs-center ">A landing page template freshly redesigned for Bootstrap 4</p>
-          </div>
-
-          <!-- TODO: scroll dots-->
-          <v-layout id="scroll-dots"  justify-end>
-            <ul style="position: fixed;">
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#section-1"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#section-2"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#section-3"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#section-4"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#section-5"></a>
-              </li>
-            </ul>
-          </v-layout>
-        
-        </header>
-
-        
-
+    
       
-
-        
-       
-         
-
-
-        
-
-      </v-flex>
 
       
 
@@ -161,28 +158,18 @@ export default {
 </script>
 
 <style>
-header {
-  padding: 0px 0 240px;
-}
 
-@media (min-width: 992px) {
-  header {
-    padding: 240px 0 240px;
-  }
-}
 
 .nav-item {
   margin-top: 12px;
   margin-left: 15px;
 }
 
-#scrolling-nav {
-  position: fixed;
-  color: black;
-}
 
 #scroll-dots{
-  margin-right: 50px;
+  position: fixed; 
+  margin-left:80px;
+  margin-top: 260px;
 }
 
 section {
