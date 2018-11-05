@@ -1,38 +1,57 @@
 <template>
 <div>
-  
-    <v-layout wrap>
 
+  
+  
+    <v-layout wrap >
+
+       
       <v-flex class="cyan darken-2 white--text">
         <header>
-          <!-- TODO: scroll dots-->
-          <!-- <nav id="scrolling-nav" v-scroll-spy-link class="navbar navbar-expand-lg">
-            <ul class="ml-auto">
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#about">about</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#services"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#contact"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#test"></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link btn-circle" href="#timeline"></a>
-              </li>
-            </ul>
-          </nav> -->
-
           <div>
             <h1 class="text-xs-center ">Welcome to Scrolling Nav</h1>
             <p class="text-xs-center ">A landing page template freshly redesigned for Bootstrap 4</p>
           </div>
 
+          <!-- TODO: scroll dots-->
+          <v-layout id="scroll-dots"  justify-end>
+            <ul style="position: fixed;">
+              <li class="nav-item">
+                <a class="nav-link btn-circle" href="#section-1"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-circle" href="#section-2"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-circle" href="#section-3"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-circle" href="#section-4"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link btn-circle" href="#section-5"></a>
+              </li>
+            </ul>
+          </v-layout>
+        
         </header>
+
+        
+
+      
+
+        
+       
+         
+
+
+        
+
       </v-flex>
+
+      
+
+      
 
       <v-container>
         <v-layout >
@@ -44,9 +63,8 @@
           </v-flex>
         </v-layout>
       </v-container>
-      
 
-        <v-layout class="grey lighten-4">
+      <v-layout class="grey lighten-4">
           <v-container>
             <v-flex>
               <section id="section-2">
@@ -55,9 +73,9 @@
               </section>
             </v-flex>
           </v-container>
-        </v-layout>
+      </v-layout>
 
-       <v-container>
+      <v-container>
         <v-layout >
           <v-flex>
             <section id="section-3">
@@ -78,7 +96,6 @@
           </v-flex>
         </v-container>
       </v-layout>
-
       
       <v-container>
         <v-layout>
@@ -91,15 +108,6 @@
         </v-layout>
       </v-container>
         
-        
-        
-        
-        
-        
-        
-        
-      
-      
     </v-layout>
  
 
@@ -163,26 +171,18 @@ header {
   }
 }
 
-.navbar-brand {
-  margin-left: 10px;
-}
-
 .nav-item {
   margin-top: 12px;
   margin-left: 15px;
 }
 
-#navbarText {
-  margin-left: 160px;
-}
-
 #scrolling-nav {
-  margin-right: 40px;
+  position: fixed;
   color: black;
 }
 
-a {
-  color: black;
+#scroll-dots{
+  margin-right: 50px;
 }
 
 section {
@@ -194,11 +194,11 @@ ul {
 }
 
 .btn-circle {
-  width: 11px;
-  height: 8px;
-  padding: 5px 5px;
-  border-radius: 15px;
-  font-size: 10px;
+  width: 3px;
+  height: 3px;
+  padding: 4px 6px;
+  border-radius: 50px;
+  font-size: 3px;
   line-height: 0;
   border: 2px solid black;
 }
