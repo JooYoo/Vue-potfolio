@@ -15,7 +15,7 @@
 
       <!-- scroll dots-->
       <v-layout>
-        <ul id="scroll-dots">
+        <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="nav-item">
             <a class="nav-link btn-circle" href="#section-1"></a>
           </li>
@@ -40,15 +40,7 @@
 
   
   
-    <v-layout wrap >
-
-       
-    
-      
-
-      
-
-      
+    <v-layout wrap v-scroll-spy>
 
       <v-container>
         <v-layout >
@@ -170,6 +162,7 @@ export default {
   position: fixed; 
   margin-left:80px;
   margin-top: 260px;
+  
 }
 
 section {
