@@ -11,11 +11,11 @@
           <v-divider class="my-3"></v-divider>
           <div class="title mb-3">Check out our newest features!</div>
         </v-flex>
+        
       </v-layout>
 
       <!-- scroll dots-->
-      <v-layout>
-        <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
+       <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="nav-item">
             <a class="nav-link btn-circle" href="#section-1"></a>
           </li>
@@ -32,6 +32,8 @@
             <a class="nav-link btn-circle" href="#section-5"></a>
           </li>
         </ul>
+      <v-layout>
+       
       </v-layout>
     </v-container>
 
@@ -160,8 +162,9 @@ export default {
 
 #scroll-dots{
   position: fixed; 
-  margin-left:80px;
-  margin-top: 260px;
+  margin-top: 150px;
+  margin-right: 40px;
+  right: 0;
   
 }
 
