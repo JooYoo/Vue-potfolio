@@ -12,7 +12,7 @@
 
 
     <v-content>
-      <HelloWorld/>
+      <HomePage/>
     </v-content>
 
      
@@ -20,12 +20,12 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld";
+import HomePage from "./pages/home/HomePage";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HomePage
   },
   data() {
     return {
