@@ -4,15 +4,19 @@
     <v-layout row wrap>
       <v-container>
            <v-flex xs12>
+             <router-link class="router-nav" :to="{name: 'Home'}">
                 <v-btn flat small color="black">HOME</v-btn>
+             </router-link>
+             <router-link class="router-nav" to="/project">
                 <v-btn flat small color="black">Project</v-btn>
+             </router-link>
             </v-flex>
       </v-container>
     </v-layout>
 
 
     <v-content>
-      <HomePage/>
+      <router-view/>
     </v-content>
 
      
@@ -20,13 +24,9 @@
 </template>
 
 <script>
-import HomePage from "./pages/home/HomePage";
 
 export default {
   name: "App",
-  components: {
-    HomePage
-  },
   data() {
     return {
       bottomNav: 3
@@ -54,6 +54,11 @@ export default {
 .menu-btn {
   padding-left: 1px;
   padding-right: 1px;
+}
+
+.router-nav{
+  text-decoration: none;
+  color: inherit;
 }
 </style>
 
