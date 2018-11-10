@@ -16,20 +16,20 @@
 
       <!-- scroll dots-->
        <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
-          <li class="nav-item">
-            <a class="nav-link btn-circle" href="#section-1"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small">
+            <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-1"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn-circle" href="#section-2"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:30px;">
+            <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-2"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn-circle" href="#section-3"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:60px;">
+            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-3"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn-circle" href="#section-4"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:90px;">
+            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-4"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link btn-circle" href="#section-5"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:120px;">
+            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-5"></a>
           </li>
         </ul>
       <v-layout>
@@ -40,16 +40,8 @@
   
     <v-layout wrap v-scroll-spy>
 
-      <v-container>
-        <v-layout >
-          <v-flex>
-            <section id="section-1">
-              <h2>Section 1</h2>
-              <p>This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs!</p>
-              <p>{{projects.projects[0].gitLink}}</p> 
-            </section>
-          </v-flex>
-        </v-layout>
+      <v-container id="section-1">
+        <about></about>
       </v-container>
 
       <v-layout class="grey lighten-4">
@@ -58,6 +50,7 @@
               <section id="section-2">
                 <h2>Section 2</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+                <p>{{projects.projects[0].gitLink}}</p> 
               </section>
             </v-flex>
           </v-container>
@@ -93,7 +86,7 @@
  
 
   <!-- Footer -->
-   <v-footer dark height="auto" >
+    <v-footer dark height="auto" >
     <v-card class="flex" flat tile>
       <v-card-title class="grey darken-4">
         <strong class="subheading"> &copy;2018 — <strong>ZhuYu</strong></strong>
@@ -108,16 +101,18 @@
         </v-btn>
       </v-card-title>
     </v-card>
-  </v-footer>
+    </v-footer>
   </div>
 </template>
 
 <script>
 import experience from './components/experience.component'
+import about from './components/about.component'
 import projects from '../../data/ProjectData'
 export default {
   components:{
-    experience
+    experience,
+    about
   },
   data: () => ({
     icons: [
@@ -136,14 +131,13 @@ export default {
 
 
 .nav-item {
-  margin-top: 12px;
-  margin-left: 15px;
+  margin-top: 20px;
 }
 
 
 #scroll-dots{
   position: fixed; 
-  margin-top: 150px;
+  margin-top: 100px;
   margin-right: 40px;
   right: 0;
   
@@ -155,15 +149,5 @@ section {
 
 ul {
   list-style-type: none;
-}
-
-.btn-circle {
-  width: 3px;
-  height: 3px;
-  padding: 4px 6px;
-  border-radius: 50px;
-  font-size: 3px;
-  line-height: 0;
-  border: 2px solid black;
 }
 </style>

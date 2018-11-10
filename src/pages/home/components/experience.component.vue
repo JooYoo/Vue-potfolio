@@ -1,38 +1,33 @@
 <template>
-    <section>
-        <v-container style="margin-bottom:80px;">
+    <div>
+        <v-container>
             <v-layout>
                 <v-flex align-center text-xs-center>
-                    <div class="display-2 font-weight-thin">Experience</div> 
+                    <div id="experience-title" class="display-2 font-weight-thin">Experience</div> 
+                    <v-timeline>
+                        <v-timeline-item
+                        v-for="(year, i) in years"
+                        :color="year.color"
+                        :key="i"
+                        small
+                        >
+                          <span
+                            slot="opposite"
+                            :class="`headline font-weight-bold ${year.color}--text`"
+                            v-text="year.year"
+                          ></span>
+                          <div class="py-3">
+                            <h2 :class="`headline font-weight-light mb-3 ${year.color}--text`">Lorem ipsum</h2>
+                            <div>
+                              Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+                            </div>
+                          </div>
+                        </v-timeline-item>
+                    </v-timeline>
                 </v-flex>
             </v-layout>
-
         </v-container>
-        
-        
-        <v-timeline>
-          <v-timeline-item
-            v-for="(year, i) in years"
-            :color="year.color"
-            :key="i"
-            small
-          >
-            <span
-              slot="opposite"
-              :class="`headline font-weight-bold ${year.color}--text`"
-              v-text="year.year"
-            ></span>
-            <div class="py-3">
-              <h2 :class="`headline font-weight-light mb-3 ${year.color}--text`">Lorem ipsum</h2>
-              <div>
-                Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at. Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
-              </div>
-            </div>
-          </v-timeline-item>
-        </v-timeline>
-
- 
-    </section>
+    </div>
 </template>
 
 
@@ -67,10 +62,9 @@
 </script>
 
 <style>
-section{
-    padding: 100,0 !important;
+#experience-title{
+    margin-bottom: 60px;
+    margin-top: 60px;
 }
-
-
 </style>
 
