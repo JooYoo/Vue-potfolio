@@ -36,11 +36,7 @@
        
       </v-layout>
     </v-container>
-
-      
   </v-jumbotron>
-
-  
   
     <v-layout wrap v-scroll-spy>
 
@@ -49,7 +45,8 @@
           <v-flex>
             <section id="section-1">
               <h2>Section 1</h2>
-              <p>This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>  
+              <p>This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs!</p>
+              <p>{{projects.projects[0].gitLink}}</p> 
             </section>
           </v-flex>
         </v-layout>
@@ -117,18 +114,20 @@
 
 <script>
 import experience from './components/experience.component'
+import projects from '../../data/ProjectData'
 export default {
   components:{
     experience
   },
   data: () => ({
-   icons: [
+    icons: [
         'fab fa-facebook',
         'fab fa-twitter',
         'fab fa-google-plus',
         'fab fa-linkedin',
         'fab fa-instagram'
-      ]
+    ],
+    projects,
   })
 };
 </script>
