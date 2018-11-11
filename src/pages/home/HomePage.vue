@@ -44,16 +44,8 @@
         <about></about>
       </v-container>
 
-      <v-layout class="grey lighten-4">
-          <v-container>
-            <v-flex>
-              <section id="section-2">
-                <h2>Section 2</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-                <p>{{projects.projects[0].gitLink}}</p> 
-              </section>
-            </v-flex>
-          </v-container>
+      <v-layout id="section-2" class="grey lighten-4">
+        <project></project>
       </v-layout>
 
       <v-container id="section-3" >
@@ -108,11 +100,13 @@
 <script>
 import experience from './components/experience.component'
 import about from './components/about.component'
-import projects from '../../data/ProjectData'
+import projectData from '../../data/ProjectData'
+import project from './components/project.component'
 export default {
   components:{
+    about,
+    project,
     experience,
-    about
   },
   data: () => ({
     icons: [
@@ -122,7 +116,7 @@ export default {
         'fab fa-linkedin',
         'fab fa-instagram'
     ],
-    projects,
+    projectData,
   })
 };
 </script>

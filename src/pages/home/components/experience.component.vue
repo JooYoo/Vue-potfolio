@@ -2,7 +2,7 @@
     <div>
         <v-container>
             <v-layout>
-                <v-flex align-center text-xs-center>
+                <v-flex align-center text-xs-left>
                     <div id="experience-title" class="display-2 font-weight-thin">Experience</div> 
                     <v-timeline>
                         <v-timeline-item
@@ -63,8 +63,8 @@
 
 <style>
 #experience-title{
-    margin-bottom: 60px;
-    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 </style>
 
