@@ -1,15 +1,16 @@
 <template>
 
-    <v-container>
+<v-container>
   <v-layout justify-center>
     <v-flex xs12 sm12>
         <v-container
           fluid
-          grid-list-md
+          grid-list-xl
         >
         <div id="experience-title" class="display-2 font-weight-thin">Project</div> 
           <v-layout row wrap>
             <v-flex
+             
               v-for="card in cards"
               v-bind="{ [`xs${card.flex}`]: true }"
               :key="card.title"
@@ -38,7 +39,7 @@
                       <v-chip small outline color="secondary">ionic</v-chip>
                       <v-chip small outline color="red">Angular</v-chip>
                       <v-chip small outline color="green">Vuejs</v-chip>
-  </div>
+        </div>
                 </v-card-actions>
               </v-card>
             </v-flex>

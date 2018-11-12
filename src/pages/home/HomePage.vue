@@ -52,15 +52,8 @@
         <experience></experience>
       </v-container>
 
-      <v-layout class="grey lighten-4">
-        <v-container>
-          <v-flex>
-            <section id="section-4">
-              <h2>Section 4</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-            </section>
-          </v-flex>
-        </v-container>
+      <v-layout id="section-4" class="grey lighten-4">
+        <education></education>
       </v-layout>
       
       <v-container>
@@ -98,43 +91,41 @@
 </template>
 
 <script>
-import experience from './components/experience.component'
-import about from './components/about.component'
-import projectData from '../../data/ProjectData'
-import project from './components/project.component'
+import projectData from "../../data/ProjectData";
+import experience from "./components/experience.component";
+import about from "./components/about.component";
+import project from "./components/project.component";
+import education from "./components/education.component";
 export default {
-  components:{
+  components: {
     about,
     project,
     experience,
+    education
   },
   data: () => ({
     icons: [
-        'fab fa-facebook',
-        'fab fa-twitter',
-        'fab fa-google-plus',
-        'fab fa-linkedin',
-        'fab fa-instagram'
+      "fab fa-facebook",
+      "fab fa-twitter",
+      "fab fa-google-plus",
+      "fab fa-linkedin",
+      "fab fa-instagram"
     ],
-    projectData,
+    projectData
   })
 };
 </script>
 
 <style>
-
-
 .nav-item {
   margin-top: 20px;
 }
 
-
-#scroll-dots{
-  position: fixed; 
+#scroll-dots {
+  position: fixed;
   margin-top: 100px;
   margin-right: 40px;
   right: 0;
-  
 }
 
 section {
