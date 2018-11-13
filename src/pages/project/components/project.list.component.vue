@@ -1,13 +1,36 @@
 <template>
 
 <v-container>
-  <v-layout justify-center>
-    <v-flex xs12 sm12>
+
+    <v-combobox
+        v-model="chips"
+        :items="items"
+        label="Your favorite Tech"
+        chips
+        clearable
+        prepend-icon="filter_list"
+        solo
+        multiple
+    >
+        <template slot="selection" slot-scope="data">
+          <v-chip
+            :selected="data.selected"
+            close
+            @input="remove(data.item)"
+            class="primary"
+            color="white--text"
+          >
+            <strong>{{ data.item }}</strong>&nbsp;
+          </v-chip>
+        </template>
+    </v-combobox>
+    <!-- cards -->
+    <v-flex xl12 sm12>
         <v-container
           fluid
           grid-list-xl
         >
-        <div id="experience-title" class="display-2 font-weight-thin">Project</div> 
+        <!-- <div id="experience-title" class="display-2 font-weight-thin">Project</div>  -->
           <v-layout row wrap>
             <v-flex
              
@@ -46,7 +69,6 @@
           </v-layout>
         </v-container>
     </v-flex>
-  </v-layout>
   </v-container>
 
 </template>
@@ -69,20 +91,45 @@ export default {
         title: "Best airlines",
         src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
         flex: 4
+      },
+      {
+          title: "Test 01",
+          src:"https://picsum.photos/200/300/?random",
+          flex:4
+      },
+      {
+          title: "Test 02",
+          src:"https://picsum.photos/200/300/?image=161",
+          flex:4
+      },
+      {
+          title: "Test 03",
+          src:"https://picsum.photos/200/300/?image=160",
+          flex:4
+      },
+      {
+          title: "Test 04",
+          src:"https://picsum.photos/200/300/?image=159",
+          flex:4
       }
-    ]
-  })
+    ],
+    chips: ['Angular', 'React', 'Vuejs', 'ionic'],
+    items: ['Angular', 'React', 'Vuejs', 'ionic', 'Unity3D', 'WPF']
+  }),
+   methods: {
+      remove (item) {
+        this.chips.splice(this.chips.indexOf(item), 1)
+        this.chips = [...this.chips]
+      }
+    }
 };
 </script>
 
-<style scoped>
+<style>
 .rounded-card {
   border-radius: 10px;
   margin-bottom: 40px;
 }
 </style>
-
-
-
 
 

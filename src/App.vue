@@ -17,6 +17,26 @@
       <router-view/>
     </v-content>
 
+  <!-- Footer -->
+  <v-flex>
+    <v-footer dark height="auto" >
+      <v-card class="flex" flat tile>
+        <v-card-title class="grey darken-4">
+          <strong class="subheading"> &copy;2018 — <strong>ZhuYu</strong></strong>
+          <v-spacer></v-spacer>
+          <v-btn v-for="icon in icons"
+            :key="icon"
+            class="mx-3"
+            dark
+            icon
+          >
+            <v-icon size="24px">{{ icon }}</v-icon>
+          </v-btn>
+        </v-card-title>
+      </v-card>
+    </v-footer>
+    </v-flex>
+
      
   </v-app>
 </template>
@@ -27,7 +47,14 @@ export default {
   name: "App",
   data() {
     return {
-      bottomNav: 3
+      bottomNav: 3,
+      icons: [
+        "fab fa-facebook",
+        "fab fa-twitter",
+        "fab fa-google-plus",
+        "fab fa-linkedin",
+        "fab fa-instagram"
+      ]
     };
   },
 
