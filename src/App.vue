@@ -1,18 +1,16 @@
 <template>
   <v-app>
 
-    <v-layout row wrap>
-      <v-container>
-           <v-flex xs12>
-             <router-link class="router-nav" :to="{name: 'Home'}">
-                <v-btn flat small color="black">HOME</v-btn>
-             </router-link>
-             <router-link class="router-nav" to="/project">
-                <v-btn flat small color="black">Project</v-btn>
-             </router-link>
-            </v-flex>
-      </v-container>
-    </v-layout>
+    <v-container>
+         <v-flex xs12>
+           <router-link class="router-nav" :to="{name: 'Home'}">
+              <v-btn flat small color="black">HOME</v-btn>
+           </router-link>
+           <router-link class="router-nav" to="/project">
+              <v-btn flat small color="black">Project</v-btn>
+           </router-link>
+          </v-flex>
+    </v-container>
 
 
     <v-content>

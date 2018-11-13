@@ -1,17 +1,16 @@
 <template>
 <div>
-  
 
   <v-jumbotron id="main-jumbotron" class="cyan darken-2" dark style="height:600px;">
     <v-container fill-height>
+
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3">Welcome to the site</h3>
+          <h3 class="display-3">Home Page</h3>
           <span class="subheading">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
           <v-divider class="my-3"></v-divider>
           <div class="title mb-3">Check out our newest features!</div>
         </v-flex>
-        
       </v-layout>
 
       <!-- scroll dots-->
@@ -32,9 +31,7 @@
             <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-5"></a>
           </li>
         </ul>
-      <v-layout>
-       
-      </v-layout>
+    
     </v-container>
   </v-jumbotron>
   
@@ -48,6 +45,17 @@
         <project></project>
       </v-layout>
 
+      <v-container>
+        <v-layout>
+          <v-flex>
+            <section id="section-5">
+              <h2>Skill</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+            </section>
+          </v-flex>
+        </v-layout>
+      </v-container>
+
       <v-container id="section-3" >
         <experience></experience>
       </v-container>
@@ -55,17 +63,6 @@
       <v-layout id="section-4" class="grey lighten-4">
         <education></education>
       </v-layout>
-      
-      <v-container>
-        <v-layout>
-          <v-flex>
-            <section id="section-5">
-              <h2>Section 5</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-            </section>
-          </v-flex>
-        </v-layout>
-      </v-container>
         
     </v-layout>
  
@@ -77,7 +74,7 @@
         <strong class="subheading"> &copy;2018 — <strong>ZhuYu</strong></strong>
         <v-spacer></v-spacer>
         <v-btn v-for="icon in icons"
-          :key="ion"
+          :key="icon"
           class="mx-3"
           dark
           icon
