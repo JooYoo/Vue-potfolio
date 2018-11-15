@@ -2,6 +2,8 @@
 
 <v-container>
 
+    
+    <!-- filter -->
     <v-combobox
         v-model="chips"
         :items="items"
@@ -24,6 +26,7 @@
           </v-chip>
         </template>
     </v-combobox>
+
     <!-- cards -->
     <v-flex xl12 sm12>
         <v-container
@@ -32,15 +35,14 @@
         >
         <!-- <div id="experience-title" class="display-2 font-weight-thin">Project</div>  -->
           <v-layout row wrap>
-            <v-flex
-             
-              v-for="card in cards"
-              v-bind="{ [`xs${card.flex}`]: true }"
+            <v-flex 
+              xs4
+              v-for="card in projectData.projects"
               :key="card.title"
             >
               <v-card class="rounded-card" hover>
                 <v-img
-                  :src="card.src"
+                  :src="card.cover"
                   height="200px"
                 >
                   <v-container
@@ -58,10 +60,11 @@
 
                 <v-card-actions class="text-xs-center">
                   <div class="text-xs-center">
-                      <v-chip small outline color="primary">React</v-chip>
-                      <v-chip small outline color="secondary">ionic</v-chip>
-                      <v-chip small outline color="red">Angular</v-chip>
-                      <v-chip small outline color="green">Vuejs</v-chip>
+                      <v-chip outline small  color="primary">React</v-chip>
+                      <v-chip outline small  color="secondary">ionic</v-chip>
+                      <v-chip outline small  color="red">Angular</v-chip>
+                      <v-chip outline small  color="green">Vuejs</v-chip>
+                      <!-- <i class="devicon-vuejs-plain colored"></i> -->
                   </div>
                 </v-card-actions>
               </v-card>
@@ -69,50 +72,19 @@
           </v-layout>
         </v-container>
     </v-flex>
+
   </v-container>
 
 </template>
 
 <script>
+import projectData from "../../../data/ProjectData";
+
 export default {
+
   data: () => ({
-    cards: [
-      {
-        title: "Pre-fab homes",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
-        flex: 4
-      },
-      {
-        title: "Favorite road",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
-        flex: 4
-      },
-      {
-        title: "Best airlines",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
-        flex: 4
-      },
-      {
-          title: "Test 01",
-          src:"https://picsum.photos/200/300/?random",
-          flex:4
-      },
-      {
-          title: "Test 02",
-          src:"https://picsum.photos/200/300/?image=161",
-          flex:4
-      },
-      {
-          title: "Test 03",
-          src:"https://picsum.photos/200/300/?image=160",
-          flex:4
-      },
-      {
-          title: "Test 04",
-          src:"https://picsum.photos/200/300/?image=159",
-          flex:4
-      }
-    ],
+
+    projectData,
     chips: ['Angular', 'React', 'Vuejs', 'ionic'],
     items: ['Angular', 'React', 'Vuejs', 'ionic', 'Unity3D', 'WPF']
   }),

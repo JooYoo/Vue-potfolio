@@ -44,10 +44,16 @@
               </v-card>
             </v-flex>
           </v-layout>
+          <router-link to="/project">
+            <div class="text-xs-center">
+              <v-btn dark color="primary" round large>more Projects</v-btn>
+            </div>
+          </router-link>
         </v-container>
     </v-flex>
   </v-layout>
   </v-container>
+
 
 </template>
 
