@@ -10,14 +10,13 @@
         <div id="experience-title" class="display-2 font-weight-thin">Project</div> 
           <v-layout row wrap>
             <v-flex
-             
-              v-for="card in cards"
-              v-bind="{ [`xs${card.flex}`]: true }"
-              :key="card.title"
+              v-for="index in 3"
+              xs4
+              :key="projectData.projects[index-1].title"
             >
               <v-card class="rounded-card" hover>
                 <v-img
-                  :src="card.src"
+                  :src="projectData.projects[index-1].cover"
                   height="200px"
                 >
                   <v-container
@@ -27,7 +26,8 @@
                   >
                     <v-layout fill-height>
                       <v-flex xs12 align-end flexbox>
-                        <span class="headline white--text" v-text="card.title"></span>
+                        <span class="headline white--text" 
+                              v-text="projectData.projects[index-1].title"></span>
                       </v-flex>
                     </v-layout>
                   </v-container>
@@ -58,25 +58,10 @@
 </template>
 
 <script>
+import projectData from "../../../data/ProjectData";
 export default {
   data: () => ({
-    cards: [
-      {
-        title: "Pre-fab homes",
-        src: "https://cdn.vuetifyjs.com/images/cards/house.jpg",
-        flex: 4
-      },
-      {
-        title: "Favorite road",
-        src: "https://cdn.vuetifyjs.com/images/cards/road.jpg",
-        flex: 4
-      },
-      {
-        title: "Best airlines",
-        src: "https://cdn.vuetifyjs.com/images/cards/plane.jpg",
-        flex: 4
-      }
-    ]
+    projectData,
   })
 };
 </script>

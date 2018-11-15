@@ -83,7 +83,6 @@ import projectData from "../../../data/ProjectData";
 export default {
 
   data: () => ({
-
     projectData,
     chips: ['Angular', 'React', 'Vuejs', 'ionic'],
     items: ['Angular', 'React', 'Vuejs', 'ionic', 'Unity3D', 'WPF']
