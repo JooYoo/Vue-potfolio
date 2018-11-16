@@ -40,6 +40,8 @@
               v-for="card in projectData.projects"
               :key="card.title"
             >
+            <router-link class="router-nav" :to=" '/project-' + card.id">
+            
               <v-card class="rounded-card" hover>
                 <v-img
                   :src="card.cover"
@@ -68,6 +70,7 @@
                   </div>
                 </v-card-actions>
               </v-card>
+              </router-link>
             </v-flex>
           </v-layout>
         </v-container>

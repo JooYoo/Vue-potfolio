@@ -14,6 +14,10 @@
               xs4
               :key="projectData.projects[index-1].title"
             >
+            <!-- //TODO: add computed for  projectData.projects[index-1].x-->
+            <router-link class="router-nav" :to=" '/project-' + projectData.projects[index-1].id">
+
+            
               <v-card class="rounded-card" hover>
                 <v-img
                   :src="projectData.projects[index-1].cover"
@@ -42,6 +46,7 @@
                   </div>
                 </v-card-actions>
               </v-card>
+              </router-link>
             </v-flex>
           </v-layout>
           <router-link to="/project">
@@ -64,6 +69,7 @@ export default {
     projectData,
   })
 };
+
 </script>
 
 <style scoped>

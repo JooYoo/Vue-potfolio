@@ -54,7 +54,7 @@ const contents = {
     },
     {
         id: 6,
-        title: 'fifth-title',
+        title: 'sixth-title',
         description: 'third-description',
         cover: 'https://picsum.photos/200/300/?image=162',
         gitLink: 'third-git-link',
@@ -64,7 +64,7 @@ const contents = {
     },
     {
         id: 7,
-        title: 'fifth-title',
+        title: 'seventh-title',
         description: 'third-description',
         cover: 'https://picsum.photos/200/300/?image=169',
         gitLink: 'third-git-link',
@@ -74,7 +74,7 @@ const contents = {
     },
     {
         id: 8,
-        title: 'fifth-title',
+        title: 'eightth-title',
         description: 'third-description',
         cover: 'https://picsum.photos/200/300/?image=166',
         gitLink: 'third-git-link',
