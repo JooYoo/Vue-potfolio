@@ -12,15 +12,14 @@
             <v-flex
               v-for="index in 3"
               xs4
-              :key="projectData.projects[index-1].title"
+              :key="projectData.projects[getProjectLength.projectLength - index].title"
             >
-            <!-- //TODO: add computed for  projectData.projects[index-1].x-->
-            <router-link class="router-nav" :to=" '/project-' + projectData.projects[index-1].id">
-
-            
+            {{getProjectLength.projectLength}}
+            <!-- //TODO: add computed for projectData.projects[index-1].x-->
+            <router-link class="router-nav" :to=" '/project-' + projectData.projects[getProjectLength.projectLength - index].id">
               <v-card class="rounded-card" hover>
                 <v-img
-                  :src="projectData.projects[index-1].cover"
+                  :src="projectData.projects[getProjectLength.projectLength - index].cover"
                   height="200px"
                 >
                   <v-container
@@ -31,7 +30,7 @@
                     <v-layout fill-height>
                       <v-flex xs12 align-end flexbox>
                         <span class="headline white--text" 
-                              v-text="projectData.projects[index-1].title"></span>
+                              v-text="projectData.projects[getProjectLength.projectLength - index].title"></span>
                       </v-flex>
                     </v-layout>
                   </v-container>
@@ -67,8 +66,15 @@ import projectData from "../../../data/ProjectData";
 export default {
   data: () => ({
     projectData,
-  })
-};
+  }),
+  computed:{
+    getProjectLength(){
+      return{
+          projectLength: projectData.projects.length,
+        };
+    }
+  }
+}
 
 </script>
 

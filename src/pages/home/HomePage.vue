@@ -14,6 +14,7 @@
       </v-layout>
 
       <!-- scroll dots-->
+      <!-- TODO: dots float on top -->
        <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="v-timeline-item__dot v-timeline-item__dot--small">
             <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-1"></a>
