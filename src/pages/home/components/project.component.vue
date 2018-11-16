@@ -14,7 +14,6 @@
               xs4
               :key="projectData.projects[getProjectLength.projectLength - index].title"
             >
-            {{getProjectLength.projectLength}}
             <!-- //TODO: add computed for projectData.projects[index-1].x-->
             <router-link class="router-nav" :to=" '/project-' + projectData.projects[getProjectLength.projectLength - index].id">
               <v-card class="rounded-card" hover>

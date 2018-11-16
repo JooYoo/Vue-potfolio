@@ -67,9 +67,6 @@
         
     </v-layout>
 
-    
- 
-
 
   </div>
 </template>
