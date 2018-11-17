@@ -4,12 +4,14 @@
     <!-- header -->
     <v-container>
          <v-flex xs12>
+
            <router-link class="router-nav" :to="{name: 'Home'}">
               <v-btn flat small color="black">HOME</v-btn>
            </router-link>
            <router-link class="router-nav" to="/project">
               <v-btn flat small color="black">Project</v-btn>
            </router-link>
+
           </v-flex>
     </v-container>
 
@@ -77,6 +79,7 @@ export default {
 </script>
 
 <style>
+
 .menu-btn {
   padding-left: 1px;
   padding-right: 1px;

@@ -1,21 +1,21 @@
 <template>
 <div>
 
-  <v-jumbotron id="main-jumbotron" class="cyan darken-2" dark style="height:600px;">
+  <v-jumbotron id="main-jumbotron" style="height:600px;">
     <v-container fill-height>
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3">Home Page</h3>
+          <h3 class="display-3" style="">Home Page</h3>
           <span class="subheading">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
           <v-divider class="my-3"></v-divider>
           <div class="title mb-3">Check out our newest features!</div>
+          <!-- <vue-particles color="#dedede"></vue-particles> -->
         </v-flex>
       </v-layout>
 
       <!-- scroll dots-->
-      <!-- TODO: dots float on top -->
-       <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
+      <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="v-timeline-item__dot v-timeline-item__dot--small">
             <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-1"></a>
           </li>
@@ -34,15 +34,19 @@
         </ul>
     
     </v-container>
+    
   </v-jumbotron>
+
+  
   
     <v-layout wrap v-scroll-spy>
 
-      <v-container id="section-1">
+      <v-layout id="section-1" class="grey lighten-4">
         <about></about>
-      </v-container>
+      </v-layout>
+      
 
-      <v-layout id="section-2" class="grey lighten-4">
+      <v-layout id="section-2" >
         <project></project>
       </v-layout>
 
@@ -91,6 +95,13 @@ export default {
 </script>
 
 <style>
+#particles-js { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
 .nav-item {
   margin-top: 20px;
 }
@@ -100,6 +111,7 @@ export default {
   margin-top: 100px;
   margin-right: 40px;
   right: 0;
+  z-index: 1;
 }
 
 section {

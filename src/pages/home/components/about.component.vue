@@ -1,14 +1,30 @@
 <template>
-    <div>
-        <v-container style="margin-bottom:80px;">
-            <v-layout>
-                <v-flex align-center text-xs-left>
-                    <div id="title" class="display-2 font-weight-thin">About</div>
-                    <p class="font-weight-light">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs!</p> 
-                </v-flex>
-            </v-layout>
-        </v-container>
-    </div>
+
+  <v-container>
+    <v-layout justify-center>
+        <v-flex>
+            <v-container>
+                <div id="experience-title" 
+                      class="display-2 font-weight-thin">
+                      About
+                </div>
+                <p>
+                     Lorem ipsum dolor sit amet, 
+                     consectetur adipiscing elit. 
+                     Nunc tristique mauris at quam tincidunt, 
+                     id gravida odio pretium. 
+                     Nulla malesuada porttitor tristique. 
+                     Fusce scelerisque egestas aliquet. 
+                     Nulla sed quam eget magna mattis tempor. 
+                     Sed congue neque lorem, 
+                     it amet imperdiet ex scelerisque eu. 
+                     Vestibulum eget eleifend justo.
+                </p>
+            </v-container>
+        </v-flex>
+     </v-layout>
+  </v-container>
+
 </template>
 
 <script>
@@ -18,9 +34,6 @@ export default {
 </script>
 
 <style>
-#title{
-    margin-bottom: 20px;
-    margin-top: 40px;
-}
+
 
 </style>

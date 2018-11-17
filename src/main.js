@@ -9,6 +9,10 @@ Vue.config.productionTip = false
 import Scrollspy from 'vue2-scrollspy'
 Vue.use(Scrollspy)
 
+// vue-particles
+import VueParticles from 'vue-particles'
+Vue.use(VueParticles)
+
 new Vue({
   render: h => h(App),
   router,
