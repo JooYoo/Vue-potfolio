@@ -1,35 +1,35 @@
 <template>
 <div>
 
-  <v-jumbotron id="main-jumbotron" style="height:600px;">
+  <v-jumbotron id="main-jumbotron" style="height:600px;" >
     <v-container fill-height>
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3" style="">Home Page</h3>
-          <span class="subheading">Lorem ipsum dolor sit amet, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
+          <h3 class="display-3" style="">Web Developer</h3>
+          <span class="subheading">Between Code and Design, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
           <v-divider class="my-3"></v-divider>
-          <div class="title mb-3">Check out our newest features!</div>
-          <!-- <vue-particles color="#dedede"></vue-particles> -->
+          <div class="title mb-3">Zhu Yu</div>
+          <vue-particles color="#BDBDBD"></vue-particles>
         </v-flex>
       </v-layout>
 
       <!-- scroll dots-->
       <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="v-timeline-item__dot v-timeline-item__dot--small">
-            <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-1"></a>
+            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-1"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:30px;">
-            <a class="nav-link btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-2"></a>
+            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-2"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:60px;">
-            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-3"></a>
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-3"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:90px;">
-            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-4"></a>
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-4"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:120px;">
-            <a class="btn-circle v-timeline-item__inner-dot cyan lighten-3" href="#section-5"></a>
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-5"></a>
           </li>
         </ul>
     
@@ -46,26 +46,19 @@
       </v-layout>
       
 
-      <v-layout id="section-2" >
+      <v-layout id="section-2">
         <project></project>
       </v-layout>
 
-      <v-container>
-        <v-layout>
-          <v-flex>
-            <section id="section-5">
-              <h2>Skill</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
-            </section>
-          </v-flex>
-        </v-layout>
-      </v-container>
+      <v-layout id="section-3" class="grey lighten-4">
+        <skill></skill>
+      </v-layout>
 
-      <v-container id="section-3" >
+      <v-container id="section-4" >
         <experience></experience>
       </v-container>
 
-      <v-layout id="section-4" class="grey lighten-4">
+      <v-layout id="section-5" class="grey lighten-4">
         <education></education>
       </v-layout>
         
@@ -81,12 +74,14 @@ import experience from "./components/experience.component";
 import about from "./components/about.component";
 import project from "./components/project.component";
 import education from "./components/education.component";
+import skill from "./components/skill.component"
 export default {
   components: {
     about,
     project,
     experience,
-    education
+    education,
+    skill
   },
   data: () => ({
     projectData

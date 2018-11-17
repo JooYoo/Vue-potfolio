@@ -2,19 +2,32 @@
   <v-app>
 
     <!-- header -->
-    <v-container>
-         <v-flex xs12>
+        <v-toolbar id="nav-bar" flat="false" color="transparent">
+             <router-link class="router-nav" :to="{name: 'Home'}">
+              <v-btn flat small color="black">HOME</v-btn>
+           </router-link>
+           <router-link class="router-nav" to="/project">
+              <v-btn flat small color="black">Project</v-btn>
+           </router-link>
+          <v-spacer></v-spacer>
+          <v-btn icon>
+            <v-icon>more_vert</v-icon>
+          </v-btn>
+        </v-toolbar>
 
-           <router-link class="router-nav" :to="{name: 'Home'}">
+    <!-- <v-container>
+         <v-flex xs12 >
+
+            <router-link class="router-nav" :to="{name: 'Home'}">
               <v-btn flat small color="black">HOME</v-btn>
            </router-link>
            <router-link class="router-nav" to="/project">
               <v-btn flat small color="black">Project</v-btn>
            </router-link>
 
+         
           </v-flex>
-    </v-container>
-
+    </v-container> -->
 
     <v-content>
       <router-view/>
@@ -79,7 +92,10 @@ export default {
 </script>
 
 <style>
-
+#nav-bar{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
 .menu-btn {
   padding-left: 1px;
   padding-right: 1px;

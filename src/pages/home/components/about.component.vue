@@ -1,15 +1,14 @@
 <template>
 
   <v-container>
-    <v-layout justify-center>
+    <v-layout>
         <v-flex>
             <v-container>
-                <div id="experience-title" 
-                      class="display-2 font-weight-thin">
-                      About
+                <div id="about-title" class="display-2 font-weight-thin">
+                     About
                 </div>
-                <p>
-                     Lorem ipsum dolor sit amet, 
+                <p id="about-content" class="body-2 font-weight-regular">
+                    Lorem ipsum dolor sit amet, 
                      consectetur adipiscing elit. 
                      Nunc tristique mauris at quam tincidunt, 
                      id gravida odio pretium. 
@@ -34,6 +33,12 @@ export default {
 </script>
 
 <style>
-
+#about-content{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#about-title{
+    margin-top: 40px;
+}
 
 </style>
