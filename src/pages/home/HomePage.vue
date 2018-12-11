@@ -1,35 +1,39 @@
 <template>
 <div>
 
-  <v-jumbotron id="main-jumbotron" style="height:600px;" >
+  <v-jumbotron id="main-jumbotron" style="height:600px;">
     <v-container fill-height>
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3" style="">Web Developer</h3>
-          <span class="subheading">Between Code and Design, pri veniam forensibus id. Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
-          <v-divider class="my-3"></v-divider>
-          <div class="title mb-3">Zhu Yu</div>
-          <vue-particles color="#BDBDBD"></vue-particles>
+          <h3 class="display-3" style="color:white;"> Code, Design</h3>
+          <span class="subheading title mb-3">
+            Between code and design.
+            I believe 
+            I have passion to create practical and beautiful Web Application.
+            Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
+          <v-divider  class="my-4" dark ></v-divider>
+          <div class="title mb-3 title">Zhu Yu</div>
+          <vue-particles></vue-particles>
         </v-flex>
       </v-layout>
 
       <!-- scroll dots-->
       <ul id="scroll-dots"  v-scroll-spy-active v-scroll-spy-link>
           <li class="v-timeline-item__dot v-timeline-item__dot--small">
-            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-1"></a>
+            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-1"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:30px;">
-            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-2"></a>
+            <a class="nav-link btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-2"></a>
           </li>
-          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:60px;">
-            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-3"></a>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small"  style="margin-top:60px;">
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-3"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:90px;">
-            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-4"></a>
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-4"></a>
           </li>
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:120px;">
-            <a class="btn-circle v-timeline-item__inner-dot grey lighten-1" href="#section-5"></a>
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-5"></a>
           </li>
         </ul>
     
@@ -90,6 +94,15 @@ export default {
 </script>
 
 <style>
+.title{
+  color: white;
+}
+
+#main-jumbotron{
+  height:800px;
+  background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}
+
 #particles-js { 
   position: absolute; 
   top: 0; 
@@ -103,7 +116,7 @@ export default {
 
 #scroll-dots {
   position: fixed;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-right: 40px;
   right: 0;
   z-index: 1;
