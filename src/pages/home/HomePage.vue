@@ -6,7 +6,7 @@
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3" style="color:white;"> Code, Design</h3>
+          <h3 class="display-3" style="color:white;"> Code , Design</h3>
           <span class="subheading title mb-3">
             Between code and design.
             I believe 
