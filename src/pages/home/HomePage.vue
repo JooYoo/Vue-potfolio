@@ -6,14 +6,13 @@
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 class="display-3" style="color:white;"> Code , Design</h3>
-          <span class="subheading title mb-3">
-            Between code and design.
-            I believe 
-            I have passion to create practical and beautiful Web Application.
-            Vis maluisset molestiae id, ad semper lobortis cum. At impetus detraxit incorrupte usu, repudiare assueverit ex eum, ne nam essent vocent admodum.</span>
-          <v-divider  class="my-4" dark ></v-divider>
-          <div class="title mb-3 title">Zhu Yu</div>
+          <h3 id="theTitle" class="display-3"> J O O &nbsp Y O O</h3>
+          <div id="subetitle">
+            Focus on the field between Code and Design. 
+            <!-- //TODO: one more sentence: difference is good -->
+           </div>
+          <v-divider id="theDivider"  class="my-4"  ></v-divider>
+          <div class="title mb-3">Frontend UX Developer</div>
           <vue-particles></vue-particles>
         </v-flex>
       </v-layout>
@@ -96,6 +95,25 @@ export default {
 <style>
 .title{
   color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#theTitle{
+  color: white;
+  font-size: 70px !important;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+  
+}
+
+#subetitle{
+  color: white;
+  font-size: 20px;
+  margin-top: 5px;
+  font-weight: 8000;
+}
+
+#theDivider{
+  background:white;
 }
 
 #main-jumbotron{

@@ -8,16 +8,13 @@
                      About
                 </div>
                 <p id="about-content" class="body-2 font-weight-regular">
-                    Lorem ipsum dolor sit amet, 
-                     consectetur adipiscing elit. 
-                     Nunc tristique mauris at quam tincidunt, 
-                     id gravida odio pretium. 
-                     Nulla malesuada porttitor tristique. 
-                     Fusce scelerisque egestas aliquet. 
-                     Nulla sed quam eget magna mattis tempor. 
-                     Sed congue neque lorem, 
-                     it amet imperdiet ex scelerisque eu. 
-                     Vestibulum eget eleifend justo.
+                    Hello World. 
+                    My name is JooYoo (朱瑜). 
+                    I come from China and I'm working in Germany now. 
+                    I have the passion to create Apps which have a uniqe user experience and maximize the user productivity. 
+                    I enjoy to work with Modern Web App Technologies and UX design tools. 
+                    I belive Web App is the best Mobile App solution for the next 10 years.
+                    I'm the one in the team, between code and design.
                 </p>
             </v-container>
         </v-flex>
