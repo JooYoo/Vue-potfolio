@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <v-jumbotron id="main-jumbotron" style="height:600px;">
+  <v-responsive id="main-jumbotron" style="height:600px;">
     <v-container fill-height>
 
       <v-layout align-center text-xs-center>
@@ -38,7 +38,7 @@
     
     </v-container>
     
-  </v-jumbotron>
+  </v-responsive>
 
   
   

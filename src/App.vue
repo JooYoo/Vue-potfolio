@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <!-- header -->
-    <v-toolbar id="nav-bar" flat="false">
+    <v-toolbar id="nav-bar">
       <router-link class="router-nav" :to="{name: 'Home'}">
         <v-btn flat small color="white">HOME</v-btn>
       </router-link>
@@ -34,7 +34,7 @@
             </strong>
             <v-spacer></v-spacer>
 
-            <v-btn v-for="icon in icons" :key="icon" class="mx-3" dark icon>
+            <v-btn v-for="icon in icons" :key="icon.id" class="mx-3" dark icon>
               <a id="link-color" :href="icon.link" :target="icon.target">
                 <v-icon :href="icon.link" size="24px" >{{ icon.icon }}</v-icon>
               </a>
