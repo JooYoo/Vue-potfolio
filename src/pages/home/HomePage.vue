@@ -6,13 +6,13 @@
 
       <v-layout align-center text-xs-center>
         <v-flex>
-          <h3 id="theTitle" class="display-3"> J O O &nbsp Y O O</h3>
-          <div id="subetitle">
+          <h3 id="theTitle" class="display-3"> J O O &nbsp; Y O O</h3>
+          <div id="subtitle">
             Focus on the field between Code and Design. 
             <!-- //TODO: one more sentence: difference is good -->
            </div>
           <v-divider id="theDivider"  class="my-4"  ></v-divider>
-          <div class="title mb-3">Frontend UX Developer</div>
+          <div id="divider-subtitle" class="title mb-3">Frontend UX Developer</div>
           <vue-particles></vue-particles>
         </v-flex>
       </v-layout>
@@ -93,23 +93,31 @@ export default {
 </script>
 
 <style>
-.title{
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
 
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei');
 #theTitle{
   color: white;
   font-size: 70px !important;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
-  
+  font-family: 'ZCOOL XiaoWei', sans-serif !important;
 }
 
-#subetitle{
+#subtitle{
   color: white;
   font-size: 20px;
   margin-top: 5px;
   font-weight: 8000;
+  font-family: 'ZCOOL XiaoWei', sans-serif !important;
+}
+
+#divider-subtitle{
+   text-shadow: 2px 2px 4px #000000;
+   font-family: 'ZCOOL XiaoWei', sans-serif !important;
+   font-weight: lighter
+}
+
+.title{
+  color: white;
+ 
 }
 
 #theDivider{
