@@ -5,6 +5,10 @@ import router from './router';
 
 Vue.config.productionTip = false
 
+//flagIcon
+import FlagIcon from 'vue-flag-icon-2'
+Vue.use(FlagIcon)
+
 // vue-scrollSpy
 import Scrollspy from 'vue2-scrollspy'
 Vue.use(Scrollspy)
