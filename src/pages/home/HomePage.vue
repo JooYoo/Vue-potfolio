@@ -152,6 +152,10 @@ section {
   padding: 150px 0;
 }
 
+#section-5{
+  margin-bottom: 90px;
+}
+
 ul {
   list-style-type: none;
 }
