@@ -80,7 +80,7 @@ export default {
         year: "2019",
         title: "Future",
         where: "Code and Design anywhere",
-        content: `Web Application Frontend UX Developer. 
+        content: `As a Web Application Frontend UX Developer. 
                   I'd love to be the one in the team, who connect Code and Design.
                   And turn my passion, 
                   creativity and conscientious to better user experience.`
