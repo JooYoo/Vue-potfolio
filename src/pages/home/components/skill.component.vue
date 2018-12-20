@@ -5,7 +5,7 @@
       <v-flex d-flex>
         <v-list subheader three-line>
           <v-subheader>Frontend</v-subheader>
-          <v-list-tile v-for="item in frontend">
+          <v-list-tile v-for="item in frontend" :key="item.id">
             <v-list-tile-action>
               <img :src="item.icon" width="25px">
             </v-list-tile-action>
@@ -18,7 +18,7 @@
 
         <v-list subheader three-line>
           <v-subheader>Design</v-subheader>
-          <v-list-tile v-for="item in design">
+          <v-list-tile v-for="item in design" :key="item.id">
             <v-list-tile-action>
               <img :src="item.icon" width="25px">
             </v-list-tile-action>
@@ -31,7 +31,7 @@
 
         <v-list subheader three-line>
           <v-subheader>Others</v-subheader>
-          <v-list-tile v-for="item in others">
+          <v-list-tile v-for="item in others" :key="item.id">
             <v-list-tile-action>
               <img :src="item.icon" width="25px">
             </v-list-tile-action>
