@@ -15,7 +15,7 @@
   </v-jumbotron> -->
     
   <v-container>
-    <project-list></project-list>
+    <projectList></projectList>
   </v-container>
   
   </div>

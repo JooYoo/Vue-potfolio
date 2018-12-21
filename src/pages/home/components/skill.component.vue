@@ -78,25 +78,25 @@ export default {
         name: "Angular",
         progress: 40,
         icon: "https://cdn.svgporn.com/logos/angular-icon.svg",
-        color: "blue lighten-4"
+        color: "blue darken-1"
       },
       {
         name: "ionic",
         progress: 60,
         icon: "https://cdn.svgporn.com/logos/ionic.svg",
-        color: "blue lighten-3"
+        color: "blue darken-1"
       },
       {
         name: "Vuejs",
         progress: 30,
         icon: "https://cdn.svgporn.com/logos/vue.svg",
-        color: "blue lighten-2"
+        color: "blue darken-1"
       },
       {
         name: "Bootstrap",
         progress: 80,
         icon: "https://cdn.svgporn.com/logos/bootstrap.svg",
-        color: "blue lighten-1"
+        color: "blue darken-1"
       },
       {
         name: "jQuery",
@@ -106,9 +106,15 @@ export default {
       },
       {
         name: "Vuetify",
-        progress: 40,
+        progress: 30,
         icon: "https://cdn.svgporn.com/logos/vuetifyjs.svg",
-        color: "blue darken-2"
+        color: "blue darken-1"
+      },
+      {
+        name: "ASP.NET Core",
+        progress: 40,
+        icon: "https://cdn.svgporn.com/logos/dotnet.svg",
+        color: "blue darken-1"
       }
     ],
     design: [
@@ -116,19 +122,19 @@ export default {
         name: "Adobe Illustrator",
         progress: 50,
         icon: "https://image.flaticon.com/icons/svg/552/552222.svg",
-        progressColor: "teal lighten-4"
+        progressColor: "teal lighten-1"
       },
       {
         name: "Adobe XD",
         progress: 60,
         icon: "https://image.flaticon.com/icons/svg/552/552224.svg",
-        progressColor: "teal lighten-3"
+        progressColor: "teal lighten-1"
       },
        {
         name: "Adobe Photoshop",
         progress: 20,
         icon: "https://image.flaticon.com/icons/svg/552/552220.svg",
-        progressColor: "teal lighten-2"
+        progressColor: "teal lighten-1"
       },
       {
         name: "Adobe After Effects",
@@ -140,33 +146,34 @@ export default {
         name: "Garageband",
         progress: 70,
         icon: "https://image.flaticon.com/icons/svg/552/552460.svg",
-        progressColor: "teal darken-1"
+        progressColor: "teal lighten-1"
       }
     ],
     others: [
       {
+        name: "Git",
+        progress: 70,
+        icon: "https://cdn.svgporn.com/logos/git-icon.svg",
+        progressColor: "orange darken-4"
+      },
+      {
         name: "Unity 3D",
         progress: 50,
         icon: "https://cdn.svgporn.com/logos/unity.svg",
-        progressColor: "blue-grey lighten-4"
+        progressColor: "orange darken-4"
       },
       {
         name: "ARCore",
         progress: 60,
         icon: "https://blog.novoda.com/content/images/2018/05/arcore.png",
-        progressColor: "blue-grey lighten-3"
+        progressColor: "orange darken-4"
       },
-      {
-        name: "ASP.NET Core",
-        progress: 40,
-        icon: "https://cdn.svgporn.com/logos/dotnet.svg",
-        progressColor: "blue-grey lighten-2"
-      },
+      
       {
         name: "Tensorflow",
         progress: 2,
         icon: "https://cdn.svgporn.com/logos/tensorflow.svg",
-        progressColor: "blue-grey lighten-1"
+        progressColor: "orange darken-4"
       }
     ]
   })
@@ -180,6 +187,7 @@ export default {
 }
 #skill-title {
   margin-top: 40px;
+ 
   margin-bottom: 50px;
 }
 
