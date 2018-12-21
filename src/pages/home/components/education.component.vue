@@ -31,7 +31,7 @@
             <v-list subheader three-line>
               <v-subheader>
                 <v-list-tile-action>
-                  <flag class="flag" iso="gb"/>
+                  <flag class="flag-second-one" iso="gb"/>
                 </v-list-tile-action>
                 <v-list-tile-action>
                   <flag class="flag-second" iso="cn"/>
@@ -55,7 +55,7 @@
             <v-list subheader three-line>
               <v-subheader>
                 <v-list-tile-action>
-                  <flag class="flag" iso="au"/>
+                  <flag class="flag-second-one" iso="au"/>
                 </v-list-tile-action>
                 <v-list-tile-action>
                   <flag class="flag-second" iso="cn"/>
@@ -119,7 +119,11 @@ export default {
   margin-top: 2px;
 }
 .flag-second {
-  margin-left: -35px;
+  margin-left: -42px;
+  margin-top: 2px;
+}
+.flag-second-one{
+  margin-left: -2px;
   margin-top: 2px;
 }
 
