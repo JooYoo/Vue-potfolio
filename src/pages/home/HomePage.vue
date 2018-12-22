@@ -4,7 +4,7 @@
       <v-container fill-height>
         <v-layout align-center text-xs-center>
           <v-flex>
-            <h3 id="theTitle" class="display-3">J O O &nbsp; Y O O</h3>
+            <div id="theTitle" class="display-4">J O O &nbsp; Y O O</div>
             <div id="subtitle">between Code and Design.</div>
             <v-divider id="theDivider" class="my-4"></v-divider>
             <div id="divider-subtitle" class="title mb-3">Frontend UX Developer</div>
@@ -88,7 +88,7 @@ export default {
 @import url("https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei");
 #theTitle {
   color: white;
-  font-size: 70px !important;
+  font-size: 65px !important;
   font-family: "ZCOOL XiaoWei", sans-serif !important;
 }
 

@@ -6,13 +6,8 @@
           <div id="experience-title" class="display-2 font-weight-thin">Education</div>
           <v-card>
             <v-list subheader three-line>
-              <v-subheader>
-                <v-list-tile-action>
-                  <flag class="flag" iso="de"/>
-                </v-list-tile-action>
-                <v-list-tile-content>
-                  <v-list-tile-title>Ausbildung | 2016 ~ 2019</v-list-tile-title>
-                </v-list-tile-content>
+              <v-subheader inset>
+                <v-list-tile-title>Ausbildung | 2016 ~ 2019</v-list-tile-title>
               </v-subheader>
 
               <v-list-tile>
@@ -24,20 +19,15 @@
                   <v-list-tile-sub-title>Robert-Bosch-Schule Ulm</v-list-tile-sub-title>
                   <v-list-tile-sub-title>artiso solutions GmbH</v-list-tile-sub-title>
                 </v-list-tile-content>
+                <v-list-tile-action>
+                  <flag class="flag" iso="de"/>
+                </v-list-tile-action>
               </v-list-tile>
             </v-list>
 
             <v-divider></v-divider>
             <v-list subheader three-line>
-              <v-subheader>
-                <v-list-tile-action>
-                  <flag class="flag-second-one" iso="gb"/>
-                </v-list-tile-action>
-                <v-list-tile-action>
-                  <flag class="flag-second" iso="cn"/>
-                </v-list-tile-action>
-                <v-list-tile-title class="flag-second-title">Master of Science | 2012 ~ 2014</v-list-tile-title>
-              </v-subheader>
+              <v-subheader inset>Master of Science | 2012 ~ 2014</v-subheader>
 
               <v-list-tile>
                 <v-list-tile-action>
@@ -48,20 +38,18 @@
                   <v-list-tile-sub-title>University of Greenwich</v-list-tile-sub-title>
                   <v-list-tile-sub-title>Yunnan University of Finance and Economics</v-list-tile-sub-title>
                 </v-list-tile-content>
+                <v-list-tile-action>
+                  <flag class="flag-second-one" iso="gb"/>
+                </v-list-tile-action>
+                <v-list-tile-action>
+                  <flag class="flag-second" iso="cn"/>
+                </v-list-tile-action>
               </v-list-tile>
             </v-list>
 
             <v-divider></v-divider>
             <v-list subheader three-line>
-              <v-subheader>
-                <v-list-tile-action>
-                  <flag class="flag-second-one" iso="au"/>
-                </v-list-tile-action>
-                <v-list-tile-action>
-                  <flag class="flag-second" iso="cn"/>
-                </v-list-tile-action>
-                <v-list-tile-title class="flag-second-title">Bachelor of Business Studies | 2008 ~ 2012</v-list-tile-title>
-              </v-subheader>
+              <v-subheader inset>Bachelor of Business Studies | 2008 ~ 2012</v-subheader>
 
               <v-list-tile>
                 <v-list-tile-action>
@@ -72,15 +60,18 @@
                   <v-list-tile-sub-title>Charles Sturt University</v-list-tile-sub-title>
                   <v-list-tile-sub-title>Yunnan University of Finance and Economics</v-list-tile-sub-title>
                 </v-list-tile-content>
+                <v-list-tile-action>
+                  <flag class="flag-second-one" iso="au"/>
+                </v-list-tile-action>
+                <v-list-tile-action>
+                  <flag class="flag-second" iso="cn"/>
+                </v-list-tile-action>
               </v-list-tile>
             </v-list>
 
             <v-divider></v-divider>
             <v-list subheader three-line>
-              <v-subheader>
-                <v-list-tile-action>
-                  <flag class="flag" iso="cn"/>
-                </v-list-tile-action>
+              <v-subheader inset>
                 <v-list-tile-title class="flag-title">Bachelor of Management Studies | 2008 ~ 2012</v-list-tile-title>
               </v-subheader>
 
@@ -92,6 +83,9 @@
                   <v-list-tile-title>Financial Management</v-list-tile-title>
                   <v-list-tile-sub-title>Yunnan University of Finance and Economics</v-list-tile-sub-title>
                 </v-list-tile-content>
+                <v-list-tile-action>
+                  <flag class="flag" iso="cn"/>
+                </v-list-tile-action>
               </v-list-tile>
             </v-list>
           </v-card>
@@ -115,16 +109,19 @@ export default {
 
 <style scoped>
 .flag {
-  margin-left: 5px;
-  margin-top: 2px;
+  margin-left: -10px;
+  margin-bottom: 130px;
+  font-size: 25px;
 }
 .flag-second {
-  margin-left: -42px;
-  margin-top: 2px;
+  margin-right: 0px;
+  margin-bottom: 130px;
+  font-size: 25px;
 }
-.flag-second-one{
-  margin-left: -2px;
-  margin-top: 2px;
+.flag-second-one {
+  margin-right: -25px;
+  margin-bottom: 130px;
+  font-size: 25px;
 }
 
 .flag-second-title {

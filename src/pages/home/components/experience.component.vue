@@ -37,20 +37,33 @@
 export default {
   data: () => ({
     years: [
+      // {
+      //   color: "cyan",
+      //   year: "2019",
+      //   title: "Future",
+      //   where: "Code and Design anywhere",
+      //   content: `As a Web Application Frontend UX Developer. 
+      //             I'd love to be the one in the team, who connect Code and Design.
+      //             And turn my passion, 
+      //             creativity and conscientious to better user experience.`
+      // },
       {
         color: "cyan",
-        year: "2014",
-        title: "Graphic Designer",
-        where: "Yunnan University of Finance and Economics (CN)",
-        content: `When i was still study for my master degree, 
-                  i worked as a Graphic Designer part time for a department ( Postgraduate Education Center ) in my University.
-                  I responsible for VI Design, such as the Student Portfolio, 
-                  University Major Brochure by Adobe Illustrator and Adobe Photoshop.`
+        year: "2016",
+        title: "App Development in Ausbildung",
+        where: "artiso solutions GmbH (DE)",
+        content: `I've learned the basic of Programming by .Net technologies. 
+                  I have the chance to develop Modern Web App by ASP.NET Core, Angular. 
+                  And get comfortable with Frontend UI libraries, like CSS, Sass, jQuery, Bootstrap and so on. 
+                  I worked in Innovation Team, which focus on Mixed Reality and Augmented Reality App development. 
+                  I supported the Team to implement 4 apps for Hololens and Andriod Mobile Phone (ARCore). 
+                  At the meantime, I responsible for App development by Unity 3D 
+                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects.`
       },
       {
-        color: "green",
+        color: "pink",
         year: "2015",
-        title: "Chinese for English Speaker Tutor",
+        title: "Chinese Tutor",
         where: "online (CN)",
         content: `I taught Chinese online to the students, 
                   who come from Australia, America, and Europe.
@@ -63,27 +76,14 @@ export default {
                   i created a Website by Wordpress. I also had the chance to learn more about HTML, CSS and Javascript.`
       },
       {
-        color: "pink",
-        year: "2016",
-        title: "App Development in Ausbildung",
-        where: "artiso solutions GmbH (DE)",
-        content: `I've learned the basic of Programming by .Net technologies. 
-                  I have the chance to develop Modern Web App by ASP.NET Core, Angular. 
-                  And get comfortable with Frontend UI tools, like CSS, Sass, jQuery, Bootstrap and so on. 
-                  I worked in Innovation Team, which focus on Mixed Reality and Augmented Reality App development. 
-                  I supported the Team to implement 4 apps for Hololens and Andriod Mobile Phone (ARCore). 
-                  At the meantime, I responsible for App development by Unity 3D 
-                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects.`
-      },
-      {
-        color: "amber",
-        year: "2019",
-        title: "Future",
-        where: "Code and Design anywhere",
-        content: `As a Web Application Frontend UX Developer. 
-                  I'd love to be the one in the team, who connect Code and Design.
-                  And turn my passion, 
-                  creativity and conscientious to better user experience.`
+        color: "green",
+        year: "2014",
+        title: "Graphic Designer",
+        where: "Yunnan University of Finance and Economics (CN)",
+        content: `When i was still study for my master degree, 
+                  i worked as a Graphic Designer part time for a department ( Postgraduate Education Center ) in my University.
+                  I responsible for VI Design, such as the Student Portfolio, 
+                  University Major Brochure by Adobe Illustrator and Adobe Photoshop.`
       }
     ]
   })
