@@ -6,7 +6,7 @@ const contents = {
             id: 1,
             title: 'ToBuy lite',
             cover: 'https://cdn.vuetifyjs.com/images/cards/house.jpg',
-            date: '2019-09-21',
+            date: '2018-12-22',
             techs: [
                 {
                     name: 'PWA',
@@ -68,7 +68,19 @@ const contents = {
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
-            techTalk: `PWA (progressive web app)`,
+            techTalk: `Lorem ipsum dolor sit amet, 
+                       consectetur adipiscing elit. In diam mi, 
+                       aliquet quis consectetur eu, pulvinar at ligula. 
+                       Nulla ac odio sed arcu sodales ullamcorper. 
+                       Pellentesque venenatis orci et finibus pellentesque. 
+                       Ut hendrerit neque eu felis congue dignissim. 
+                       Praesent dignissim ornare purus, quis sodales mi elementum nec. 
+                       Praesent facilisis felis vitae ullamcorper sodales. 
+                       Integer at tincidunt odio, in viverra libero. 
+                       Nulla eu mi bibendum justo vestibulum fringilla sed sagittis magna. 
+                       In convallis congue ultrices. 
+                       Nunc ac dui convallis, iaculis nulla non, ullamcorper turpis. 
+                       Sed id viverra velit, eget malesuada dolor.`,
 
 
 

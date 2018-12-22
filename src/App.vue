@@ -67,7 +67,7 @@ export default {
         },
         {
           icon: "fab fa-linkedin",
-          link: "#",
+          link: "https://www.linkedin.com/in/yu-zhu-511770177",
           target: "_blank"
         }
       ]

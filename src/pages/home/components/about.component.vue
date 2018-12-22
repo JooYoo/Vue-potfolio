@@ -1,8 +1,8 @@
 <template>
 
-  <v-container>
-    <v-layout>
-        <v-flex>
+  <v-container >
+    <v-layout >
+        <v-flex  xs12 sm12 md12 lg12 xl12>
             <v-container>
                 <div id="about-title" class="display-2 font-weight-thin">
                      About

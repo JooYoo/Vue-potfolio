@@ -6,8 +6,8 @@
           <p class="display-2 font-weight-light">{{ProjectData.projects[0].title}}</p>
           <p>{{ProjectData.projects[0].date}}</p>
           <v-chip
-            class="blog-chips"
-            outline
+            class="blog-chips white--text"
+            
             :color="tech.color"
             v-for="tech in ProjectData.projects[0].techs"
             :key="tech.id"
@@ -69,8 +69,9 @@
           </v-card>
         </v-flex>
 
-        <v-flex xs12>
+        <v-flex xs12 class="blog-techtalk">
           <br>
+         
           <p class="display-1">Tech Talk</p>
           <p>{{ProjectData.projects[0].techTalk}}</p>
         </v-flex>
@@ -89,6 +90,7 @@ export default {
 </script>
 
 <style>
+
 .blog-container {
   padding: 50px;
 }
@@ -121,6 +123,12 @@ export default {
   display: block;
   float: left;
 }
+
+.blog-techtalk{
+  margin-bottom: 60px;
+}
+
+
 
 .rounded-card {
   border-radius: 10px;
