@@ -1,8 +1,5 @@
 <template>
-
-<v-container>
-
-    
+  <v-container>
     <!-- TODO: filter -->
     <!-- <v-combobox
         v-model="chips"
@@ -25,77 +22,62 @@
             <strong>{{ data.item }}</strong>&nbsp;
           </v-chip>
         </template>
-    </v-combobox> -->
-
+    </v-combobox>-->
     <!-- cards -->
     <v-flex xl12 sm12>
-        <v-container
-          fluid
-          grid-list-xl
-        >
+      <v-container fluid grid-list-xl>
         <!-- <div id="experience-title" class="display-2 font-weight-thin">Project</div>  -->
-          <v-layout row wrap>
-            <v-flex 
-              xs4
-              v-for="card in projectData.projects"
-              :key="card.title"
-            >
-            <router-link class="router-nav" :to=" '/project-' + card.id">
-            
+        <v-layout row wrap>
+          <v-flex xs4 v-for="project in projectData.projects" :key="project.title">
+            <router-link class="router-nav" :to=" '/project-' + project.id">
               <v-card class="rounded-card" hover>
-                <v-img
-                  :src="card.cover"
-                  height="200px"
-                >
-                  <v-container
-                    fill-height
-                    fluid
-                    pa-2
-                  >
+                <v-img :src="project.cover" height="200px">
+                  <v-container fill-height fluid pa-2>
                     <v-layout fill-height>
                       <v-flex xs12 align-end flexbox>
-                        <span class="headline white--text" v-text="card.title"></span>
+                        <span class="headline white--text" v-text="project.title"></span>
                       </v-flex>
                     </v-layout>
                   </v-container>
                 </v-img>
 
                 <v-card-actions class="text-xs-center">
-                  <div class="text-xs-center">
-                      <v-chip outline small  color="primary">React</v-chip>
-                      <v-chip outline small  color="secondary">ionic</v-chip>
-                      <v-chip outline small  color="red">Angular</v-chip>
-                      <v-chip outline small  color="green">Vuejs</v-chip>
-                      <!-- <i class="devicon-vuejs-plain colored"></i> -->
+                  <div class="text-xs-left">
+                    <v-chip
+                      v-for="tech in project.techs"
+                      :key="tech.id"
+                      outline
+                      small
+                      :color="tech.color"
+                    >{{tech.name}}</v-chip>
                   </div>
                 </v-card-actions>
               </v-card>
-              </router-link>
-            </v-flex>
-          </v-layout>
-        </v-container>
+            </router-link>
+          </v-flex>
+        </v-layout>
+      </v-container>
     </v-flex>
-
   </v-container>
-
 </template>
 
 <script>
 import projectData from "../../../data/ProjectData";
 
 export default {
-
   data: () => ({
-    projectData,
-    chips: ['Angular', 'React', 'Vuejs', 'ionic'],
-    items: ['Angular', 'React', 'Vuejs', 'ionic', 'Unity3D', 'WPF']
+    projectData
+
+    //TODO: a part of Filter
+    // chips: ['Angular', 'React', 'Vuejs', 'ionic'],
+    // items: ['Angular', 'React', 'Vuejs', 'ionic', 'Unity3D', 'WPF']
   }),
-   methods: {
-      remove (item) {
-        this.chips.splice(this.chips.indexOf(item), 1)
-        this.chips = [...this.chips]
-      }
+  methods: {
+    remove(item) {
+      this.chips.splice(this.chips.indexOf(item), 1);
+      this.chips = [...this.chips];
     }
+  }
 };
 </script>
 

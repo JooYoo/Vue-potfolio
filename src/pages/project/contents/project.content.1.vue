@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="blog-container">
     <h1>project.content.1 works</h1>
     <p>{{ProjectData.projects[0].concept}}</p>
     <p>{{ProjectData.projects[0].techTalk}}</p>
@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style>
+.blog-container{
+  padding:50px;
+}
 </style>
 
