@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>project.content.2 works</h1>
+  <div class="blog-container">
+    <h1>{{ProjectData.projects[1].title}}</h1>
     <p>{{ProjectData.projects[1].concept}}</p>
    
   </div>
