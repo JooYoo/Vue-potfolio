@@ -8,8 +8,7 @@
         <v-flex>
           <h3 id="theTitle" class="display-3"> J O O &nbsp; Y O O</h3>
           <div id="subtitle">
-            Focus on the field between Code and Design. 
-            <!-- //TODO: one more sentence: difference is good -->
+            between Code and Design. 
            </div>
           <v-divider id="theDivider"  class="my-4"  ></v-divider>
           <div id="divider-subtitle" class="title mb-3">Frontend UX Developer</div>

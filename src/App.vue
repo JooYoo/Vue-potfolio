@@ -9,9 +9,10 @@
         <v-btn flat small color="white">Project</v-btn>
       </router-link>
       <v-spacer></v-spacer>
-      <v-btn icon>
+      <!--TODO: vertical three dots, if nessasary
+       <v-btn icon>
         <v-icon color="white">more_vert</v-icon>
-      </v-btn>
+      </v-btn>-->
     </v-toolbar>
 
     <v-content>
@@ -36,7 +37,7 @@
 
             <v-btn v-for="icon in icons" :key="icon.id" class="mx-3" dark icon>
               <a id="link-color" :href="icon.link" :target="icon.target">
-                <v-icon :href="icon.link" size="24px" >{{ icon.icon }}</v-icon>
+                <v-icon :href="icon.link" size="24px">{{ icon.icon }}</v-icon>
               </a>
             </v-btn>
           </v-card-title>
@@ -56,18 +57,18 @@ export default {
         {
           icon: "fab fa-github",
           link: "https://github.com/JooYoo",
-          target:"_blank"
+          target: "_blank"
         },
 
         {
           icon: "fas fa-envelope",
           link: "mailto:jooyoo@outlook.com",
-          target:""
+          target: ""
         },
         {
           icon: "fab fa-linkedin",
           link: "#",
-          target:"_blank"
+          target: "_blank"
         }
       ]
     };
@@ -113,12 +114,12 @@ export default {
 
 #footer {
   position: absolute;
-  
+
   bottom: 0;
   width: 100%;
 }
 
-#link-color{
+#link-color {
   color: white;
 }
 </style>

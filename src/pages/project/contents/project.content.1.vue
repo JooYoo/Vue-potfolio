@@ -1,23 +1,22 @@
 <template>
-<div>
+  <div>
     <h1>project.content.1 works</h1>
     <p>{{ProjectData.projects[0].concept}}</p>
     <p>{{ProjectData.projects[0].techTalk}}</p>
-
-</div>
+    <p>{{ProjectData.projects[0].images[1]}}</p>
+    <p>{{ProjectData.projects[0].techs[0]}}</p>
+  </div>
 </template>
 
 <script>
 import ProjectData from "../../../data/ProjectData";
 export default {
-       data:()=>({
-        ProjectData
-    })
-    
-}
+  data: () => ({
+    ProjectData
+  })
+};
 </script>
 
 <style>
-
 </style>
 

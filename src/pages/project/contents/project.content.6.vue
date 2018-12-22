@@ -1,5 +1,5 @@
 <template>
-    <h1>project.content.8 works</h1>
+    <h1>project.content.6 works</h1>
 </template>
 
 <script>

@@ -3,8 +3,8 @@
 <v-container>
 
     
-    <!-- filter -->
-    <v-combobox
+    <!-- TODO: filter -->
+    <!-- <v-combobox
         v-model="chips"
         :items="items"
         label="Your favorite Tech"
@@ -25,7 +25,7 @@
             <strong>{{ data.item }}</strong>&nbsp;
           </v-chip>
         </template>
-    </v-combobox>
+    </v-combobox> -->
 
     <!-- cards -->
     <v-flex xl12 sm12>
