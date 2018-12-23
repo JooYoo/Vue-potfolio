@@ -69,7 +69,7 @@ const contents = {
             id: 2,
             title: 'ToBuy Material',
             cover: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
-            date: '2018-09-03',
+            date: '2018-06-06',
             techs: [{
                 name: 'PWA',
                 color: 'purple',
@@ -103,11 +103,13 @@ const contents = {
             ],
             concept: `ToBuy Material a Shopping List app with Modern Material Design. 
                       A updated version of the app ToBuy lite.
-                      With the help of the side draw, user can manage the lists for each week day.`,
+                      With the help of the side draw, user can manage the lists for each week day.
+                      The App can be install to Home Screen, behaviour the same like a native app. All the data save in local, 
+                      and the app can be used offline.`,
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/ng-tobuy/',
+                    link: 'https://jooyoo.github.io/JS-Calculator/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
@@ -122,7 +124,7 @@ const contents = {
                 // },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/ng-tobuy',
+                    link: 'https://github.com/JooYoo/JS-Calculator',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
@@ -136,14 +138,9 @@ const contents = {
         },
         {
             id: 3,
-            date: '2019-09-21',
             title: 'jsCalculator',
-            techTalk: 'third-techTalk',
-            concept: "concept",
             cover: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg',
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+            date: '2018-06-08',
             techs: [
                 {
                     name: 'PWA',
@@ -155,18 +152,64 @@ const contents = {
                     color: 'yellow darken-2',
                     icon: 'https://cdn.svgporn.com/logos/javascript.svg'
                 },
-            ]
+                {
+                    name: 'Bootstrap',
+                    color: 'purple darken-3',
+                    icon: 'https://cdn.svgporn.com/logos/bootstrap.svg'
+                }
+            ],
+            screenshots: [
+                {
+                    declare: 'main view',
+                    img: `https://lh3.googleusercontent.com/3zoieb9mJKx631hdt-QwQ9TOJWOawvCVRgywbXCCcs7H3pA0QGcegQ5ST5qxGXU3bNA2u7S39yhf6-h6dGSa8seLaKKHwI5eowskZgesGcOgOD_hD8Ig7BcbrDcFc3x0n_0_ycvO0adxgk-lANOm4lSpCAHrLb9k_u4uGpvDk4kKBSf1ow44eJXR8VTi3X8JiDhvbLV7drTgbHx67Dgmz2IoA8CUZuoGGbAQ6jPjVBK3CZYyiHbLDVN5oJwg4W57l-Dy3uxaA0qeLIoUe6uRM8zWmZNTkj5lbQ4lLxU2OTi9s59hxV0Bv3eoTorwXSzqYQ9WLacRV1XbcA7_y09pXGMGrLim57v-Fc8_8uofeo9w36f-wKdgKAoPeB-dWaAUb5zQD1mog-ku4RYTHvea7yfi91psz4ulhn9rqK3f1tmVNPrqS6-1vj3Mm2zxDtkGXVCS29WQP0sFNsG3o-h1nnWaEVNglSAXEafqO494oU7l8_Sz4PbRFNvyuXlHsBsQX4_brSksfY6grhUieWEwa8gosKDN2mEqDGWRO8CNZwvjmtl7pucy2VpxMtcfDS6PKVczm9-gfbnNGRU-1bXYTgON_kQ_2deq-7DwGJMbjagxarapVxIAZ9duLKC7SdW3nhFkuJc9TcBMS4mLEHIOkDuB=w940-h1878-no`,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: `https://lh3.googleusercontent.com/bH5_Cz42I4B16kz-04oF19sFBl9UFmPt8O1sbEh9xiOxiSF0x1s5sGRUHe-Zmi0Dmw6wAdAOyN8qjscZ1gojunvqu8wJa3tqPS4gL01fwpOmU1SP_bTl0eM-PTU8eqvT2tIYJEtfdCjQMz1GOKOEYP_1QzSLnpDRFllX5RhL6sQq7dtPnXttfFnv0X60avqO8H1opEDPO9L0xiUyRRsCfkz7rSR8JMA4kNbJM3ieX9N4GOpaBSDvNVCjPbnm85Uo_JvCwrATPn4z_pgA_xIPkyVg0Txb9xjBRNmJNu8sxiOMsmuyT40OwZKoxvsEyPb7mSuyXq9VX1itDGb0vAWxrF29ykscmLAr8kfW4aefe99WE48v3p6ETjJjrXjXkXLR-tmJ0UWuCDkDZDNmYs3UmFcGEf8gBs08n69xThNZ_4IHF0wUH8cRZX8K7LBrOjl-L10YowujLN3wi2Oa3-hR4MEgp6DpOFngDKcxSfRXVlVkX6dgzubISspXLdV6XhQ7sVvv9k8UqNfWVeE4G17yNpXTrbMbtcgZwVP7rqh07tvjbCtCDTUT35jm1MdJprdkuxSeoIEjyn0-TLrI4-O48mBfyyu10RThJKLrGQwtQEO1LsoUigscd2byp0cn7g7m_LkPGFQDzeLJkQgDfqyAABgN=w940-h1878-no`
+                },
+                {
+                    declare: 'gif',
+                    img: 'https://lh3.googleusercontent.com/b4nfrNgDxU1h2ZsGHpSXUYA-7SjfNTDVFt6qt9NgqiFjCANKmZ3uSNMCl79yZuvWwfwAXCVwXdJNvCe0OY7V2LpVxyfFsa-BD78c4xs8otmok75K8Pg0aRQXpJBWfJ9scyf68LffFUnv9p1zgx-lKQoT3253T3hekRS0C5x4Z1Aj7-RZd_W2kPE5GNfFa4vNP0L548my3CfBjpYywmhZ_SgDTBWuiBq-5_jQYMOwmX8ORHlCJfOOo7I183H0YImU3G7ibdYKSfo7QHccyDF4l2dfKuSJ-gDswpUfM-o-wGJzZGhassO4YWnr4iUWhVpBio39corhEhwGy9SvUm_7JAoyrdyALAaNJFv6epnnc1DxwaX1k6kWKB5vuDGR8YRvkn5btpunF142cpRPbSCoVgwRnRAgcqnMU615uy5GJNmuRMg5jjSvYy3EAu9XHRq04exfS2O0bzT9vPRsYMxHXw3ARdnCn_0aRYVoVPuTsNdZXuUlW_aP2piUBovdBsqBPxT684F8w0vUwLMZb1LbmyByD0FgKfX5u7Myn_ItsmxNe6ZiorxBBpNnLtvKcNANty55XHPuPneiweAqIMyfLB6jNxyQsh1-QleALtwg0U_FGiT8tf111OIgODSSFXeK39LP4jRlfUJR1P1YjEvcHSOm=w119-h238-no'
+                }
+            ],
+            concept: `jsCalculator is a Calculator App. 
+                      The basic mathematic operation available, 
+                      include plus, minus, times and divide.
+                      The App can be install to Home Screen, it doesn't need any App Store, 
+                      behaviour the same like a native app. The app can be used offline.`,
+            demos: [
+                {
+                    name: 'Web App',
+                    link: 'https://jooyoo.github.io/JS-Calculator/',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/JS-Calculator',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `I build the app with VanillaJS + Bootstrap. I get the Vootstrap by npm. 
+                       The Grid System from Bootstrap is very practical for layout building.
+                       It's also a Progressive Web App. Service Worker build in, 
+                       offline run available. After input address in the browser, 
+                       it can be added to Home Screen, same like the another native apps.`,
         },
         {
             id: 4,
-            date: '2019-09-21',
             title: 'jsCurrency',
-            techTalk: 'third-techTalk',
-            concept: "concept",
             cover: 'https://picsum.photos/200/300/?image=171',
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+            date: '2019-09-21',
             techs: [
                 {
                     name: 'PWA',
@@ -178,7 +221,13 @@ const contents = {
                     color: 'yellow darken-2',
                     icon: 'https://cdn.svgporn.com/logos/javascript.svg'
                 },
-            ]
+            ],
+            techTalk: 'third-techTalk',
+            concept: "concept",
+            gitLink: 'third-git-link',
+            demoLink: 'third-demo-link',
+            images: ['first-images',],
+
         },
         {
             id: 5,
