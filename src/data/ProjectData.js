@@ -6,7 +6,7 @@ const contents = {
             id: 1,
             title: 'ToBuy lite',
             cover: 'https://cdn.vuetifyjs.com/images/cards/house.jpg',
-            date: '2018-12-22',
+            date: '2018-06-09',
             techs: [
                 {
                     name: 'PWA',
@@ -67,14 +67,9 @@ const contents = {
         },
         {
             id: 2,
-            date: '2019-09-21',
             title: 'ToBuy Material',
-            techTalk: 'second-techTalk',
-            concept: "concept",
             cover: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
-            gitLink: 'second-git-link',
-            demoLink: 'second-demo-link',
-            images: ['first-images',],
+            date: '2018-09-03',
             techs: [{
                 name: 'PWA',
                 color: 'purple',
@@ -91,7 +86,53 @@ const contents = {
                 name: 'Material UI',
                 color: 'pink',
                 icon: 'https://cdn.svgporn.com/logos/material-ui.svg'
-            }]
+            }],
+            screenshots: [
+                {
+                    declare: 'main view',
+                    img: `https://lh3.googleusercontent.com/tW4PZjBWdqMJyrBRDYDHqx39mX_wlc-bbY60UUi1V2QT6ALozQvVMzF83pB7K1Ym40UlDW0uSrHkcAX6yplKYNcGFzVMe5G-UisTZrCm5j5Fj15AlyT7RPTjtoPNcpSdUBPPMcfalrqrPkqVIOcmrU5jVMlrs5knV-EQCXxAgC8LSQ7AbzZgmx1RS3SNlME_6GeLUI56djIX76v3Cm_hT6hdejckpDOElm0lUs2Y6ByjmcJVepqX-fcJvq_VkMRs3TYFFkLAV2Ns8dy_jlGEL9aRPwOT_4i0VPB83xhdIxmZrLZY3IiGNY6eVONEJKsS8hRTamtn8OOyKHG-H0dtNl057HQQQxfzwqArFAVwIW4Z8zPiDabFaAiOXC3_LHCY2yHWEetFPuDuHoDnkJe1RtEqXv99wsA5VVxlBZhKCruICCHf-3FuzDKABKxlsrBqgX-2f6LLZDoM10ia-WxG1SfznqklNiMEld9x86tMq_2uRrWFdf33EW6xOfv43cQI7jnvAveL6GvLdRFcfmodhNedeFNvv2p948GauVHeOlJTsSbzDCtkimPkxmsSQDgnyrBCgMGN5TxqpWogvULrgGRoxvle9t1slCOdP-K9JeLFxV7fKpJEQHmV9UOD_OfkhOP4pJk1AAJs_vaKEjk8udrt=w110-h220-no`,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: `https://lh3.googleusercontent.com/gGNzcYrZfSTcwheEHL2YeUbl3srHO8WpDGb3e5MvBrpGw_qncKrF834vD4gGJ_sdm02ic9oY5h7t9mXoE2gNLGL0kDzdkMhEIS0W1Q6RqbyCbPVXE3ttxn1mT3RMEPvsweWcsQPpIaq5U327wvEadg3oyjRzqwif98xhB-WoR5Mv2NeaIUBmt-CqWgOZ8svZtuYKAhaayY247ks4XddtZJkpFxMGhHki91HuqeVQXKeeaA1ub8o2vcOWfITgDkjmL9VCvEmY0U-U65riiRPH--6jNlcVOVFO5FSRAYElwKq9LKb9RkulARLQXoS5qy9X21ImjC-IsAaK88Fj4q31zNHa5nVe2tt6t-P1C8CvCMhFixQx9RP_N7L7oPvjpF6SiWuBN7LMe8EYZz6KvmeMW2amMzOaDtVyelyUuxFqfVb7181_HmP2Iia3BKTKiZY1wSFfuwXtpGln2pZKQNBe_EfETjMK3GLv0fGvofQu3PcXjTxJH7jlmzqv6bc5OP4rRIuV-uZ8HHuYpTkByMd6VrKdkPHoKn1W70kEpklFPKXAluzHTtN3f9lgmC8UBS6M1RxbQcDcdMyPkv5rWlah8OJ79ZuHQkPWQBBslZ_NGgf0e4YKadIhF_dytlt5ZPxNZ16oyejRHLmjtSvOQBIqLpSC=w110-h220-no`
+                },
+                {
+                    declare: 'gif',
+                    img: 'https://lh3.googleusercontent.com/cjbbva5R8RUiJNY2oUxhF-1ctL_piy7E9jhElKYTwZlm8n_WxMS-pb5BXNMNOneSlcUrzrpgNM6uG0TXjha0nMmbMOoTtUMT2ePfExlzy9-zh0XwfmBeuVGRkPUH7eyzTWgvi3KbmxId6-RZJ7bAjgiGbL5lJLy-A1m_hLS-_CtzKl_07Qca9dhO01EM6jJ6YOrlgBCpx8HxrUqvJ9EIpdiqnz5I9lIRhMXVOzH_NXy3ZsATSvqBPGfuyQpqLYrVQRahxIfgVnaHl5-o8RIUYAWBhlMb-a53y69GRtETL9n1ORwv9j_s7AbU304ebs6MNCMq9dz4B1PuAyxfU5gfH4YqL6RGrGUkNmWECb43Z3GHT8Xq4xGDJ2TOexZ1pYf-m3DBi_xjsTkcn_Qv3ViQ2Es5mw7bsL01yG9fW7GyiUlQWD9Dg-XlRpAEh8WLzvttLMZ2UU9OVP0hin585eACj8_9s5Cr1VR4Qjb3pXkfKIw3n9psZaAKEvQ2zxwb2LIJFsksIXWsE0eIZQ2p2yDXuy9trPJ7ir68cB2OvdmqftSUNobY7c69wg2omDCZzmSOHfIRvJYNvI2I_VuKDzrsqIcCHbd2vwCmWVIdAXDqnz4PdmNhN5G_j6hl_NsKHYEPXZ4IX84owG-ZjyCGSPmlD0At=w110-h220-k-no'
+                }
+            ],
+            concept: `ToBuy Material a Shopping List app with Modern Material Design. 
+                      A updated version of the app ToBuy lite.
+                      With the help of the side draw, user can manage the lists for each week day.`,
+            demos: [
+                {
+                    name: 'Web App',
+                    link: 'https://jooyoo.github.io/ng-tobuy/',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/ng-tobuy',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `I tried Angular + Progressive Web App + Material Design. 
+                       Service Worker build in, 
+                       offline run available. After input address in the browser, 
+                       it can be added to Home Screen, same like the another native apps.
+                       Angualr Material Design works find, but there is no SideDraw component.
+                       I have to use multiple components to build the SideDraw by myself. 
+                       The process is not so enjoyable.`
         },
         {
             id: 3,
