@@ -1,5 +1,5 @@
 <template>
-     <div class="blog-container">
+  <div class="blog-container">
     <v-container grid-list-md text-xs-left>
       <v-layout row wrap>
         <v-flex xs12 text-xs-center>
@@ -7,7 +7,6 @@
           <p>{{ProjectData.projects[2].date}}</p>
           <v-chip
             class="blog-chips white--text"
-            
             :color="tech.color"
             v-for="tech in ProjectData.projects[2].techs"
             :key="tech.id"
@@ -54,7 +53,7 @@
           <br>
           <br>
           <p class="display-1">Demos</p>
-          <v-card  class="blog-demos">
+          <v-card class="blog-demos">
             <v-bottom-nav absolute color="transparent" height="100px;">
               <v-btn
                 :href="demo.link"
@@ -71,7 +70,7 @@
 
         <v-flex xs12 class="blog-techtalk">
           <br>
-         
+
           <p class="display-1">Tech Talk</p>
           <p>{{ProjectData.projects[2].techTalk}}</p>
         </v-flex>
@@ -83,14 +82,13 @@
 <script>
 import ProjectData from "../../../data/ProjectData";
 export default {
-    data:()=>({
-        ProjectData
-    })
-}
+  data: () => ({
+    ProjectData
+  })
+};
 </script>
 
 <style scoped>
-
 </style>
 
 

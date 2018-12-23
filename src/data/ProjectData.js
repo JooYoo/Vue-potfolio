@@ -5,7 +5,7 @@ const contents = {
         {
             id: 1,
             title: 'ToBuy lite',
-            cover: 'https://cdn.vuetifyjs.com/images/cards/house.jpg',
+            cover: 'https://picsum.photos/200/300/?image=165',
             date: '2018-06-09',
             techs: [
                 {
@@ -68,7 +68,7 @@ const contents = {
         {
             id: 2,
             title: 'ToBuy Material',
-            cover: 'https://cdn.vuetifyjs.com/images/cards/road.jpg',
+            cover: 'https://picsum.photos/200/300/?image=135',
             date: '2018-06-06',
             techs: [{
                 name: 'PWA',
@@ -83,7 +83,7 @@ const contents = {
                 color: 'blue darken-4',
                 icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
             }, {
-                name: 'Material UI',
+                name: 'Material Design',
                 color: 'pink',
                 icon: 'https://cdn.svgporn.com/logos/material-ui.svg'
             }],
@@ -209,36 +209,81 @@ const contents = {
             id: 4,
             title: 'jsCurrency',
             cover: 'https://picsum.photos/200/300/?image=171',
-            date: '2019-09-21',
+            date: '2018-06-28',
             techs: [
-                {
-                    name: 'PWA',
-                    color: ' purple',
-                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
-                },
                 {
                     name: 'VanillaJS',
                     color: 'yellow darken-2',
                     icon: 'https://cdn.svgporn.com/logos/javascript.svg'
                 },
-            ],
-            techTalk: 'third-techTalk',
-            concept: "concept",
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+                {
+                    name: 'Chartjs',
+                    color: 'pink darken-3',
+                    icon: 'https://www.chartjs.org/img/chartjs-logo.svg'
+                },
+                {
+                    name: 'Bootstrap',
+                    color: 'purple darken-3',
+                    icon: 'https://cdn.svgporn.com/logos/bootstrap.svg'
+                },
 
+                {
+                    name: 'AJAX',
+                    color: 'blue darken-1',
+                    icon: 'http://codingbin.com/wp-content/uploads/2015/11/ajax-logo.jpg'
+                }
+            ],
+            screenshots: [
+                {
+                    declare: 'main view',
+                    img: `https://lh3.googleusercontent.com/hgf5M_nWMvNrXz9kNScwAG006JtUV8RNb74V43xx_ZWB8t17hPDOY6JhYXeM7D1KK3TQdHlKeEj0_U0NiJtRWr34SN1M0gvLXCeaTZl6u6LDw52MZloNSB9XVXkA-HfQNTM8Akdu8Ze0AMc8fqFunzZmzZeiwh3iyF86QB7wXuN78op300beIpwmysqlLUGHgC4yfD__7ljJyoUj4Ysj1nantUyH8yMA5eUKb06ivQVMMh3Oy95alR0RzVhU7gAFYtvGcLp6rHPfO_SQQ4CNHQMk6HtcSd6PQFre0VydzHUSpWWmO1jKO9GXZtURu8N_KC_N-OWCyGFGpTfNnxW8Masp5qA6rwQ6s-VvORnq5Q1RT9Qp0fp2xH3iXgZuiwMTE35dUOY0mGPeDexiid-_C-1u12mDC3Um-LFQRif9k4FUMuVf8bKTLh4dPXcyVSsQ3YWZJ8PsT9ujvMfxkWnicyR9trsaZHF1cu_RbvgYT4bHRRdDfFdVcHDDtmJchvkpYJG_2J_NGYK4wDtkZ3gf40nj8iRrS8cxVkGeWiZVupACnIm37f3VDS5sg0Byn1oXyiyoTatsu7kz7HOWbE2DgGh5M8sqEbWqTCgMQ2aVZBn8zuicKYlUo9iTzOLzzVfe3NZvoToTp9rpvLAsd82AF4Di=w940-h1878-no`,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: `https://lh3.googleusercontent.com/4Wl9DMe3yP7Ntr35JlwoISewY6llwrK57wIxt_JmvBFzwMHFxWhSnXBmhsGcumXdpNHkoG-IBTcVDKTHRwFtRT7zyAja0KwDUz5DeKBXGV-EnnEUp297pSgXs2AS28pF7XlnqKx0nouB7o9wFurOfqpl3BYXS6o3COrvd07_kGRy3GkCa-BCxoiIFT0dWpLl5Lvwj1T5BgpiJ_Xg4f6tB9fAztJ153SaLjhh6cQe8jubSz_WHI5sJ_1UkCht3xStRs0-YI6iUunpS8uDIt7j4Ksl4k6I1GGBHC5WDOufRDwuKSgXiOqcP4wt4Cn0CHQ843QItscujA3qIfSk1LcgiQkhM5SwXeEz5z8VtHxZInWnV0qzFYXyXp1nmA0iF684nrAcXwDTINvwLTWYcMVDhELzRiS5cAeIcmXLjCObUQ8QeqoZ21-twxqRCHTiJUIW2_OcSI_9fnyugBXwYqkWxGTwWzGs5o60ju4amAR7aCT-focak3DK5aJVS4lxEhx12mfcf7dsUmOrsFop4l9w4xbvCy5EoYEw3-MAJBhDg65BK5o1_WmGMpz6WocbUIqIV2qxl5wmX5_LZoCRMYY4loEWMc1hBNXvkJ_9AqSUIZ_wITJGSa-f59oy2awXz-Fw2h1fv7oIDxyiA7TOfzFbYGOJ=w940-h1878-no`
+                },
+                {
+                    declare: 'gif',
+                    img: 'https://lh3.googleusercontent.com/-aESadqgtvv-V_Axw71RDNayv3i0feId9V2GMMT8yKMeWe8gOkEbQfDMYIpAXnLmYfQVQNR6FE2mCrc3PooJYnRO3sQ60vpVN_hpK_3cpnDOU1swccXgqMfLrA2G75GszPwoyZC7Z0182f5VjwRAxhmAFVWaPLdUIV1V7nKg3IcyIdoZirt14YSlYXI6XpwphaRN4efrdlLcqTVAfcN9tXYtjc0nehzIIvDFTIbTLSk47UPdx70JCH_Ex5qjggEilXVuUkHXYFXiEaHEDJUErqEBs90ATRTt6bJLPu3fEd1OgSWsz5SrB71MS9p0QvWwfAE6HXZ593vPeSm0TLBtPktvMixYm4QImkmea20Q2dN6J6ASMUkahx393RHeDr744yIvXWxx5cll8a3c9T0-GUuXX1if1MPXOT8V3Vc6Ez62GXFeOHMZ5wzypxY1EepRx66qnHXuGqlJbMD2LA2JWxGAjZwZEsGcmAP-2eoNDpq5c6VNmuo14U4HZl5_kUnGQOTNLl9Pi1BOqCRE5TQWSfav8CXh-md-WxkGSHrLNwooKUmvF1chJ4FFB487FdcPqJryUPwS-Xk5NQJUbVVWUv6omX5uDAOcEcuTx9sLG9mbx3pPhokZN11NmQX2ynUfH8d5ob6OPmG3ejhQFCVKHLoF=w518-h1036-no'
+                }
+            ],
+            concept: `jsCurrency can calculate currency exchange. 
+                      It updates the newest currency data. 
+                      There is a Calculator build in, 
+                      basic mathmatic opration supported.
+                      The chart shows the exchange rate.`,
+            demos: [
+                {
+                    name: 'Web App',
+                    link: 'https://jooyoo.github.io/JS-Currency/',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/JS-Currency',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `jsCurrency build with Vanilla + Bootstrap + Chartjs.
+                       I used Ajax to get the newest currency data from https://fix.io API.
+                       The data will update every 30 minutes. Bootstrap as UI library. 
+                       I created the Line Chart by chartjs.`,
         },
         {
             id: 5,
-            date: '2019-09-21',
             title: 'Portfolio',
-            techTalk: 'third-techTalk',
-            concept: "concept",
-            cover: 'https://picsum.photos/200/300/?image=161',
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+            cover: 'https://picsum.photos/200/300/?image=112',
+            date: '2018-12-21',
             techs: [
                 {
                     name: 'Vuejs',
@@ -255,18 +300,55 @@ const contents = {
                     color: 'blue lighten-2',
                     icon: 'https://cdn.svgporn.com/logos/vuetifyjs.svg'
                 },
-            ]
+            ],
+            screenshots: [
+                {
+                    declare: 'main title',
+                    img: `https://lh3.googleusercontent.com/HWspQZhWboXcnMnmlfB6IEUmpamgQxIZwUkIXV67bSkec6E1h-2qR9eAi0HqWyQ_PT9eh8-5qEBfnV9gUgeN8M8Oymzk41FRKb83fu2kNhs-aRXtO_5KyrNAPbA_whejH9Pt_4I9CZUcxlLdoYy6RfnHYb2xCh16NGxAzbB_hi0oj4tqnE5WaprhShduZ7vgSuBrN5boPzIlF0_CEDG79OH3o9ePpWf9wnB8XmGyAwOSzm746jkDzfgBJDwORZ0aikq4kdnaNbaFv5IkQKmPQAiY8cRsSFX8kw73dtbNRh6MrPXcQiX5jSJXrWdbqv6cGcchQTSZp78TiT8JfB-lY5ckcLMLKC1Cf5ybuiFVQ6zaAo1T8iu5SVPOlicCKpb5VxnwuPlcvkcx9PKd51EryQhx0FcaPFWDLKCPIFbaexGeVHVJf4_0h4otxsK4sezprpSTQyg-1_suvtfD4EMbkLGUKkRcu-CGra5dF30zIPvbMKcAewpfpwsxC62FtW93wzjq_4YSJahzYAbalMqPhDdT3jg1NKUFjG4dPid9qxnZa3ZFJMidtWyH3VaLhLJSFq1_lZyt7xxbRntSx845sLIenpNCdP4ecMVoe87tr7SbOKcHA00DfeWI6cpfFzGjy-fOrncfoLdLgqNGFaJkbNRv=w1660-h1268-no`,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: `https://lh3.googleusercontent.com/JGA5lah-y9Wasrt8HB6nYJWVFe8bRc16iaheSEktUbhvIvC_V2syLGPW6EhzXyBNQqksiGzG_R794X3jMYhHSd0HnRTdQJI3MabvwXmabeZJ6FX8CHYbMaKD21-TCsjkS6BNhlqUIzom94UB_mT0e-TAdiYehrGOibBfIIYds42AwiO2zmqIGmbL0Q3F4qCGL8ooDcoIuf8pCYqGC_X_o4MY8DqTeuWvkyqA8ITWvv5P0cqThfPQh0x4_sTyXGVq4qgldC2n0LZa2wYBENhW5rk7yHoo5LvWxBCydhLN85LNJnq-eEC0BpFRl7U60ctyBhlgG51pS3KEn6rpclu3nBu8fb2CWrOWFavCzV8FTnwf_zRd1Hut9c6f7UmvcKSUyXZAaBxAnQSFI7YPDXR1EDaSpmK1liHWXjTOS5WzcU-dexZptzBEWVscgPvrrx3TR0XC7wFfrdzt-Zwit4p-m9208tQUlRvCHrLDdB_O8Ajd0qIGZT2k5IbpCU0elqN_jzFkDkqAqNpBTmWlCbLweT4fnSe6_A6ePK64jU2FxJX6LVv2jQ1sgGEp02iJcIuTaNiUCAJO67wX2-X-yBu_RzUZ-LedkyAdY60o7FCYPw6Ob74Gl0wcKG1TIZDyB9vnyE6TvoZ4smfLA_me8q2Vj1QF=w1660-h1268-no`
+                },
+                {
+                    declare: 'gif',
+                    img: 'https://lh3.googleusercontent.com/kd2xfIp6p8f-t_FoTovBxP_sZHsadH8bwx9satLtyN83PtDDY3HbktnrFlpb_I1pnq9X1HeYA9CJLQ2SwhI44tTv5kin9LlKVA6J6L1tWAGway-rNfiqel_VOUYA5FPFbL2EFyavg3ZvoIOMzUNGMNvUCDud7ODKzN2TpLGtppJvCyP2ELCMzRcD3Jnqx6qGyPEHQsvUAjJc4zGonzcPg6f1HtyOHdbfdHKCr3tIuOn0lo4tA9b7K5EnzmyUkOQvHjcPj5yVT-s7I5YxA7Gw9hWGvEWFV1rf2XY8wyaEhsuosnBjPuE1fxy4J5Rb7f998Up4NzDCUWYhkahU8wYHIH86bdx1WJzM9xDVbyObIdcl9KzxCKd83QhLEh4NL6MUvH63Q6fP9SE8pK219YPjrgQqMntTL6Y0jg_k88ZhUofchfbtQMkjp_XEZKOn73uf1w3xc306NUobmrPKWoH3tPUBwOk2VxUovp0SYadSR0I5rLolHdGLQ1TB4vUKIQ9Liti4TMuiIPNwkelOsNsqen7TsRfsPdZuqLqloG-xjofxpaRMBA1is8WkBxSjioQ_lqngpLVXrzKlRdJCPlU2PRiClUPxlWfl77g8DAVAC2sb6NmPE5hfjgySk3oscTAexlxqe9JW6VTEchGn1l_1Cp-U=w1660-h1268-no'
+                }
+            ],
+            concept: `Portfolio is my personnal Portfolio Website, i use it to orgnize my projects,
+                      get to know more interesting people online and find job.`,
+            demos: [
+                {
+                    name: 'Website',
+                    link: 'https://jooyoo.github.io/Vue-potfolio/#/',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/Vue-potfolio',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `I build the Website by Vue.js. I feel Vue is much lighter than Angular.
+                       The way to build a Web app by Vue is also very clean and enjoyable. 
+                       I used an UI Framework Vuetify, it's special for Vue.js. 
+                       There are few components look like Material Design, but there are also some components very unique.`,
         },
         {
             id: 6,
-            date: '2019-09-21',
             title: 'Chinese Color',
-            techTalk: 'third-techTalk',
-            concept: "concept",
-            cover: 'https://picsum.photos/200/300/?image=162',
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+            cover: 'https://picsum.photos/200/300/?image=124',
+            date: '2015-06-04',
             techs: [
                 {
                     name: 'iOS',
@@ -278,18 +360,52 @@ const contents = {
                     color: 'orange',
                     icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
                 },
-            ]
+            ],
+            screenshots: [
+                {
+                    declare: 'main title',
+                    img: ``,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: ``
+                },
+                {
+                    declare: 'gif',
+                    img: ''
+                }
+            ],
+            concept: `Coming soon`,
+            demos: [
+                // {
+                //     name: 'Website',
+                //     link: '',
+                //     icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                // },
+                {
+                    name: 'Apple AppStore',
+                    link: '',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'Google Play',
+                    link: '',
+                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                },
+                {
+                    name: 'Github',
+                    link: '',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: 'third-techTalk',
+
         },
         {
             id: 7,
-            date: '2019-09-21',
             title: 'Infinity Cards',
-            techTalk: 'third-techTalk',
-            concept: "Come soon",
-            cover: 'https://picsum.photos/200/300/?image=149',
-            gitLink: 'third-git-link',
-            demoLink: 'third-demo-link',
-            images: ['first-images',],
+            cover: 'https://picsum.photos/200/300/?image=123',
+            date: '2019-02-01',
             techs: [
                 {
                     name: 'Angular',
@@ -301,7 +417,45 @@ const contents = {
                     color: 'blue darken-4',
                     icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
                 }
-            ]
+            ],
+            screenshots: [
+                {
+                    declare: 'main title',
+                    img: ``,
+                },
+                {
+                    declare: 'strikethrough',
+                    img: ``
+                },
+                {
+                    declare: 'gif',
+                    img: ''
+                }
+            ],
+            concept: `Coming Soon !`,
+            demos: [
+                {
+                    name: 'Website',
+                    link: '',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                {
+                    name: 'Apple AppStore',
+                    link: '',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'Google Play',
+                    link: '',
+                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                },
+                {
+                    name: 'Github',
+                    link: '',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: ``,
         }
     ]
 }
