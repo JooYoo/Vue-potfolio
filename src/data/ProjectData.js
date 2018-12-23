@@ -33,19 +33,11 @@ const contents = {
                     img: 'https://lh3.googleusercontent.com/7XkHzeuYBUX6hKtoBlNgm3V_5O0qcBNlGbhPHt9vSvIwQlXlBFvHz3PFI6rQGf3iZHAg_4bwVF1FOAJ-f6hjencl_MnFFObp1vfFLLPctxG3pkOnGt9Z5B6TeDZJIPv9CXNnAJ5Rw305YOqVIpTc1Eamga30naYDWrB7I8nS5BHHczOGJQNBoHWsxWcVgIbwQunHadZxeMUu6eeC55CMz9Zf6puaIq1Sj9dkpbFX1ATuWFx7V3HNS6FuZIhtOfQd0cbHLbiqIATCrdzQ5NNDCgERFJ5uz4MlONG2cgDKdr8_f9pdYdqdpHWB7wclumdQHdXioRxsK4c9-O2BLm7WHjpowSWWtG7fCfjyYBNfOtGbpDUBQzE0Lmg23k8r5hyNpKZkcCavEkZ5d0HjHBFeGXNSRyHQw8mjU8mlVCkKzSQVJ35lU3yOuTMRMOwcmTqFEeJCIIRaGtJ9bDEriC-uSAFEnWUjZYNxr7A7KCLGQGpKxuGx-i1AlZDsLAmmYU6qO97IlLXTFeXW0a2Fi7Bwzo8MVpSUVa2ALRqkC8YY2vGDrIptYvxNtXVa__M-v3GRgjMsHOWwIlYh2p5X8yoGQJkHCyKUa6LWc77J6zflzHNBOEgHanS0gFm7pQyvv9Hb5ZnBRWJ2-seqjstQ5MF0Kpwy=w419-h642-no'
                 }
             ],
-            concept: `Lorem ipsum dolor sit amet, 
-                      consectetur adipiscing elit. 
-                      In diam mi, aliquet quis consectetur eu, 
-                      pulvinar at ligula. Nulla ac odio sed arcu sodales ullamcorper. 
-                      Pellentesque venenatis orci et finibus pellentesque. 
-                      Ut hendrerit neque eu felis congue dignissim. 
-                      Praesent dignissim ornare purus, quis sodales mi elementum nec. 
-                      Praesent facilisis felis vitae ullamcorper sodales. 
-                      Integer at tincidunt odio, in viverra libero. 
-                      Nulla eu mi bibendum justo vestibulum fringilla sed sagittis magna. 
-                      In convallis congue ultrices. Nunc ac dui convallis, 
-                      iaculis nulla non, ullamcorper turpis. Sed id viverra velit, 
-                      eget malesuada dolor. In non congue ligula. Fusce iaculis dolor eget fermentum faucibus.`,
+            concept: `ToBuy lite is a TODO List like app, it's a simple Shopping List.
+                      The title shows the current week day,.
+                      User can add, cross out and remove item or clear the whole list. 
+                      The App can be install to Home Screen, behaviour the same like a native app. All the data save in local, 
+                      and the app can be used offline.`,
             demos: [
                 {
                     name: 'Web App',
@@ -68,23 +60,10 @@ const contents = {
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
-            techTalk: `Lorem ipsum dolor sit amet, 
-                       consectetur adipiscing elit. In diam mi, 
-                       aliquet quis consectetur eu, pulvinar at ligula. 
-                       Nulla ac odio sed arcu sodales ullamcorper. 
-                       Pellentesque venenatis orci et finibus pellentesque. 
-                       Ut hendrerit neque eu felis congue dignissim. 
-                       Praesent dignissim ornare purus, quis sodales mi elementum nec. 
-                       Praesent facilisis felis vitae ullamcorper sodales. 
-                       Integer at tincidunt odio, in viverra libero. 
-                       Nulla eu mi bibendum justo vestibulum fringilla sed sagittis magna. 
-                       In convallis congue ultrices. 
-                       Nunc ac dui convallis, iaculis nulla non, ullamcorper turpis. 
-                       Sed id viverra velit, eget malesuada dolor.`,
-
-
-
-
+            techTalk: `It's a Progressive Web App. 
+                       Service Worker build in, 
+                       offline run available. After input address in the browser, 
+                       it can be added to Home Screen, same like the another native apps.`,
         },
         {
             id: 2,
