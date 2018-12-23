@@ -109,7 +109,7 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/JS-Calculator/',
+                    link: 'https://bit.ly/ngtobuy',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
@@ -124,7 +124,7 @@ const contents = {
                 // },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/JS-Calculator',
+                    link: 'https://github.com/JooYoo/ng-tobuy/tree/master/ng-tobuy',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
@@ -344,119 +344,119 @@ const contents = {
                        I used an UI Framework Vuetify, it's special for Vue.js. 
                        There are few components look like Material Design, but there are also some components very unique.`,
         },
-        {
-            id: 6,
-            title: 'Chinese Color',
-            cover: 'https://picsum.photos/200/300/?image=124',
-            date: '2015-06-04',
-            techs: [
-                {
-                    name: 'iOS',
-                    color: 'grey',
-                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-                },
-                {
-                    name: 'Swift',
-                    color: 'orange',
-                    icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
-                },
-            ],
-            screenshots: [
-                {
-                    declare: 'main title',
-                    img: ``,
-                },
-                {
-                    declare: 'strikethrough',
-                    img: ``
-                },
-                {
-                    declare: 'gif',
-                    img: ''
-                }
-            ],
-            concept: `Coming soon`,
-            demos: [
-                // {
-                //     name: 'Website',
-                //     link: '',
-                //     icon: 'https://cdn.svgporn.com/logos/safari.svg'
-                // },
-                {
-                    name: 'Apple AppStore',
-                    link: '',
-                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-                },
-                {
-                    name: 'Google Play',
-                    link: '',
-                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-                },
-                {
-                    name: 'Github',
-                    link: '',
-                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
-                },
-            ],
-            techTalk: 'third-techTalk',
+        // {
+        //     id: 6,
+        //     title: 'Chinese Color',
+        //     cover: 'https://picsum.photos/200/300/?image=124',
+        //     date: '2015-06-04',
+        //     techs: [
+        //         {
+        //             name: 'iOS',
+        //             color: 'grey',
+        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+        //         },
+        //         {
+        //             name: 'Swift',
+        //             color: 'orange',
+        //             icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
+        //         },
+        //     ],
+        //     screenshots: [
+        //         {
+        //             declare: 'main title',
+        //             img: ``,
+        //         },
+        //         {
+        //             declare: 'strikethrough',
+        //             img: ``
+        //         },
+        //         {
+        //             declare: 'gif',
+        //             img: ''
+        //         }
+        //     ],
+        //     concept: `Coming soon`,
+        //     demos: [
+        //         // {
+        //         //     name: 'Website',
+        //         //     link: '',
+        //         //     icon: 'https://cdn.svgporn.com/logos/safari.svg'
+        //         // },
+        //         {
+        //             name: 'Apple AppStore',
+        //             link: '',
+        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+        //         },
+        //         {
+        //             name: 'Google Play',
+        //             link: '',
+        //             icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+        //         },
+        //         {
+        //             name: 'Github',
+        //             link: '',
+        //             icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+        //         },
+        //     ],
+        //     techTalk: 'third-techTalk',
 
-        },
-        {
-            id: 7,
-            title: 'Infinity Cards',
-            cover: 'https://picsum.photos/200/300/?image=123',
-            date: '2019-02-01',
-            techs: [
-                {
-                    name: 'Angular',
-                    color: 'red',
-                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
-                },
-                {
-                    name: 'TypeScript',
-                    color: 'blue darken-4',
-                    icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
-                }
-            ],
-            screenshots: [
-                {
-                    declare: 'main title',
-                    img: ``,
-                },
-                {
-                    declare: 'strikethrough',
-                    img: ``
-                },
-                {
-                    declare: 'gif',
-                    img: ''
-                }
-            ],
-            concept: `Coming Soon !`,
-            demos: [
-                {
-                    name: 'Website',
-                    link: '',
-                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
-                },
-                {
-                    name: 'Apple AppStore',
-                    link: '',
-                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-                },
-                {
-                    name: 'Google Play',
-                    link: '',
-                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-                },
-                {
-                    name: 'Github',
-                    link: '',
-                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
-                },
-            ],
-            techTalk: ``,
-        }
+        // },
+        // {
+        //     id: 7,
+        //     title: 'Infinity Cards',
+        //     cover: 'https://picsum.photos/200/300/?image=123',
+        //     date: '2019-02-01',
+        //     techs: [
+        //         {
+        //             name: 'Angular',
+        //             color: 'red',
+        //             icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
+        //         },
+        //         {
+        //             name: 'TypeScript',
+        //             color: 'blue darken-4',
+        //             icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
+        //         }
+        //     ],
+        //     screenshots: [
+        //         {
+        //             declare: 'main title',
+        //             img: ``,
+        //         },
+        //         {
+        //             declare: 'strikethrough',
+        //             img: ``
+        //         },
+        //         {
+        //             declare: 'gif',
+        //             img: ''
+        //         }
+        //     ],
+        //     concept: `Coming Soon !`,
+        //     demos: [
+        //         {
+        //             name: 'Website',
+        //             link: '',
+        //             icon: 'https://cdn.svgporn.com/logos/safari.svg'
+        //         },
+        //         {
+        //             name: 'Apple AppStore',
+        //             link: '',
+        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+        //         },
+        //         {
+        //             name: 'Google Play',
+        //             link: '',
+        //             icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+        //         },
+        //         {
+        //             name: 'Github',
+        //             link: '',
+        //             icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+        //         },
+        //     ],
+        //     techTalk: ``,
+        // }
     ]
 }
 export default contents
