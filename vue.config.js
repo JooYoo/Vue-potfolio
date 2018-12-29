@@ -1,3 +1,3 @@
 module.exports = {
-    //baseUrl:'/Vue-potfolio'
+    baseUrl:'/Vue-potfolio'
 }
