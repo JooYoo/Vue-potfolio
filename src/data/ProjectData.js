@@ -90,15 +90,15 @@ const contents = {
             screenshots: [
                 {
                     declare: 'main view',
-                    img: `https://lh3.googleusercontent.com/tW4PZjBWdqMJyrBRDYDHqx39mX_wlc-bbY60UUi1V2QT6ALozQvVMzF83pB7K1Ym40UlDW0uSrHkcAX6yplKYNcGFzVMe5G-UisTZrCm5j5Fj15AlyT7RPTjtoPNcpSdUBPPMcfalrqrPkqVIOcmrU5jVMlrs5knV-EQCXxAgC8LSQ7AbzZgmx1RS3SNlME_6GeLUI56djIX76v3Cm_hT6hdejckpDOElm0lUs2Y6ByjmcJVepqX-fcJvq_VkMRs3TYFFkLAV2Ns8dy_jlGEL9aRPwOT_4i0VPB83xhdIxmZrLZY3IiGNY6eVONEJKsS8hRTamtn8OOyKHG-H0dtNl057HQQQxfzwqArFAVwIW4Z8zPiDabFaAiOXC3_LHCY2yHWEetFPuDuHoDnkJe1RtEqXv99wsA5VVxlBZhKCruICCHf-3FuzDKABKxlsrBqgX-2f6LLZDoM10ia-WxG1SfznqklNiMEld9x86tMq_2uRrWFdf33EW6xOfv43cQI7jnvAveL6GvLdRFcfmodhNedeFNvv2p948GauVHeOlJTsSbzDCtkimPkxmsSQDgnyrBCgMGN5TxqpWogvULrgGRoxvle9t1slCOdP-K9JeLFxV7fKpJEQHmV9UOD_OfkhOP4pJk1AAJs_vaKEjk8udrt=w110-h220-no`,
+                    img: `https://farm8.staticflickr.com/7806/46515620691_4f91c0a691_z.jpg`,
                 },
                 {
                     declare: 'strikethrough',
-                    img: `https://lh3.googleusercontent.com/gGNzcYrZfSTcwheEHL2YeUbl3srHO8WpDGb3e5MvBrpGw_qncKrF834vD4gGJ_sdm02ic9oY5h7t9mXoE2gNLGL0kDzdkMhEIS0W1Q6RqbyCbPVXE3ttxn1mT3RMEPvsweWcsQPpIaq5U327wvEadg3oyjRzqwif98xhB-WoR5Mv2NeaIUBmt-CqWgOZ8svZtuYKAhaayY247ks4XddtZJkpFxMGhHki91HuqeVQXKeeaA1ub8o2vcOWfITgDkjmL9VCvEmY0U-U65riiRPH--6jNlcVOVFO5FSRAYElwKq9LKb9RkulARLQXoS5qy9X21ImjC-IsAaK88Fj4q31zNHa5nVe2tt6t-P1C8CvCMhFixQx9RP_N7L7oPvjpF6SiWuBN7LMe8EYZz6KvmeMW2amMzOaDtVyelyUuxFqfVb7181_HmP2Iia3BKTKiZY1wSFfuwXtpGln2pZKQNBe_EfETjMK3GLv0fGvofQu3PcXjTxJH7jlmzqv6bc5OP4rRIuV-uZ8HHuYpTkByMd6VrKdkPHoKn1W70kEpklFPKXAluzHTtN3f9lgmC8UBS6M1RxbQcDcdMyPkv5rWlah8OJ79ZuHQkPWQBBslZ_NGgf0e4YKadIhF_dytlt5ZPxNZ16oyejRHLmjtSvOQBIqLpSC=w110-h220-no`
+                    img: `https://farm8.staticflickr.com/7900/31575427087_f118a15566_z.jpg`
                 },
                 {
                     declare: 'gif',
-                    img: 'https://lh3.googleusercontent.com/cjbbva5R8RUiJNY2oUxhF-1ctL_piy7E9jhElKYTwZlm8n_WxMS-pb5BXNMNOneSlcUrzrpgNM6uG0TXjha0nMmbMOoTtUMT2ePfExlzy9-zh0XwfmBeuVGRkPUH7eyzTWgvi3KbmxId6-RZJ7bAjgiGbL5lJLy-A1m_hLS-_CtzKl_07Qca9dhO01EM6jJ6YOrlgBCpx8HxrUqvJ9EIpdiqnz5I9lIRhMXVOzH_NXy3ZsATSvqBPGfuyQpqLYrVQRahxIfgVnaHl5-o8RIUYAWBhlMb-a53y69GRtETL9n1ORwv9j_s7AbU304ebs6MNCMq9dz4B1PuAyxfU5gfH4YqL6RGrGUkNmWECb43Z3GHT8Xq4xGDJ2TOexZ1pYf-m3DBi_xjsTkcn_Qv3ViQ2Es5mw7bsL01yG9fW7GyiUlQWD9Dg-XlRpAEh8WLzvttLMZ2UU9OVP0hin585eACj8_9s5Cr1VR4Qjb3pXkfKIw3n9psZaAKEvQ2zxwb2LIJFsksIXWsE0eIZQ2p2yDXuy9trPJ7ir68cB2OvdmqftSUNobY7c69wg2omDCZzmSOHfIRvJYNvI2I_VuKDzrsqIcCHbd2vwCmWVIdAXDqnz4PdmNhN5G_j6hl_NsKHYEPXZ4IX84owG-ZjyCGSPmlD0At=w110-h220-k-no'
+                    img: 'https://im4.ezgif.com/tmp/ezgif-4-69240b01b3a3.gif'
                 }
             ],
             concept: `ToBuy Material a Shopping List app with Modern Material Design. 
@@ -161,15 +161,15 @@ const contents = {
             screenshots: [
                 {
                     declare: 'main view',
-                    img: `https://lh3.googleusercontent.com/3zoieb9mJKx631hdt-QwQ9TOJWOawvCVRgywbXCCcs7H3pA0QGcegQ5ST5qxGXU3bNA2u7S39yhf6-h6dGSa8seLaKKHwI5eowskZgesGcOgOD_hD8Ig7BcbrDcFc3x0n_0_ycvO0adxgk-lANOm4lSpCAHrLb9k_u4uGpvDk4kKBSf1ow44eJXR8VTi3X8JiDhvbLV7drTgbHx67Dgmz2IoA8CUZuoGGbAQ6jPjVBK3CZYyiHbLDVN5oJwg4W57l-Dy3uxaA0qeLIoUe6uRM8zWmZNTkj5lbQ4lLxU2OTi9s59hxV0Bv3eoTorwXSzqYQ9WLacRV1XbcA7_y09pXGMGrLim57v-Fc8_8uofeo9w36f-wKdgKAoPeB-dWaAUb5zQD1mog-ku4RYTHvea7yfi91psz4ulhn9rqK3f1tmVNPrqS6-1vj3Mm2zxDtkGXVCS29WQP0sFNsG3o-h1nnWaEVNglSAXEafqO494oU7l8_Sz4PbRFNvyuXlHsBsQX4_brSksfY6grhUieWEwa8gosKDN2mEqDGWRO8CNZwvjmtl7pucy2VpxMtcfDS6PKVczm9-gfbnNGRU-1bXYTgON_kQ_2deq-7DwGJMbjagxarapVxIAZ9duLKC7SdW3nhFkuJc9TcBMS4mLEHIOkDuB=w940-h1878-no`,
+                    img: `https://farm8.staticflickr.com/7898/45602331905_036742ca4c_z.jpg`,
                 },
                 {
                     declare: 'strikethrough',
-                    img: `https://lh3.googleusercontent.com/bH5_Cz42I4B16kz-04oF19sFBl9UFmPt8O1sbEh9xiOxiSF0x1s5sGRUHe-Zmi0Dmw6wAdAOyN8qjscZ1gojunvqu8wJa3tqPS4gL01fwpOmU1SP_bTl0eM-PTU8eqvT2tIYJEtfdCjQMz1GOKOEYP_1QzSLnpDRFllX5RhL6sQq7dtPnXttfFnv0X60avqO8H1opEDPO9L0xiUyRRsCfkz7rSR8JMA4kNbJM3ieX9N4GOpaBSDvNVCjPbnm85Uo_JvCwrATPn4z_pgA_xIPkyVg0Txb9xjBRNmJNu8sxiOMsmuyT40OwZKoxvsEyPb7mSuyXq9VX1itDGb0vAWxrF29ykscmLAr8kfW4aefe99WE48v3p6ETjJjrXjXkXLR-tmJ0UWuCDkDZDNmYs3UmFcGEf8gBs08n69xThNZ_4IHF0wUH8cRZX8K7LBrOjl-L10YowujLN3wi2Oa3-hR4MEgp6DpOFngDKcxSfRXVlVkX6dgzubISspXLdV6XhQ7sVvv9k8UqNfWVeE4G17yNpXTrbMbtcgZwVP7rqh07tvjbCtCDTUT35jm1MdJprdkuxSeoIEjyn0-TLrI4-O48mBfyyu10RThJKLrGQwtQEO1LsoUigscd2byp0cn7g7m_LkPGFQDzeLJkQgDfqyAABgN=w940-h1878-no`
+                    img: `https://farm5.staticflickr.com/4874/46515794961_bb91328db0_z.jpg`
                 },
                 {
                     declare: 'gif',
-                    img: 'https://lh3.googleusercontent.com/b4nfrNgDxU1h2ZsGHpSXUYA-7SjfNTDVFt6qt9NgqiFjCANKmZ3uSNMCl79yZuvWwfwAXCVwXdJNvCe0OY7V2LpVxyfFsa-BD78c4xs8otmok75K8Pg0aRQXpJBWfJ9scyf68LffFUnv9p1zgx-lKQoT3253T3hekRS0C5x4Z1Aj7-RZd_W2kPE5GNfFa4vNP0L548my3CfBjpYywmhZ_SgDTBWuiBq-5_jQYMOwmX8ORHlCJfOOo7I183H0YImU3G7ibdYKSfo7QHccyDF4l2dfKuSJ-gDswpUfM-o-wGJzZGhassO4YWnr4iUWhVpBio39corhEhwGy9SvUm_7JAoyrdyALAaNJFv6epnnc1DxwaX1k6kWKB5vuDGR8YRvkn5btpunF142cpRPbSCoVgwRnRAgcqnMU615uy5GJNmuRMg5jjSvYy3EAu9XHRq04exfS2O0bzT9vPRsYMxHXw3ARdnCn_0aRYVoVPuTsNdZXuUlW_aP2piUBovdBsqBPxT684F8w0vUwLMZb1LbmyByD0FgKfX5u7Myn_ItsmxNe6ZiorxBBpNnLtvKcNANty55XHPuPneiweAqIMyfLB6jNxyQsh1-QleALtwg0U_FGiT8tf111OIgODSSFXeK39LP4jRlfUJR1P1YjEvcHSOm=w119-h238-no'
+                    img: 'https://im4.ezgif.com/tmp/ezgif-4-da6d5f9537f1.gif'
                 }
             ],
             concept: `jsCalculator is a Calculator App. 
@@ -236,15 +236,15 @@ const contents = {
             screenshots: [
                 {
                     declare: 'main view',
-                    img: `https://lh3.googleusercontent.com/hgf5M_nWMvNrXz9kNScwAG006JtUV8RNb74V43xx_ZWB8t17hPDOY6JhYXeM7D1KK3TQdHlKeEj0_U0NiJtRWr34SN1M0gvLXCeaTZl6u6LDw52MZloNSB9XVXkA-HfQNTM8Akdu8Ze0AMc8fqFunzZmzZeiwh3iyF86QB7wXuN78op300beIpwmysqlLUGHgC4yfD__7ljJyoUj4Ysj1nantUyH8yMA5eUKb06ivQVMMh3Oy95alR0RzVhU7gAFYtvGcLp6rHPfO_SQQ4CNHQMk6HtcSd6PQFre0VydzHUSpWWmO1jKO9GXZtURu8N_KC_N-OWCyGFGpTfNnxW8Masp5qA6rwQ6s-VvORnq5Q1RT9Qp0fp2xH3iXgZuiwMTE35dUOY0mGPeDexiid-_C-1u12mDC3Um-LFQRif9k4FUMuVf8bKTLh4dPXcyVSsQ3YWZJ8PsT9ujvMfxkWnicyR9trsaZHF1cu_RbvgYT4bHRRdDfFdVcHDDtmJchvkpYJG_2J_NGYK4wDtkZ3gf40nj8iRrS8cxVkGeWiZVupACnIm37f3VDS5sg0Byn1oXyiyoTatsu7kz7HOWbE2DgGh5M8sqEbWqTCgMQ2aVZBn8zuicKYlUo9iTzOLzzVfe3NZvoToTp9rpvLAsd82AF4Di=w940-h1878-no`,
+                    img: `https://farm5.staticflickr.com/4893/44698689220_91a15d313f_z.jpg`,
                 },
                 {
                     declare: 'strikethrough',
-                    img: `https://lh3.googleusercontent.com/4Wl9DMe3yP7Ntr35JlwoISewY6llwrK57wIxt_JmvBFzwMHFxWhSnXBmhsGcumXdpNHkoG-IBTcVDKTHRwFtRT7zyAja0KwDUz5DeKBXGV-EnnEUp297pSgXs2AS28pF7XlnqKx0nouB7o9wFurOfqpl3BYXS6o3COrvd07_kGRy3GkCa-BCxoiIFT0dWpLl5Lvwj1T5BgpiJ_Xg4f6tB9fAztJ153SaLjhh6cQe8jubSz_WHI5sJ_1UkCht3xStRs0-YI6iUunpS8uDIt7j4Ksl4k6I1GGBHC5WDOufRDwuKSgXiOqcP4wt4Cn0CHQ843QItscujA3qIfSk1LcgiQkhM5SwXeEz5z8VtHxZInWnV0qzFYXyXp1nmA0iF684nrAcXwDTINvwLTWYcMVDhELzRiS5cAeIcmXLjCObUQ8QeqoZ21-twxqRCHTiJUIW2_OcSI_9fnyugBXwYqkWxGTwWzGs5o60ju4amAR7aCT-focak3DK5aJVS4lxEhx12mfcf7dsUmOrsFop4l9w4xbvCy5EoYEw3-MAJBhDg65BK5o1_WmGMpz6WocbUIqIV2qxl5wmX5_LZoCRMYY4loEWMc1hBNXvkJ_9AqSUIZ_wITJGSa-f59oy2awXz-Fw2h1fv7oIDxyiA7TOfzFbYGOJ=w940-h1878-no`
+                    img: `https://farm8.staticflickr.com/7849/45602417225_24f63280e3_z.jpg`
                 },
                 {
                     declare: 'gif',
-                    img: 'https://lh3.googleusercontent.com/-aESadqgtvv-V_Axw71RDNayv3i0feId9V2GMMT8yKMeWe8gOkEbQfDMYIpAXnLmYfQVQNR6FE2mCrc3PooJYnRO3sQ60vpVN_hpK_3cpnDOU1swccXgqMfLrA2G75GszPwoyZC7Z0182f5VjwRAxhmAFVWaPLdUIV1V7nKg3IcyIdoZirt14YSlYXI6XpwphaRN4efrdlLcqTVAfcN9tXYtjc0nehzIIvDFTIbTLSk47UPdx70JCH_Ex5qjggEilXVuUkHXYFXiEaHEDJUErqEBs90ATRTt6bJLPu3fEd1OgSWsz5SrB71MS9p0QvWwfAE6HXZ593vPeSm0TLBtPktvMixYm4QImkmea20Q2dN6J6ASMUkahx393RHeDr744yIvXWxx5cll8a3c9T0-GUuXX1if1MPXOT8V3Vc6Ez62GXFeOHMZ5wzypxY1EepRx66qnHXuGqlJbMD2LA2JWxGAjZwZEsGcmAP-2eoNDpq5c6VNmuo14U4HZl5_kUnGQOTNLl9Pi1BOqCRE5TQWSfav8CXh-md-WxkGSHrLNwooKUmvF1chJ4FFB487FdcPqJryUPwS-Xk5NQJUbVVWUv6omX5uDAOcEcuTx9sLG9mbx3pPhokZN11NmQX2ynUfH8d5ob6OPmG3ejhQFCVKHLoF=w518-h1036-no'
+                    img: 'https://im4.ezgif.com/tmp/ezgif-4-c1552e5e40d8.gif'
                 }
             ],
             concept: `jsCurrency can calculate currency exchange. 
