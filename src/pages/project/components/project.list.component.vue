@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="margin-bottom: 50px;">
     <!-- TODO: filter -->
     <!-- <v-combobox
         v-model="chips"
