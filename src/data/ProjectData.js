@@ -98,7 +98,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://im4.ezgif.com/tmp/ezgif-4-69240b01b3a3.gif`
+                    img: `https://farm8.staticflickr.com/7900/31575427087_f118a15566_z.jpg`
                 }
             ],
             concept: `ToBuy Material a Shopping List app with Modern Material Design. 
@@ -169,7 +169,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://im4.ezgif.com/tmp/ezgif-4-da6d5f9537f1.gif`
+                    img: `https://farm5.staticflickr.com/4874/46515794961_bb91328db0_z.jpg`
                 }
             ],
             concept: `jsCalculator is a Calculator App. 
@@ -244,7 +244,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://im4.ezgif.com/tmp/ezgif-4-c1552e5e40d8.gif`
+                    img: `https://farm8.staticflickr.com/7849/45602417225_24f63280e3_z.jpg`
                 }
             ],
             concept: `jsCurrency can calculate currency exchange. 
