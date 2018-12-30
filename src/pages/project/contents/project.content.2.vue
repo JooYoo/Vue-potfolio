@@ -1,6 +1,6 @@
 
 <template>
-<!-- ToBuy Manterial -->
+  <!-- ToBuy Manterial -->
   <div class="blog-container">
     <v-container grid-list-md text-xs-left>
       <v-layout row wrap>
@@ -9,7 +9,6 @@
           <p>{{ProjectData.projects[1].date}}</p>
           <v-chip
             class="blog-chips white--text"
-            
             :color="tech.color"
             v-for="tech in ProjectData.projects[1].techs"
             :key="tech.id"
@@ -56,7 +55,7 @@
           <br>
           <br>
           <p class="display-1">Demos</p>
-          <v-card  class="blog-demos">
+          <v-card class="blog-demos">
             <v-bottom-nav absolute color="transparent" height="100px;">
               <v-btn
                 :href="demo.link"
@@ -73,7 +72,7 @@
 
         <v-flex xs12 class="blog-techtalk">
           <br>
-         
+
           <p class="display-1">Tech Talk</p>
           <p>{{ProjectData.projects[1].techTalk}}</p>
         </v-flex>
@@ -85,7 +84,7 @@
 <script>
 import ProjectData from "../../../data/ProjectData";
 export default {
-    data: () => ({
+  data: () => ({
     ProjectData
   })
 };

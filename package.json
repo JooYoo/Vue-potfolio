@@ -8,7 +8,7 @@
     "lint": "vue-cli-service lint",
     "deploy": "gh-pages -d dist"
   },
-  "homepage":"https://jooyoo.github.io/Vue-potfolio",
+  "homepage": "https://jooyoo.github.io/Vue-potfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "vue": "^2.5.17",
