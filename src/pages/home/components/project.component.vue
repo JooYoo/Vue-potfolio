@@ -7,7 +7,7 @@
           <v-layout row wrap>
             <v-flex
               v-for="index in 3"
-              xs4
+              
               :key="projectData.projects[getProjectLength.projectLength - index].title"
             >
               <!-- //TODO: add computed for projectData.projects[index-1].x-->

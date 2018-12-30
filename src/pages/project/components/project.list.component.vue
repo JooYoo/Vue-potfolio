@@ -28,7 +28,7 @@
       <v-container fluid grid-list-xl>
         <!-- <div id="experience-title" class="display-2 font-weight-thin">Project</div>  -->
         <v-layout row wrap>
-          <v-flex xs4 v-for="project in projectData.projects" :key="project.title">
+          <v-flex v-for="project in projectData.projects" :key="project.title">
             <router-link class="router-nav" :to=" '/project-' + project.id">
               <v-card class="rounded-card" hover>
                 <v-img :src="project.cover" height="200px">
