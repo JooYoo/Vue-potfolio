@@ -98,7 +98,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://lh3.googleusercontent.com/_LowkolDlkugjpljxxtolDSQ96cyHUd9pSbCZPQEOo9_htuWdACk4BfVaf6C9qDqdR2o5FVYIGG09mIW0Apmd6HbNzQrSJE9h4MlMOmOjO_VxoezW_6tQTqbfW-xObyv-vT79Tdl3TdvueKbb-vzYMeD9KffZzAp5D7ygoJTXXZ6x2DyXKIdbJTrXIDjegSQUuNVkIeRmhZcq1SGmuUIzbaZAx6YZq3SNazBNOMenJqFBlhBSQUgZrD149p-sFMOut4sTwwxQokn86C2SMAAFCDtCjJJclM6R4rqDg0N_LVCEuwEAta-XE5MIfH-NAVW15n2J95_7jbaEjzvmuyhw7MQOF8Al1mN3yDnGGGT5MzNEI0TCn-bkBeHHkIyaMKNQhu2Ci-6S2hrE_rBWVcLadivAnNq918DPrOMv_xPvEFyHZKHLiWOqT4-nlYThHVOFxYc9jBL5lohSLfCtA3f-HKF8ltVZG5XD2EhPWDb5jJfUibtrP5Dsvnsh4axQVJR-YUg4bSo83bmdZx7R3VcSNoNYiuDV6hnjjQKnH7hEJ9reUEm4jbkGygie4dxXiHY1nVWFOfHpRgGq9HHM9uFfT4D9kH3yb-MkGGFwdEchbmzU_dC4bP_W93udctD1GqhstROK-5kyJvEDE9izHGkyAuE=w469-h938-no`
+                    img: `https://media.giphy.com/media/cAhFL9BsfOtcDJJp4D/giphy.gif`
                 }
             ],
             concept: `ToBuy Material a Shopping List app with Modern Material Design. 
@@ -144,7 +144,7 @@ const contents = {
             techs: [
                 {
                     name: 'PWA',
-                    color: ' purple',
+                    color: 'purple',
                     icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
                 },
                 {
@@ -169,7 +169,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://lh3.googleusercontent.com/8g9XZQQdJu9gvheIQamo2O6REY9KXTbPYtr_MwoDY1pq2rENLOnqFQd2X9AfjW-0ipxce0IAsq2fIHh4ZedlZkIpJa4iF9ly0wtglfk24uRJCRk3bU8By4Y7i5M-zz8avPpnB-C8k2HxIC5PfmIRMgM9AXXERdrtgm8hQkIhgVIPD2ZjvU_nwI14Dd1XYkloTcIJYO1bGWxa_GT1HitQEnhuaQSq3aM6-cugAU36jKF2zex4Oa8bIHm9Sg9hoHKIP2jgvGVfIvHYyOKmTYByvXeuMRbaOrDsOjii0FgpnQ5NqqxKo1GP4XNcleLMAGd8tIIYI0OnkFzY3vq8B_70PCVtshJeP5bZ4GACT-qJcl9HkkZAq2_IcGr4TV8Lk2L1EsypdDT5rlaAQD9OMWknY2R48N13oqq0t1Tlx3M-sbYxAxeYDofYLaAfhix1SumgtzZ6PyV7sFEdndjK22l-FLhOYdhRloRjPdNSkkmOAJ0c76jpJz7OkLWsI9LM6zAMUrE3JLvo5WwC-YBLVn4I7Pvd8ZITxJ2pNDvPjNF6elqSjhzsqQcankNA5LyW2yLsLir46yNZ7e1Y4zcAK6oTjzithpuaichzKD83eJKKn9Md0sUN28i5vsqR6wsI0HEB2FPAPOk_HCPTzYqlUpkCV_Pn=w469-h938-no`
+                    img: `https://media.giphy.com/media/wHBli23UXigA5rKppu/giphy.gif`
                 }
             ],
             concept: `jsCalculator is a Calculator App. 
@@ -244,7 +244,7 @@ const contents = {
                 },
                 {
                     declare: 'gif',
-                    img: `https://lh3.googleusercontent.com/Qd2PC_-ikCvUsSPpWwHQD8fwvoN7fUQLc9y5acNRbcSx3mNK_2_thVYqf-0ITH4q88NJ9fJSQngSzWx_o2SaTilm_AyHmt7l_kCCNzwS0sCxH_Du5Ut2C25JLBv-h7UqYzCji_NkY855vv47cSfPoBqXAVfhC7JP7TDxk5i8ZGGgrEF8PFKoCQKwD9q0Us1VHqRNBiwnpdXnGdxluhIsmfUHZI2wtJoLBqSOHghdor_u2ohxPK3i0xp7PaFVz_vMKghK9lx_VDsd74tdijl4QkUyHlXRSoj89UntTCOJ5wAiwnl9vR1L0OjtIvCPKVP79uVDRab52o4zjEtUTOsEvAKm1gslUVA-4YUu7TuUb67xIp2gnuzbNxf64YOBCFKwkXrMcqsyxcPO44YegOf8efDXgIei-9p_ta5hQPhFQP6s5v_OlhPxvnG7Uh6w3qTzH--Zs11fF5EtxW7jkzQ7q2xm7YUzrYKEWtjOikOB-PXeuPbUeyW9_Vyb7CPnIjThkMGs6BWa9IIC3XTJ15573gq-XvNj5gPc1MEng8aXQ1J1GmRpt4lNf_rbrDVUrbgEKPM6jxdEeH_Wv6ng_TPIR-CtAiBH44y0fmPxIKuk0uaY7dfTem0SB0kspnEvyT0axcVgZ4xHqS79GHir_lXnEcwR=w469-h938-no`
+                    img: `https://media.giphy.com/media/3feEm9HGcsc2xxzbeK/giphy.gif`
                 }
             ],
             concept: `jsCurrency can calculate currency exchange. 
