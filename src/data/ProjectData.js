@@ -255,7 +255,7 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/JS-Currency/',
+                    link: 'https://jooyoo.github.io/JS-Currencies/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
@@ -270,7 +270,7 @@ const contents = {
                 // },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/JS-Currency',
+                    link: 'https://github.com/JooYoo/JS-Currencies',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
