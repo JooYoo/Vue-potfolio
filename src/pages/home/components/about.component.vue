@@ -9,7 +9,7 @@
                 </div>
                 <p id="about-content" class="body-2 font-weight-regular">
                     Hello World. 
-                    My name is JooYoo (朱瑜). 
+                    My name is ZhuYu (朱瑜). 
                     I come from China and I'm working in Germany now. 
                     I have the passion to create Apps which have a uniqe user experience and maximize the user productivity. 
                     I enjoy to work with Modern Web App Technologies and UX design tools. 

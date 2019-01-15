@@ -54,11 +54,11 @@ export default {
         where: "artiso solutions GmbH (DE)",
         content: `I've learned the basic of Programming by .Net technologies. 
                   I have the chance to develop Modern Web App by ASP.NET Core, Angular. 
-                  And get comfortable with Frontend UI libraries, like CSS, Sass, jQuery, Bootstrap and so on. 
+                  And get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
                   I worked in Innovation Team, which focus on Mixed Reality and Augmented Reality App development. 
                   I supported the Team to implement 4 apps for Hololens and Andriod Mobile Phone (ARCore). 
                   At the meantime, I responsible for App development by Unity 3D 
-                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects.`
+                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. `
       },
       {
         color: "pink",

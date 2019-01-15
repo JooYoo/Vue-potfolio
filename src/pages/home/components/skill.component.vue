@@ -126,7 +126,7 @@ export default {
       },
       {
         name: "Adobe XD",
-        progress: 60,
+        progress: 40,
         icon: "https://image.flaticon.com/icons/svg/552/552224.svg",
         progressColor: "teal lighten-1"
       },
@@ -138,7 +138,7 @@ export default {
       },
       {
         name: "Adobe After Effects",
-        progress: 30,
+        progress: 15,
         icon: "https://image.flaticon.com/icons/svg/552/552226.svg",
         progressColor: "teal lighten-1"
       },

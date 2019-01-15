@@ -30,7 +30,7 @@
         >
           <v-card-title>
             <strong class="subheading" style="color:white;">
-              &copy;2018 —
+              &copy;2019 —
               <strong>ZhuYu</strong>
             </strong>
             <v-spacer></v-spacer>

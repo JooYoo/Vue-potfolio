@@ -4,10 +4,10 @@
       <v-container fill-height>
         <v-layout align-center text-xs-center>
           <v-flex>
-            <div id="theTitle" class="display-4">J O O &nbsp; Y O O</div>
-            <div id="subtitle">between Code and Design.</div>
+            <div id="theTitle" class="display-4">Z h u Y u </div>
+            <div id="subtitle">between Code and Design</div>
             <v-divider id="theDivider" class="my-4"></v-divider>
-            <div id="divider-subtitle" class="title mb-3">Frontend UX Developer</div>
+            <div id="divider-subtitle" class="title mb-3">Frontend Developer</div>
             <vue-particles></vue-particles>
           </v-flex>
         </v-layout>
@@ -89,6 +89,7 @@ export default {
 #theTitle {
   color: white;
   font-size: 65px !important;
+  margin-bottom: 25px;
   font-family: "ZCOOL XiaoWei", sans-serif !important;
 }
 
