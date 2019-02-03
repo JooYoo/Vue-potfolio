@@ -4,12 +4,12 @@
     <v-container grid-list-md text-xs-left>
       <v-layout row wrap>
         <v-flex xs12 text-xs-center>
-          <p class="display-2 font-weight-light">{{ProjectData.projects[6].title}}</p>
-          <p>{{ProjectData.projects[6].date}}</p>
+          <p class="display-2 font-weight-light">{{ProjectData.projects[5].title}}</p>
+          <p>{{ProjectData.projects[5].date}}</p>
           <v-chip
             class="blog-chips white--text"
             :color="tech.color"
-            v-for="tech in ProjectData.projects[6].techs"
+            v-for="tech in ProjectData.projects[5].techs"
             :key="tech.id"
           >{{tech.name}}</v-chip>
           <v-divider></v-divider>
@@ -18,7 +18,7 @@
         <v-flex xs12>
           <br>
           <p class="display-1">Concept</p>
-          <p class="body-2 font-weight-regular">{{ProjectData.projects[6].concept}}</p>
+          <p class="body-2 font-weight-regular">{{ProjectData.projects[5].concept}}</p>
         </v-flex>
 
         <v-flex xs12>
@@ -28,7 +28,7 @@
             <v-container grid-list-sm fluid>
               <v-layout row wrap>
                 <v-flex
-                  v-for="screenshot in ProjectData.projects[6].screenshots"
+                  v-for="screenshot in ProjectData.projects[5].screenshots"
                   :key="screenshot.id"
                   xs4
                   d-flex
@@ -59,7 +59,7 @@
               <v-btn
                 :href="demo.link"
                 target="_blank"
-                v-for="demo in ProjectData.projects[6].demos"
+                v-for="demo in ProjectData.projects[5].demos"
                 :key="demo.id"
               >
                 <span>{{demo.name}}</span>
@@ -73,7 +73,7 @@
           <br>
 
           <p class="display-1">Tech Talk</p>
-          <p>{{ProjectData.projects[6].techTalk}}</p>
+          <p>{{ProjectData.projects[5].techTalk}}</p>
         </v-flex>
       </v-layout>
     </v-container>

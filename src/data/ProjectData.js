@@ -401,62 +401,82 @@ const contents = {
         //     techTalk: 'third-techTalk',
 
         // },
-        // {
-        //     id: 7,
-        //     title: 'Infinity Cards',
-        //     cover: 'https://picsum.photos/200/300/?image=123',
-        //     date: '2019-02-01',
-        //     techs: [
-        //         {
-        //             name: 'Angular',
-        //             color: 'red',
-        //             icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
-        //         },
-        //         {
-        //             name: 'TypeScript',
-        //             color: 'blue darken-4',
-        //             icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
-        //         }
-        //     ],
-        //     screenshots: [
-        //         {
-        //             declare: 'main title',
-        //             img: ``,
-        //         },
-        //         {
-        //             declare: 'strikethrough',
-        //             img: ``
-        //         },
-        //         {
-        //             declare: 'gif',
-        //             img: ''
-        //         }
-        //     ],
-        //     concept: `Coming Soon !`,
-        //     demos: [
-        //         {
-        //             name: 'Website',
-        //             link: '',
-        //             icon: 'https://cdn.svgporn.com/logos/safari.svg'
-        //         },
-        //         {
-        //             name: 'Apple AppStore',
-        //             link: '',
-        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-        //         },
-        //         {
-        //             name: 'Google Play',
-        //             link: '',
-        //             icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-        //         },
-        //         {
-        //             name: 'Github',
-        //             link: '',
-        //             icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
-        //         },
-        //     ],
-        //     techTalk: ``,
-        // }
+        {
+            id: 7,
+            title: 'Infinity Cards',
+            cover: 'https://picsum.photos/200/300/?image=123',
+            date: '2019-02-01',
+            techs: [
+                {
+                    name: 'Angular',
+                    color: 'red',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
+                },
+                {
+                    name: 'TypeScript',
+                    color: 'blue darken-4',
+                    icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
+                },
+              
+                {
+                    name: 'Bootstrap',
+                    color: 'purple darken-3',
+                    icon: 'https://cdn.svgporn.com/logos/bootstrap.svg'
+                },
+                {
+                    name: 'ionic',
+                    color: 'blue darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/ionic.svg'
+                }
+            ],
+            screenshots: [
+                {
+                    declare: 'library',
+                    img: `https://farm5.staticflickr.com/4849/33097439698_af16aa6a72.jpg`,
+                },
+                {
+                    declare: 'swipe',
+                    img: `https://farm5.staticflickr.com/4881/40008301783_f2ae188bd9.jpg`
+                },
+                {
+                    declare: 'chart',
+                    img: 'https://farm5.staticflickr.com/4867/46248552374_8a722797a1.jpg'
+                }
+            ],
+            concept: `InfinityCards is a Flashcard library in your pocket. 
+                      It allows you easily record key information on both sides of the card. 
+                      The system will help you to organize the cards to several stacks. 
+                      It's practical for you to manage a numberof cards. 
+                      No matter you need to learn new vocabulary of a foreign language, or a lot of new concepts. 
+                      InfinityCards could be your productive tool to memorize.`,
+            demos: [
+                {
+                    name: 'Website',
+                    link: 'http://bit.ly/infinitycards',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                {
+                    name: 'Apple AppStore',
+                    link: 'https://itunes.apple.com/in/app/infinitycards/id1451342091?mt=8',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'Google Play',
+                    link: 'https://play.google.com/store/apps/details?id=io.zhuyu.InfinityCards',
+                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/ionic-infinityCard',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `This app is full cross platform. iOS, Android, PWA are all work very well.
+                       I'd love to say, hybrid mobile app Technic is the most practical and efficient way
+                       to build cross-platform experience. I really enjoy the development progress. 
+                       Unbelivable flexible. I was able to use all the Web Library to achieve my goal. 
+                       2019, it is the best solution for mobile-app development.`,
+        }
     ]
 }
 export default contents
