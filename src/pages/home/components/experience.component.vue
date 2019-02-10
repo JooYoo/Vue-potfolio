@@ -58,7 +58,9 @@ export default {
                   I worked in Innovation Team, which focus on Mixed Reality and Augmented Reality App development. 
                   I supported the Team to implement 4 apps for Hololens and Andriod Mobile Phone (ARCore). 
                   At the meantime, I responsible for App development by Unity 3D 
-                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. `
+                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. 
+                  I started to study Machine Learning, got to know the framework Tensorflow, and developed Apps in my free time.
+                  I was able to built a Machine Learning (Image Classification) Feature in a customer project.`
       },
       {
         color: "pink",
