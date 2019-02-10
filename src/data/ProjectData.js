@@ -344,63 +344,80 @@ const contents = {
                        I used an UI Framework Vuetify, it's special for Vue.js. 
                        There are few components look like Material Design, but there are also some components very unique.`,
         },
-        // {
-        //     id: 6,
-        //     title: 'Chinese Color',
-        //     cover: 'https://picsum.photos/200/300/?image=124',
-        //     date: '2015-06-04',
-        //     techs: [
-        //         {
-        //             name: 'iOS',
-        //             color: 'grey',
-        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-        //         },
-        //         {
-        //             name: 'Swift',
-        //             color: 'orange',
-        //             icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
-        //         },
-        //     ],
-        //     screenshots: [
-        //         {
-        //             declare: 'main title',
-        //             img: ``,
-        //         },
-        //         {
-        //             declare: 'strikethrough',
-        //             img: ``
-        //         },
-        //         {
-        //             declare: 'gif',
-        //             img: ''
-        //         }
-        //     ],
-        //     concept: `Coming soon`,
-        //     demos: [
-        //         // {
-        //         //     name: 'Website',
-        //         //     link: '',
-        //         //     icon: 'https://cdn.svgporn.com/logos/safari.svg'
-        //         // },
-        //         {
-        //             name: 'Apple AppStore',
-        //             link: '',
-        //             icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-        //         },
-        //         {
-        //             name: 'Google Play',
-        //             link: '',
-        //             icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-        //         },
-        //         {
-        //             name: 'Github',
-        //             link: '',
-        //             icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
-        //         },
-        //     ],
-        //     techTalk: 'third-techTalk',
+        {
+            id: 6,
+            title: 'Machine Learning Simulator',
+            cover: 'https://picsum.photos/200/300/?image=124',
+            date: '2019-02-10',
+            techs: [
+                
+                {
+                    name: 'VanillaJS',
+                    color: 'yellow darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/javascript.svg'
+                },
+                {
+                    name: 'Tensorflow.js',
+                    color: 'orange darken-3',
+                    icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
+                },
+                {
+                    name: 'ML5',
+                    color: 'purple',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+            ],
+            screenshots: [
+                {
+                    declare: 'main ui',
+                    img: `https://farm8.staticflickr.com/7840/46995062242_0d98df878e_h.jpg`,
+                },
+                {
+                    declare: 'loss',
+                    img: `https://farm8.staticflickr.com/7824/40082079523_85b9f9edc7_h.jpg`
+                },
+                {
+                    declare: 'result',
+                    img: 'https://farm8.staticflickr.com/7896/46995062422_4693ccf31a_h.jpg'
+                }
+            ],
+            concept: `I developed this Web App to simulate the basic progress of Machine learning. 
+                      The UI clearly divided the whole computing process to Input, 
+                      Training and Output. User is able to use a simple webcam to implement a machine learning experience. 
+                      User could gather different gestures through the webcam, for example "Rock, Scissor, Paper". 
+                      Based on the training Data from user, in the end of the app, computer will be able to recognise different gestures.`,
+            demos: [
+                {
+                    name: 'Web App',
+                    link: 'http://bit.ly/mlsimulator',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: '',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/ML5-ImageClassification',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `This app is a simple Image Classificator. 
+                       It created by ML5js which is a high level framework based on Tensorflowjs. 
+                       Compare with Native Tensorflow, Tensorflowjs is simplified the configuration progress. 
+                       I don't need to worry about do i use a Mac or a PC, do i need to install Docker, 
+                       how is my Python version, are there some dependencies i forget to install... 
+                       The whole development process by Tensorflowjs i can focus on the app function implement. 
+                       And all the logic run on the Frontend, easy to share and present. 
+                       I believe Tensorflowjs will be more and more powerful and popular`,
 
-        // },
+        },
         {
             id: 7,
             title: 'Infinity Cards',
@@ -451,7 +468,7 @@ const contents = {
                       InfinityCards could be your productive tool to memorize.`,
             demos: [
                 {
-                    name: 'Website',
+                    name: 'Web App',
                     link: 'http://bit.ly/infinitycards',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
