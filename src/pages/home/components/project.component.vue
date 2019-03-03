@@ -49,7 +49,7 @@
           </v-layout>
           <router-link to="/project">
             <div class="text-xs-center">
-              <v-btn dark color="primary" round large>more Projects</v-btn>
+              <v-btn dark color="primary" round large>more</v-btn>
             </div>
           </router-link>
         </v-container>
