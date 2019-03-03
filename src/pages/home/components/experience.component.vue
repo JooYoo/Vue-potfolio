@@ -52,40 +52,36 @@ export default {
         year: "2016",
         title: "App Development in Ausbildung",
         where: "artiso solutions GmbH (DE)",
-        content: `I've learned the basic of Programming by .Net technologies. 
-                  I have the chance to develop Modern Web App by ASP.NET Core, Angular. 
-                  And get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
-                  I worked in Innovation Team, which focus on Mixed Reality and Augmented Reality App development. 
-                  I supported the Team to implement 4 apps for Hololens and Andriod Mobile Phone (ARCore). 
+        content: `I've learned the basic of Programming by .Net technologies 
+                  and had the chance to develop Modern Web App by Angular, ASP.NET Core and so on. 
+                  I was also able to get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
+                  I worked in "Innovation Team", which focus on Computer Vision research and App development. 
+                  I supported the Team to implement apps for Hololens and Smartphone. 
                   At the meantime, I responsible for App development by Unity 3D 
                   and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. 
-                  I started to study Machine Learning, got to know the framework Tensorflow, and developed Apps in my free time.
-                  I was able to built a Machine Learning (Image Classification) Feature in a customer project.`
+                  I started studying Machine Learning by myself and developed Apps in my free time.
+                  I was able to built a Machine Learning (Image Classification) feature in a project which delivery to customer.`
       },
       {
         color: "pink",
         year: "2015",
         title: "Chinese Tutor",
         where: "online (CN)",
-        content: `I taught Chinese online to the students, 
-                  who come from Australia, America, and Europe.
-                  I have to take care of all the Business process alone. 
-                  Include Course Development, Marketing, Conduct Classes, Accounting and Customer Service.
-                  In order to help students study efficiently,
-                  i created Multimedia eBook by iAuthor, Adobe Photoshop and Keynote.
-                  All the Video and Sound footage in the eBook edited by iMove, Adobe After Effects and Garageband.
-                  For better management of the students course schedule, 
-                  i created a Website by Wordpress. I also had the chance to learn more about HTML, CSS and Javascript.`
+        content: `I thaught Chinese online to students, who come from Australia, America, and Europe.
+                  I had to take care of the entire business process myself. Including course developement, marketing, conducting classes, accounting and customer service.
+                  In order to help students study efficiently, I created a multimedia eBook using iAuthor, Adobe Photoshop and Keynote.
+                  I created and edited all the video and sound footage myself, utilizing iMovie, Adobe After Effects and Garageband.
+                  For better Management of the student's course schedule, I created a Website using Wordpress. Doing so helped me learn more about HTML, CSS and Javascript.`
       },
       {
         color: "green",
         year: "2014",
         title: "Graphic Designer",
         where: "Yunnan University of Finance and Economics (CN)",
-        content: `When i was still study for my master degree, 
-                  i worked as a Graphic Designer part time for a department ( Postgraduate Education Center ) in my University.
-                  I responsible for VI Design, such as the Student Portfolio, 
-                  University Major Brochure by Adobe Illustrator and Adobe Photoshop.`
+        content: `While I was studying for my master's degree, 
+                  I worked part time as a Graphic Designer for a department ( Postgraduate Education Center ) at my University.
+                  I was responsible for VI Design, 
+                  such as the Student Portfolio as well as creating the University's Major Brochure using Adobe Illustrator and Adobe Photoshop.`
       }
     ]
   })

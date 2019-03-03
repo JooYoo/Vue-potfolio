@@ -530,12 +530,12 @@ const contents = {
                     img: 'https://farm8.staticflickr.com/7858/47268515131_1513d0f70e_h.jpg'
                 }
             ],
-            concept: `InfinityCards is a Flashcard library in your pocket. 
-                      It allows you easily record key information on both sides of the card. 
-                      The system will help you to organize the cards to several stacks. 
-                      It's practical for you to manage a numberof cards. 
-                      No matter you need to learn new vocabulary of a foreign language, or a lot of new concepts. 
-                      InfinityCards could be your productive tool to memorize.`,
+            concept: `I developed the simple Web App to present the process of a Machine Learning Neural Network. 
+                      Also to help myself to get more feeling about ML. From left to right. 
+                      Webcam as input data resource, 
+                      user can take two differet type of pictures which take the different label (Standby or Hand). 
+                      Press Training button start to train the data. 
+                      After that, the output will display the recognition result.`,
             demos: [
                 {
                     name: 'Web App',
@@ -558,11 +558,11 @@ const contents = {
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
-            techTalk: `This app is full cross platform. iOS, Android, PWA are all work very well.
-                       I'd love to say, hybrid mobile app Technic is the most practical and efficient way
-                       to build cross-platform experience. I really enjoy the development progress. 
-                       Unbelivable flexible. I was able to use all the Web Library to achieve my goal. 
-                       2019, it is the best solution for mobile-app development.`,
+            techTalk: `A simple Image Classificator. 
+                      Based on the huge image data from ImageNet, used pre-train model MobileNet. 
+                      A typical Transfer-learning program. 
+                      The advantage is fast and simple to implement. 
+                      The disadvantage is after training, to expand datasets is not possible.`,
         }
     ]
 }

@@ -10,11 +10,11 @@
                 <p id="about-content" class="body-2 font-weight-regular">
                     Hello World. 
                     My name is ZhuYu (朱瑜). 
-                    I come from China and I'm working in Germany now. 
-                    I have the passion to create Apps which have a uniqe user experience and maximize the user productivity. 
-                    I enjoy to work with Modern Web App Technologies and UX design tools. 
+                    I was born in China and am currently working in Germany.
+                    I have the passion to create apps, which have a unique user experience and maximize the user's productivity.
+                    I enjoy working with modern Web Technologies and UX Design Tools.
                     I belive Web App is the best Mobile App solution for the next 10 years.
-                    I'm the one in the team, between code and design.
+                    I am the one in the team, between code and design.
                 </p>
             </v-container>
         </v-flex>

@@ -3,7 +3,7 @@
     <!-- header -->
     <v-toolbar id="nav-bar">
       <router-link class="router-nav" :to="{name: 'Home'}">
-        <v-btn flat small color="white">HOME</v-btn>
+        <v-btn flat small color="white">Home</v-btn>
       </router-link>
       <router-link class="router-nav" to="/project">
         <v-btn flat small color="white">Project</v-btn>
@@ -30,7 +30,7 @@
         >
           <v-card-title>
             <strong class="subheading" style="color:white;">
-              &copy;2019 —
+               © {{ new Date().getFullYear() }} — 
               <strong>ZhuYu</strong>
             </strong>
             <v-spacer></v-spacer>

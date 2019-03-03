@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <div id="skill-title" class="display-2 font-weight-thin">Skills</div>
+    <div id="skill-title" class="display-2 font-weight-thin">Skill</div>
     <v-layout row wrap>
       <v-flex xs12>
         
