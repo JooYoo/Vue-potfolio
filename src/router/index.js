@@ -11,6 +11,7 @@ import ProjectContent6 from "../pages/project/contents/project.content.6.vue";
 import ProjectContent7 from "../pages/project/contents/project.content.7.vue";
 import ProjectContent8 from "../pages/project/contents/project.content.8.vue";
 import ProjectContent9 from "../pages/project/contents/project.content.9.vue";
+import ProjectContent10 from "../pages/project/contents/project.content.10.vue";
 
 Vue.use(Router);
 
@@ -59,6 +60,10 @@ export default new Router({
         path: '/project-9',
         name: 'project-id-9',
         component: ProjectContent9
+    }, {
+        path: '/project-10',
+        name: 'project-id-10',
+        component: ProjectContent10
     }
     ],
 });

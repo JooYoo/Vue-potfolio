@@ -68,7 +68,7 @@ const contents = {
         {
             id: 2,
             title: 'ToBuy Material',
-            cover: 'https://picsum.photos/200/300/?image=135',
+            cover: 'https://farm8.staticflickr.com/7916/46356118545_f943da2078_b.jpg',
             date: '2018-06-06',
             techs: [{
                 name: 'PWA',
@@ -208,7 +208,7 @@ const contents = {
         {
             id: 4,
             title: 'jsCurrency',
-            cover: 'https://picsum.photos/200/300/?image=171',
+            cover: 'https://farm3.staticflickr.com/2582/4105054854_2927d15bc6_b.jpg',
             date: '2018-06-28',
             techs: [
                 {
@@ -287,7 +287,7 @@ const contents = {
         {
             id: 5,
             title: 'Portfolio',
-            cover: 'https://picsum.photos/200/300/?image=112',
+            cover: 'https://farm8.staticflickr.com/7869/47276336342_1218785312_b.jpg',
             date: '2018-12-21',
             techs: [
                 {
@@ -357,7 +357,7 @@ const contents = {
         {
             id: 6,
             title: 'Rock Paper Scissor',
-            cover: 'https://picsum.photos/200/300/?image=124',
+            cover: 'https://farm8.staticflickr.com/7872/31809018067_46ca417250_b.jpg',
             date: '2019-02-10',
             techs: [
                 {
@@ -435,7 +435,7 @@ const contents = {
         {
             id: 7,
             title: 'Infinity Cards',
-            cover: 'https://picsum.photos/200/300/?image=123',
+            cover: 'https://farm8.staticflickr.com/7485/16133394909_6424797a9f_b.jpg',
             date: '2019-02-01',
             techs: [
                 {
@@ -516,7 +516,7 @@ const contents = {
         {
             id: 8,
             title: 'Clone Teachable Machine',
-            cover: 'https://picsum.photos/200/300/?image=128',
+            cover: 'https://farm5.staticflickr.com/4773/25943542447_25a3aeb20a_b.jpg',
             date: '2019-03-01',
             techs: [
                 {
@@ -591,7 +591,7 @@ const contents = {
         {
             id: 9,
             title: 'Object Detection with SSD',
-            cover: 'https://picsum.photos/200/300/?image=154',
+            cover: 'https://farm2.staticflickr.com/1771/43862531032_75f1efd9c5_b.jpg',
             date: '2019-03-07',
             techs: [
                 {
@@ -655,6 +655,86 @@ const contents = {
                       Like all the Objects Detector, to improve the FPS is always a challenge. 
                       In this project, i was able to keep the FPS at 10~15.
                       Test environment: Macbook Pro(Early 2015). Intel Core i5 2.7 GHz. 8GB RAM. Intel Iris Graphics 6100`,
+        },
+        {
+            id: 10,
+            title: 'Hand Recognition',
+            cover: 'https://farm6.staticflickr.com/5131/5391445158_a502135d37_b.jpg',
+            date: '2019-03-07',
+            techs: [
+                {
+                    name: 'Machine Learning',
+                    color: 'red',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
+                    name: 'VanillaJS',
+                    color: 'yellow darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/javascript.svg'
+                },
+                {
+                    name: 'Tensorflow.js',
+                    color: 'orange darken-3',
+                    icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
+                },
+                {
+                    name: 'ML5',
+                    color: 'purple',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'UIkit',
+                    color: 'blue darken-1',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+            ],
+            screenshots: [
+                {
+                    declare: 'img00',
+                    img: `https://farm8.staticflickr.com/7825/46613797494_218e11b490_c.jpg`,
+                },
+                {
+                    declare: 'img01',
+                    img: `https://farm8.staticflickr.com/7893/47337179591_f5da48fdce_c.jpg`,
+                },
+                {
+                    declare: 'img02',
+                    img: `https://farm8.staticflickr.com/7892/47337178941_7b0cc53e4f_c.jpg`,
+                }
+            ],
+            concept: `A Machine Learning Program. Through Webcam streaming,
+                      the programm can recognize is there a hand or not. After data collection,
+                      the programm can also distinguish position of the hand. 
+                      If the prediction result is not enough accurate, 
+                      user can collect more data for specific category to optimize the prediction result.`,
+            demos: [
+                {
+                    name: 'Web App',
+                    link: 'https://jooyoo.github.io/ML5-hand_position/',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: 'https://itunes.apple.com/in/app/infinitycards/id1451342091?mt=8',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: 'https://play.google.com/store/apps/details?id=io.zhuyu.InfinityCards',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/ML5-hand_position',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `A Image Classificator. Used Tensorflow.js, KNN algorithm, ML5.js. 
+                      Not like normal deep learning neural network, KNN has no "Training" required.
+                      User only need to collect data and label them, 
+                      the algorithm will find out how similar is this sample compare with the nearest neighbors.
+                      The predict the result based on the "high frequency appear" neighbors' label. 
+                      User can add more date anytime to optimize the prediction result.`,
         }
     ]
 }
