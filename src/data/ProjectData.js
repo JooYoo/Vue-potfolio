@@ -212,6 +212,11 @@ const contents = {
             date: '2018-06-28',
             techs: [
                 {
+                    name: 'Web App',
+                    color: 'black',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
                     name: 'VanillaJS',
                     color: 'yellow darken-2',
                     icon: 'https://cdn.svgporn.com/logos/javascript.svg'
@@ -286,6 +291,11 @@ const contents = {
             date: '2018-12-21',
             techs: [
                 {
+                    name: 'Website',
+                    color: 'gray',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
                     name: 'Vuejs',
                     color: 'green',
                     icon: 'https://cdn.svgporn.com/logos/vue.svg'
@@ -346,11 +356,15 @@ const contents = {
         },
         {
             id: 6,
-            title: 'Machine Learning Simulator',
+            title: 'Rock Paper Scissor',
             cover: 'https://picsum.photos/200/300/?image=124',
             date: '2019-02-10',
             techs: [
-                
+                {
+                    name: 'Machine Learning',
+                    color: 'red',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
                 {
                     name: 'VanillaJS',
                     color: 'yellow darken-2',
@@ -424,6 +438,11 @@ const contents = {
             cover: 'https://picsum.photos/200/300/?image=123',
             date: '2019-02-01',
             techs: [
+                {
+                    name: 'Cross-platform',
+                    color: 'black',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
+                },
                 {
                     name: 'Angular',
                     color: 'red',
@@ -501,6 +520,11 @@ const contents = {
             date: '2019-03-01',
             techs: [
                 {
+                    name: 'Machine Learning',
+                    color: 'red',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
                     name: 'VanillaJS',
                     color: 'yellow darken-2',
                     icon: 'https://cdn.svgporn.com/logos/javascript.svg'
@@ -563,6 +587,74 @@ const contents = {
                       A typical Transfer-learning program. 
                       The advantage is fast and simple to implement. 
                       The disadvantage is after training, to expand datasets is not possible.`,
+        },
+        {
+            id: 9,
+            title: 'Object Detection with SSD',
+            cover: 'https://picsum.photos/200/300/?image=154',
+            date: '2019-03-07',
+            techs: [
+                {
+                    name: 'Machine Learning',
+                    color: 'red',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
+                    name: 'Python',
+                    color: 'blue darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/javascript.svg'
+                },
+                {
+                    name: 'Tensorflow',
+                    color: 'orange darken-4',
+                    icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
+                },
+                {
+                    name: 'OpenCV',
+                    color: 'green',
+                    icon: 'https://image.flaticon.com/icons/svg/732/732250.svg'
+                }
+            ],
+            screenshots: [
+                {
+                    declare: 'result',
+                    img: `https://media.giphy.com/media/2sgFAsjkejwWrvjTJB/giphy.gif`,
+                }
+            ],
+            concept: `A Machine Learning Program. 
+                      It is able to detect over 80 objects in our life. Like person, cup, tv, dog, car and so on.
+                      All you need is a simple Webcam and a computer.
+                      The result is not only doing a simple prediction (display what is it), 
+                      but also to present where is the specific object and the confidence percent.`,
+            demos: [
+                // {
+                //     name: 'Web App',
+                //     link: 'https://jooyoo.github.io/ML5-clone-teachableMachine/',
+                //     icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                // },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: 'https://itunes.apple.com/in/app/infinitycards/id1451342091?mt=8',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: 'https://play.google.com/store/apps/details?id=io.zhuyu.InfinityCards',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/Tensorflow-object_detection_webcam',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `A Object Detector. Used Tensorflow, SSD algorithm, coco Datasets. 
+                      At first, based on Tensorflow Object Detection API, i implemented object detection on static image.
+                      After that i used OpenCV to get each frame from webcam, 
+                      draw bounding box for all the objects which has been detected. 
+                      Like all the Objects Detector, to improve the FPS is always a challenge. 
+                      In this project, i was able to keep the FPS at 10~15.
+                      Test environment: Macbook Pro(Early 2015). Intel Core i5 2.7 GHz. 8GB RAM. Intel Iris Graphics 6100`,
         }
     ]
 }

@@ -55,12 +55,12 @@ export default {
         content: `I've learned the basic of Programming by .Net technologies 
                   and had the chance to develop Modern Web App by Angular, ASP.NET Core and so on. 
                   I was also able to get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
-                  I worked in "Innovation Team", which focus on Computer Vision research and App development. 
+                  I worked in "Innovation Team", which focus on AR/VR/MR research and App development. 
                   I supported the Team to implement apps for Hololens and Smartphone. 
                   At the meantime, I responsible for App development by Unity 3D 
                   and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. 
                   I started studying Machine Learning by myself and developed Apps in my free time.
-                  I was able to built a Machine Learning (Image Classification) feature in a project which delivery to customer.`
+                  I was able to built a Machine Learning (Image Classification / Object Detection) feature in a project which delivery to customer.`
       },
       {
         color: "pink",

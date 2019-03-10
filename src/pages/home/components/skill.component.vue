@@ -47,7 +47,7 @@
               <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
-                    <v-subheader>Others</v-subheader>
+                    <v-subheader>Computer Vision</v-subheader>
                     <v-list-tile v-for="item in others" :key="item.id">
                       <v-list-tile-action>
                         <img :src="item.icon" width="25px">
@@ -143,19 +143,20 @@ export default {
         progressColor: "teal lighten-1"
       },
       {
-        name: "Garageband",
+        name: "Keynote",
         progress: 70,
-        icon: "https://image.flaticon.com/icons/svg/552/552460.svg",
+        icon: "https://image.flaticon.com/icons/svg/552/552462.svg",
         progressColor: "teal lighten-1"
-      }
+      },
+       {
+        name: "iBooks Author",
+        progress: 70,
+        icon: "https://image.flaticon.com/icons/svg/831/831307.svg",
+        progressColor: "teal lighten-1"
+      },
     ],
     others: [
-      {
-        name: "Git",
-        progress: 70,
-        icon: "https://cdn.svgporn.com/logos/git-icon.svg",
-        progressColor: "orange darken-4"
-      },
+     
       {
         name: "Unity 3D",
         progress: 50,
@@ -168,11 +169,16 @@ export default {
         icon: "https://blog.novoda.com/content/images/2018/05/arcore.png",
         progressColor: "orange darken-4"
       },
-      
       {
         name: "Tensorflow",
-        progress: 2,
+        progress: 5,
         icon: "https://cdn.svgporn.com/logos/tensorflow.svg",
+        progressColor: "orange darken-4"
+      },
+      {
+        name: "OpenCV",
+        progress: 2,
+        icon: "https://cdn.svgporn.com/logos/opencv.svg",
         progressColor: "orange darken-4"
       }
     ]
