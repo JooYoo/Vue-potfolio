@@ -13,7 +13,7 @@
               <v-flex px-1 pb-2 >
                 <div class="pos-relative">
                   <v-list three-line>
-                    <v-subheader>Frontend</v-subheader>
+                    <v-subheader>Web</v-subheader>
                     <v-list-tile v-for="item in frontend" :key="item.id">
                       <v-list-tile-action>
                         <img :src="item.icon" width="25px">

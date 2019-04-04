@@ -515,7 +515,7 @@ const contents = {
         },
         {
             id: 8,
-            title: 'Clone Teachable Machine',
+            title: 'ML Flow',
             cover: 'https://farm5.staticflickr.com/4773/25943542447_25a3aeb20a_b.jpg',
             date: '2019-03-01',
             techs: [
@@ -583,7 +583,7 @@ const contents = {
                 },
             ],
             techTalk: `A simple Image Classificator. 
-                      Based on the huge image data from ImageNet, used pre-train model MobileNet. 
+                      Based on the huge image dataset from ImageNet, used pre-train model MobileNet. 
                       A typical Transfer-learning program. 
                       The advantage is fast and simple to implement. 
                       The disadvantage is after training, to expand datasets is not possible.`,

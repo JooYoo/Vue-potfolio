@@ -7,7 +7,7 @@
             <div id="theTitle" class="display-4">Z h u Y u </div>
             <div id="subtitle">between Code and Design</div>
             <v-divider id="theDivider" class="my-4"></v-divider>
-            <div id="divider-subtitle" class="title mb-3">Frontend Developer</div>
+            <div id="divider-subtitle" class="title mb-3">Web Developer</div>
             <vue-particles></vue-particles>
           </v-flex>
         </v-layout>
