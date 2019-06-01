@@ -41,7 +41,7 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://tobuy.ga/',
+                    link: 'https://jooyoo.github.io/to-buy/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
