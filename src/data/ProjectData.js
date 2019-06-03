@@ -563,7 +563,7 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/ML5-clone-teachableMachine/',
+                    link: 'https://jooyoo.github.io/ML5-mlflow/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
@@ -658,7 +658,7 @@ const contents = {
         },
         {
             id: 10,
-            title: 'Hand Recognition',
+            title: 'ML KNN',
             cover: 'https://farm6.staticflickr.com/5131/5391445158_a502135d37_b.jpg',
             date: '2019-03-07',
             techs: [
@@ -691,15 +691,15 @@ const contents = {
             screenshots: [
                 {
                     declare: 'img00',
-                    img: `https://farm8.staticflickr.com/7825/46613797494_218e11b490_c.jpg`,
+                    img: `https://live.staticflickr.com/65535/47993649073_601f917fbb_b.jpg`,
                 },
                 {
                     declare: 'img01',
-                    img: `https://farm8.staticflickr.com/7893/47337179591_f5da48fdce_c.jpg`,
+                    img: `https://live.staticflickr.com/65535/47993627727_1ba9eaefe2_z.jpg`,
                 },
                 {
                     declare: 'img02',
-                    img: `https://farm8.staticflickr.com/7892/47337178941_7b0cc53e4f_c.jpg`,
+                    img: `https://live.staticflickr.com/65535/47993671341_4b9a7066ea_z.jpg`,
                 }
             ],
             concept: `A Machine Learning Program. Through Webcam streaming,
@@ -710,7 +710,7 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/ML5-hand_position/',
+                    link: 'https://jooyoo.github.io/ML5-mlknn/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 // {
@@ -725,7 +725,7 @@ const contents = {
                 // },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/ML5-hand_position',
+                    link: 'https://github.com/JooYoo/ML5-mlknn',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
