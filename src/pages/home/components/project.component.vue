@@ -3,7 +3,7 @@
     <v-layout justify-center>
       <v-flex xs12 sm12>
         <v-container fluid grid-list-xl>
-          <div id="experience-title" class="display-2 font-weight-thin">Project</div>
+          <div id="experience-title" class="display-2 font-weight-thin">Projects</div>
           <v-layout row wrap>
             <v-flex
               v-for="index in 3"

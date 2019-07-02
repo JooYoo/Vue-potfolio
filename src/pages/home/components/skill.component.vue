@@ -1,6 +1,6 @@
 <template>
   <v-container fluid>
-    <div id="skill-title" class="display-2 font-weight-thin">Skill</div>
+    <div id="skill-title" class="display-2 font-weight-thin">Skills</div>
     <v-layout row wrap>
       <v-flex xs12>
         <v-card class="rounded-card">
@@ -27,8 +27,25 @@
               <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
-                    <v-subheader>Web</v-subheader>
+                    <v-subheader>Frontend Framework</v-subheader>
                     <v-list-tile v-for="item in web" :key="item.id">
+                      <v-list-tile-action>
+                        <img :src="item.icon" width="25px">
+                      </v-list-tile-action>
+                      <v-list-tile-content>
+                        <v-list-tile-title>{{item.name}}</v-list-tile-title>
+                        <v-progress-linear :color="item.color" v-model="item.progress"></v-progress-linear>
+                      </v-list-tile-content>
+                    </v-list-tile>
+                  </v-list>
+                </div>
+              </v-flex>
+
+               <v-flex px-1 pb-2>
+                <div class="pos-relative">
+                  <v-list three-line>
+                    <v-subheader>UI Framework</v-subheader>
+                    <v-list-tile v-for="item in ui" :key="item.id">
                       <v-list-tile-action>
                         <img :src="item.icon" width="25px">
                       </v-list-tile-action>
@@ -88,32 +105,20 @@ export default {
   data: () => ({
     coding: [
       {
-        name: "Java",
-        progress: 10,
-        icon: "https://cdn.svgporn.com/logos/java.svg",
-        color: "indigo darken-2"
-      },
-      {
-        name: "C#",
-        progress: 60,
-        icon: "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
-        color: "indigo darken-1"
-      },
-      {
         name: "Javascript",
-        progress: 50,
+        progress: 40,
         icon: "https://cdn.svgporn.com/logos/javascript.svg",
         color: "indigo darken-1"
       },
       {
         name: "HTML5",
-        progress: 80,
+        progress: 70,
         icon: "https://cdn.svgporn.com/logos/html-5.svg",
         color: "indigo darken-1"
       },
       {
         name: "CSS",
-        progress: 60,
+        progress: 40,
         icon: "https://cdn.svgporn.com/logos/css-3.svg",
         color: "indigo darken-1"
       },
@@ -121,6 +126,12 @@ export default {
         name: "Git",
         progress: 80,
         icon: "https://cdn.svgporn.com/logos/git-icon.svg",
+        color: "indigo darken-1"
+      },
+      {
+        name: "C#",
+        progress: 60,
+        icon: "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
         color: "indigo darken-1"
       }
     ],
@@ -138,34 +149,48 @@ export default {
         color: "red darken-1"
       },
       {
+        name: "React",
+        progress: 20,
+        icon: "https://cdn.svgporn.com/logos/react.svg",
+        color: "red darken-1"
+      },
+      {
         name: "ASP.NET Core",
         progress: 40,
         icon: "https://cdn.svgporn.com/logos/dotnet.svg",
         color: "red darken-1"
-      },
+      }
+    ],
+    ui: [
       {
         name: "ionic",
         progress: 60,
         icon: "https://cdn.svgporn.com/logos/ionic.svg",
-        color: "red darken-1"
+        color: "teal darken-1"
       },
       {
         name: "Bootstrap",
         progress: 80,
         icon: "https://cdn.svgporn.com/logos/bootstrap.svg",
-        color: "red darken-1"
+        color: "teal darken-1"
       },
       {
         name: "jQuery",
         progress: 30,
         icon: "https://cdn.svgporn.com/logos/jquery.svg",
-        color: "red darken-1"
+        color: "teal darken-1"
       },
       {
         name: "Vuetify",
         progress: 30,
         icon: "https://cdn.svgporn.com/logos/vuetifyjs.svg",
-        color: "red darken-1"
+        color: "teal darken-1"
+      },
+      {
+        name: "UIkit",
+        progress: 60,
+        icon: "https://cdn.svgporn.com/logos/uikit.svg",
+        color: "teal darken-1"
       }
     ],
     computerVision: [
@@ -199,37 +224,37 @@ export default {
         name: "Adobe Illustrator",
         progress: 50,
         icon: "https://image.flaticon.com/icons/svg/552/552222.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       },
       {
         name: "Adobe XD",
         progress: 40,
         icon: "https://image.flaticon.com/icons/svg/552/552224.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       },
       {
         name: "Adobe Photoshop",
         progress: 20,
         icon: "https://image.flaticon.com/icons/svg/552/552220.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       },
       {
         name: "Adobe After Effects",
         progress: 15,
         icon: "https://image.flaticon.com/icons/svg/552/552226.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       },
       {
         name: "Keynote",
         progress: 70,
         icon: "https://image.flaticon.com/icons/svg/552/552462.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       },
       {
         name: "iBooks Author",
         progress: 70,
         icon: "https://image.flaticon.com/icons/svg/831/831307.svg",
-        progressColor: "teal lighten-1"
+        progressColor: "orange darken-1"
       }
     ],
   })
