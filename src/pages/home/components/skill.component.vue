@@ -75,7 +75,7 @@
                 </div>
               </v-flex>
 
-              <v-flex px-1 pb-2>
+              <!-- <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
                     <v-subheader>Design</v-subheader>
@@ -90,7 +90,7 @@
                     </v-list-tile>
                   </v-list>
                 </div>
-              </v-flex>
+              </v-flex> -->
 
             </v-layout>
           </v-card-text>

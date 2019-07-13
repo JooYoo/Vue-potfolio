@@ -50,9 +50,9 @@ export default {
       {
         color: "cyan",
         year: "2016",
-        title: "App Development in Ausbildung",
+        title: "Application Developer",
         where: "artiso solutions GmbH (DE)",
-        content: `I've learned the basic of Programming by .Net technologies 
+        content: `Three years apprenticeship as an Application Developer. I've learned the basic of Programming by .Net technologies 
                   and had the chance to develop Modern Web App by Angular, ASP.NET Core and so on. 
                   I was also able to get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
                   I worked in "Innovation Team", which focus on AR/VR/MR research and App development. 
