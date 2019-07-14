@@ -106,7 +106,7 @@ export default {
     coding: [
       {
         name: "Javascript",
-        progress: 40,
+        progress: 30,
         icon: "https://cdn.svgporn.com/logos/javascript.svg",
         color: "indigo darken-1"
       },
@@ -120,6 +120,12 @@ export default {
         name: "CSS",
         progress: 40,
         icon: "https://cdn.svgporn.com/logos/css-3.svg",
+        color: "indigo darken-1"
+      },
+      {
+        name: "Typescript",
+        progress: 40,
+        icon: "https://cdn.svgporn.com/logos/typescript-icon.svg",
         color: "indigo darken-1"
       },
       {
