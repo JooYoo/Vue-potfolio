@@ -138,9 +138,9 @@ const contents = {
         },
         {
             id: 3,
-            title: 'jsCalculator',
+            title: 'Clean Calculator',
             cover: 'https://cdn.vuetifyjs.com/images/cards/plane.jpg',
-            date: '2018-06-08',
+            date: '2019-07-15',
             techs: [
                 {
                     name: 'PWA',
@@ -148,14 +148,24 @@ const contents = {
                     icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
                 },
                 {
-                    name: 'VanillaJS',
-                    color: 'yellow darken-2',
-                    icon: 'https://cdn.svgporn.com/logos/javascript.svg'
+                    name: 'Cross-platform',
+                    color: 'black',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
                 },
                 {
-                    name: 'Bootstrap',
-                    color: 'purple darken-3',
-                    icon: 'https://cdn.svgporn.com/logos/bootstrap.svg'
+                    name: 'Angular',
+                    color: 'red',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
+                },
+                {
+                    name: 'TypeScript',
+                    color: 'blue darken-4',
+                    icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
+                },
+                {
+                    name: 'ionic',
+                    color: 'blue darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/ionic.svg'
                 }
             ],
             screenshots: [
@@ -172,38 +182,36 @@ const contents = {
                     img: `https://media.giphy.com/media/wHBli23UXigA5rKppu/giphy.gif`
                 }
             ],
-            concept: `jsCalculator is a Calculator App. 
+            concept: `Clean Calculator is a Calculator App. 
                       The basic mathematic operation available, 
                       include plus, minus, times and divide.
-                      The App can be install to Home Screen, it doesn't need any App Store, 
-                      behaviour the same like a native app. The app can be used offline.`,
+                      The App can be install from App Stores.`,
             demos: [
                 {
                     name: 'Web App',
-                    link: 'https://jooyoo.github.io/JS-Calculator/',
+                    link: '',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
-                // {
-                //     name: 'Apple AppStore',
-                //     link: '',
-                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-                // },
-                // {
-                //     name: 'Google Play',
-                //     link: '',
-                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-                // },
+                {
+                    name: 'Apple AppStore',
+                    link: '',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'Google Play',
+                    link: 'https://play.google.com/store/apps/details?id=io.clean.calculator&gl=DE',
+                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/JS-Calculator',
+                    link: 'https://github.com/JooYoo/ionic-ToCalculate',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
-            techTalk: `I build the app with VanillaJS + Bootstrap. I get the Vootstrap by npm. 
-                       The Grid System from Bootstrap is very practical for layout building.
-                       It's also a Progressive Web App. Service Worker build in, 
-                       offline run available. After input address in the browser, 
-                       it can be added to Home Screen, same like the another native apps.`,
+            techTalk: `I build the app with Angular + ionic. 
+                       And i used Cordova to make the app cross-platform.
+                       User can download the app by both Apple AppStore and Google PlayStore.
+                       It is also a Progressive Web App, add to Home Screen and offline available.`,
         },
         {
             id: 4,

@@ -65,7 +65,7 @@ export default {
       {
         color: "pink",
         year: "2015",
-        title: "Chinese Tutor",
+        title: "Chinese Instructor",
         where: "online (CN)",
         content: `I thaught Chinese online to students, who come from Australia, America, and Europe.
                   I had to take care of the entire business process myself. Including course developement, marketing, conducting classes, accounting and customer service.

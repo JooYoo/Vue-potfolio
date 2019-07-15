@@ -111,7 +111,7 @@ export default {
         color: "indigo darken-1"
       },
       {
-        name: "HTML5",
+        name: "HTML",
         progress: 70,
         icon: "https://cdn.svgporn.com/logos/html-5.svg",
         color: "indigo darken-1"
