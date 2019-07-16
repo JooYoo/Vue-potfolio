@@ -7,7 +7,7 @@
           <v-card>
             <v-list subheader three-line>
               <v-subheader inset>
-                <v-list-tile-title>IT Specialist | 2016 ~ 2019</v-list-tile-title>
+                <v-list-tile-title>Computer Science Expert | 2016 ~ 2019</v-list-tile-title>
               </v-subheader>
 
               <v-list-tile>
@@ -15,9 +15,10 @@
                   <v-icon color="indigo">phonelink</v-icon>
                 </v-list-tile-action>
                 <v-list-tile-content>
-                  <v-list-tile-title>Application Development</v-list-tile-title>
+                  <v-list-tile-title> Software Development</v-list-tile-title>
                   <v-list-tile-sub-title>Robert-Bosch-Schule Ulm</v-list-tile-sub-title>
                   <v-list-tile-sub-title>artiso solutions GmbH</v-list-tile-sub-title>
+                  <v-list-tile-sub-title>IHK Ulm</v-list-tile-sub-title>
                 </v-list-tile-content>
                 <v-list-tile-action>
                   <flag class="flag" iso="de"/>
