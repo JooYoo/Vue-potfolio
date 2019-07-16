@@ -4,7 +4,7 @@
       <v-container fill-height>
         <v-layout align-center text-xs-center>
           <v-flex>
-            <div id="theTitle" class="display-4">Z h u Y u </div>
+            <div id="theTitle" class="display-4">Z h u Y u</div>
             <div id="subtitle">between Code and Design</div>
             <v-divider id="theDivider" class="my-4"></v-divider>
             <div id="divider-subtitle" class="title mb-3">Frontend Developer</div>
@@ -35,6 +35,9 @@
           <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:120px;">
             <a class="btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-5"></a>
           </li>
+          <li class="v-timeline-item__dot v-timeline-item__dot--small" style="margin-top:150px;">
+            <a class="btn-circle v-timeline-item__inner-dot grey lighten-2" href="#section-6"></a>
+          </li>
         </ul>
       </v-container>
     </v-responsive>
@@ -52,13 +55,17 @@
         <skill></skill>
       </v-flex>
 
-      <v-container id="section-4">
+      <v-flex xs12 sm12 md12 lg12 xl12 id="section-4">
         <experience></experience>
-      </v-container>
+      </v-flex>
 
       <v-flex xs12 sm12 md12 lg12 xl12 id="section-5" class="grey lighten-4">
+        <training></training>
+      </v-flex>
+
+      <v-flex xs12 sm12 md12 lg12 xl12 id="section-6">
         <education></education>
-      </v-flex >
+      </v-flex>
     </v-layout>
   </div>
 </template>
@@ -66,6 +73,7 @@
 <script>
 import projectData from "../../data/ProjectData";
 import experience from "./components/experience.component";
+import training from "./components/training.component";
 import about from "./components/about.component";
 import project from "./components/project.component";
 import education from "./components/education.component";
@@ -75,6 +83,7 @@ export default {
     about,
     project,
     experience,
+    training,
     education,
     skill
   },
@@ -148,11 +157,15 @@ section {
   padding: 150px 0;
 }
 
-#section-5 {
+#section-6 {
   margin-bottom: 90px;
 }
 
 ul {
   list-style-type: none;
+}
+
+.this-component{
+  margin-bottom: 40px;
 }
 </style>
