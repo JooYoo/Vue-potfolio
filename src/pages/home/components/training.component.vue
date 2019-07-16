@@ -12,7 +12,7 @@
 
               <v-list-tile>
                 <v-list-tile-action>
-                  <v-icon color="indigo">laptop_mac</v-icon>
+                  <v-icon color="indigo">phonelink</v-icon>
                 </v-list-tile-action>
                 <v-list-tile-content>
                   <v-list-tile-title>Application Development</v-list-tile-title>

@@ -6,7 +6,6 @@
         <v-card class="rounded-card">
           <v-card-text class="overflow-hidden py-0">
             <v-layout row align-content-center class="horiz-scroll">
-
               <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
@@ -41,7 +40,7 @@
                 </div>
               </v-flex>
 
-               <v-flex px-1 pb-2>
+              <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
                     <v-subheader>UI Framework</v-subheader>
@@ -90,8 +89,7 @@
                     </v-list-tile>
                   </v-list>
                 </div>
-              </v-flex> -->
-
+              </v-flex>-->
             </v-layout>
           </v-card-text>
         </v-card>
@@ -129,15 +127,22 @@ export default {
         color: "indigo darken-1"
       },
       {
-        name: "Git",
-        progress: 80,
-        icon: "https://cdn.svgporn.com/logos/git-icon.svg",
+        name: "Python",
+        progress: 10,
+        icon: "https://cdn.svgporn.com/logos/python.svg",
         color: "indigo darken-1"
       },
       {
         name: "C#",
         progress: 60,
-        icon: "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
+        icon:
+          "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
+        color: "indigo darken-1"
+      },
+      {
+        name: "Git",
+        progress: 80,
+        icon: "https://cdn.svgporn.com/logos/git-icon.svg",
         color: "indigo darken-1"
       }
     ],
@@ -207,12 +212,6 @@ export default {
         progressColor: "blue darken-1"
       },
       {
-        name: "ARCore",
-        progress: 60,
-        icon: "https://blog.novoda.com/content/images/2018/05/arcore.png",
-        progressColor: "blue darken-1"
-      },
-      {
         name: "Tensorflow",
         progress: 5,
         icon: "https://cdn.svgporn.com/logos/tensorflow.svg",
@@ -222,6 +221,12 @@ export default {
         name: "OpenCV",
         progress: 2,
         icon: "https://cdn.svgporn.com/logos/opencv.svg",
+        progressColor: "blue darken-1"
+      },
+      {
+        name: "ARCore",
+        progress: 60,
+        icon: "https://blog.novoda.com/content/images/2018/05/arcore.png",
         progressColor: "blue darken-1"
       }
     ],
@@ -262,7 +267,7 @@ export default {
         icon: "https://image.flaticon.com/icons/svg/831/831307.svg",
         progressColor: "orange darken-1"
       }
-    ],
+    ]
   })
 };
 </script>
