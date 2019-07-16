@@ -37,16 +37,16 @@
 export default {
   data: () => ({
     years: [
-      // {
-      //   color: "cyan",
-      //   year: "2019",
-      //   title: "Future",
-      //   where: "Code and Design anywhere",
-      //   content: `As a Web Application Frontend UX Developer. 
-      //             I'd love to be the one in the team, who connect Code and Design.
-      //             And turn my passion, 
-      //             creativity and conscientious to better user experience.`
-      // },
+      {
+        color: "pink",
+        year: "2019",
+        title: "Frontend Developer",
+        where: "stellar design und engineering GmbH (DE)",
+        content: `I'm currently working as a Frontend Developer. 
+                  I'm responsible for developing applications for Automotive and Web. 
+                  I enjoy combining Code and Design, 
+                  then turn my passion, creativity and conscientiousness into better user experience.`
+      },
       {
         color: "cyan",
         year: "2016",
@@ -63,7 +63,7 @@ export default {
                   I was able to built a Machine Learning (Image Classification / Object Detection) feature in a project which delivery to customer.`
       },
       {
-        color: "pink",
+        color: "orange",
         year: "2015",
         title: "Chinese Instructor",
         where: "online (CN)",

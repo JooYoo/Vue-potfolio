@@ -171,15 +171,15 @@ const contents = {
             screenshots: [
                 {
                     declare: 'main view',
-                    img: `https://farm8.staticflickr.com/7898/45602331905_036742ca4c_z.jpg`,
+                    img: `https://live.staticflickr.com/65535/48296317917_3a296e3678_k.jpg`,
                 },
                 {
                     declare: 'strikethrough',
-                    img: `https://farm5.staticflickr.com/4874/46515794961_bb91328db0_z.jpg`
+                    img: `https://live.staticflickr.com/65535/48296207696_233d52a1fc_k.jpg`
                 },
                 {
                     declare: 'gif',
-                    img: `https://media.giphy.com/media/wHBli23UXigA5rKppu/giphy.gif`
+                    img: `https://live.staticflickr.com/65535/48296210456_6c9fb74320_k.jpg`
                 }
             ],
             concept: `Clean Calculator is a Calculator App. 
@@ -189,12 +189,12 @@ const contents = {
             demos: [
                 {
                     name: 'Web App',
-                    link: '',
+                    link: 'https://jooyoo.github.io/ionic-ToCalculate/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
                 {
                     name: 'Apple AppStore',
-                    link: '',
+                    link: 'https://apps.apple.com/us/app/clean-simple-calculator/id1472731157?l=zh#?platform=ipad',
                     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
                 },
                 {
