@@ -3,7 +3,7 @@
     <v-layout justify-center>
       <v-flex xs12 sm12>
         <v-container fluid grid-list-xl>
-          <div id="experience-title" class="display-2 font-weight-thin">Trainig</div>
+          <div id="experience-title" class="display-2 font-weight-thin">Training</div>
           <v-card>
             <v-list subheader three-line>
               <v-subheader inset>
