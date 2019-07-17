@@ -161,7 +161,7 @@ export default {
       },
       {
         name: "React",
-        progress: 20,
+        progress: 10,
         icon: "https://cdn.svgporn.com/logos/react.svg",
         color: "red darken-1"
       },

@@ -50,17 +50,25 @@ export default {
       {
         color: "cyan",
         year: "2016",
-        title: "Application Developer",
+        title: "Software Developer",
         where: "artiso solutions GmbH (DE)",
-        content: `Three years apprenticeship as an Application Developer. I've learned the basic of Programming by .Net technologies 
-                  and had the chance to develop Modern Web App by Angular, ASP.NET Core and so on. 
-                  I was also able to get comfortable with Frontend UI libraries, like jQuery, Bootstrap and so on. 
-                  I worked in "Innovation Team", which focus on AR/VR/MR research and App development. 
-                  I supported the Team to implement apps for Hololens and Smartphone. 
-                  At the meantime, I responsible for App development by Unity 3D 
-                  and UI/UX design by Adobe Illustrator, Adobe XD and Adobe After Effects. 
-                  I started studying Machine Learning by myself and developed Apps in my free time.
-                  I was able to built a Machine Learning (Image Classification / Object Detection) feature in a project which delivery to customer.`
+        content: `Three years apprenticeship as a Software Developer. 
+                  I've learned the basic .Net Technology Stack, such as C#, WPF, ASP.NET Core, etc. 
+                  As part of my job, I developed desktop software and websites for internal usage. 
+                  For example, lunch management system, software license management system, etc.
+                  
+                  I have a year and a half of experience learning and developing MR/AR applications for HoloLens and Smartphones by Unity3D, Blender, ARCore and so on. 
+                  These applications are developed for company product exhibitions, new employee training, product size measurement, etc.
+                  
+                  In my free time, I learned the basics of Web Application Development by myself, including Angular, Vue, React, etc. 
+                  After that, I have the ability to develop web applications independently. 
+                  Under the premise of balancing functionality and user experience, I was able to develop and deploy the applications cross-platform. 
+                  Until now, I have developed my personal Portfolio Website, and there are several applications I developed myself in the Apple AppStore and Google PlayStore.
+                  
+                  I developed a Machine Learning Image Recognition application as my graduation project. 
+                  Based on Tensorflow and PWA technology, the app recognizes workers' hands in real time and runs across platforms. 
+                  The project was presented to the customer (an automated shelf producer) and adopted for using in a production environment.
+        `
       },
       {
         color: "orange",
@@ -71,7 +79,8 @@ export default {
                   I had to take care of the entire business process myself. Including course developement, marketing, conducting classes, accounting and customer service.
                   In order to help students study efficiently, I created a multimedia eBook using iAuthor, Adobe Photoshop and Keynote.
                   I created and edited all the video and sound footage myself, utilizing iMovie, Adobe After Effects and Garageband.
-                  For better Management of the student's course schedule, I created a Website using Wordpress. Doing so helped me learn more about HTML, CSS and Javascript.`
+                  For better Management of the student's course schedule, I created a Website using Wordpress. 
+                  Doing so helped me to learn more about HTML, CSS and Javascript.`
       },
       {
         color: "green",
@@ -89,7 +98,6 @@ export default {
 </script>
 
 <style>
-
 #experience-title {
   margin-bottom: 40px;
   margin-top: 40px;
