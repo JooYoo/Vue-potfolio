@@ -43,7 +43,7 @@ export default {
         title: "Frontend Developer",
         where: "stellar design und engineering GmbH (DE)",
         content: `Working as a Frontend Developer, 
-                  and responsible for developing applications for automotive In-Vehicle Infotainment system (IVI).`
+                  and responsible for automotive IVI ( In-Vehicle Infotainment system ) development.`
       },
       {
         color: "cyan",
