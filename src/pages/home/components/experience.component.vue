@@ -42,10 +42,8 @@ export default {
         year: "2019",
         title: "Frontend Developer",
         where: "stellar design und engineering GmbH (DE)",
-        content: `I'm currently working as a Frontend Developer. 
-                  I'm responsible for developing applications for Automotive and Web. 
-                  I enjoy combining Code and Design, 
-                  then turn my passion, creativity and conscientiousness into better user experience.`
+        content: `Working as a Frontend Developer, 
+                  and responsible for developing applications for automotive In-Vehicle Infotainment system (IVI).`
       },
       {
         color: "cyan",

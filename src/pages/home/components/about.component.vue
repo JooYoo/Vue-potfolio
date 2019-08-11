@@ -8,8 +8,7 @@
             Hello World.
             My name is ZhuYu (朱瑜).
             I come from China and i am currently working in Germany. 
-            I have the passion to develop applications, which have good user experience and maximize the user's productivity. 
-            I enjoy learning different Technologies as well as UX Design. 
+            I write CODE everyday, and care about User Experience. 
             I am the one in the team, between code and design.
           </p>
         </v-container>

@@ -26,7 +26,7 @@
               <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
-                    <v-subheader>Frontend Framework</v-subheader>
+                    <v-subheader>Framework / Library</v-subheader>
                     <v-list-tile v-for="item in web" :key="item.id">
                       <v-list-tile-action>
                         <img :src="item.icon" width="25px">
@@ -57,7 +57,7 @@
                 </div>
               </v-flex>
 
-              <v-flex px-1 pb-2>
+              <!-- <v-flex px-1 pb-2>
                 <div class="pos-relative">
                   <v-list three-line>
                     <v-subheader>Computer Vision</v-subheader>
@@ -72,7 +72,7 @@
                     </v-list-tile>
                   </v-list>
                 </div>
-              </v-flex>
+              </v-flex> -->
 
               <!-- <v-flex px-1 pb-2>
                 <div class="pos-relative">
@@ -102,13 +102,7 @@
 export default {
   data: () => ({
     coding: [
-      {
-        name: "Javascript",
-        progress: 30,
-        icon: "https://cdn.svgporn.com/logos/javascript.svg",
-        color: "indigo darken-1"
-      },
-      {
+       {
         name: "HTML",
         progress: 70,
         icon: "https://cdn.svgporn.com/logos/html-5.svg",
@@ -116,8 +110,20 @@ export default {
       },
       {
         name: "CSS",
-        progress: 40,
+        progress: 60,
         icon: "https://cdn.svgporn.com/logos/css-3.svg",
+        color: "indigo darken-1"
+      },
+      {
+        name: "Sass",
+        progress: 40,
+        icon: "https://cdn.svgporn.com/logos/sass.svg",
+        color: "indigo darken-1"
+      },
+      {
+        name: "Javascript",
+        progress: 30,
+        icon: "https://cdn.svgporn.com/logos/javascript.svg",
         color: "indigo darken-1"
       },
       {
@@ -127,24 +133,18 @@ export default {
         color: "indigo darken-1"
       },
       {
-        name: "Python",
-        progress: 10,
-        icon: "https://cdn.svgporn.com/logos/python.svg",
-        color: "indigo darken-1"
-      },
-      {
         name: "C#",
         progress: 60,
         icon:
           "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
         color: "indigo darken-1"
       },
-      {
-        name: "Git",
-        progress: 80,
-        icon: "https://cdn.svgporn.com/logos/git-icon.svg",
-        color: "indigo darken-1"
-      }
+      // {
+      //   name: "Git",
+      //   progress: 80,
+      //   icon: "https://cdn.svgporn.com/logos/git-icon.svg",
+      //   color: "indigo darken-1"
+      // }
     ],
     web: [
       {
