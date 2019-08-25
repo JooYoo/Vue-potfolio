@@ -72,7 +72,7 @@
                     </v-list-tile>
                   </v-list>
                 </div>
-              </v-flex> -->
+              </v-flex>-->
 
               <!-- <v-flex px-1 pb-2>
                 <div class="pos-relative">
@@ -102,9 +102,9 @@
 export default {
   data: () => ({
     coding: [
-       {
+      {
         name: "HTML",
-        progress: 70,
+        progress: 60,
         icon: "https://cdn.svgporn.com/logos/html-5.svg",
         color: "indigo darken-1"
       },
@@ -116,19 +116,19 @@ export default {
       },
       {
         name: "Sass",
-        progress: 40,
+        progress: 50,
         icon: "https://cdn.svgporn.com/logos/sass.svg",
         color: "indigo darken-1"
       },
       {
         name: "Javascript",
-        progress: 30,
+        progress: 10,
         icon: "https://cdn.svgporn.com/logos/javascript.svg",
         color: "indigo darken-1"
       },
       {
         name: "Typescript",
-        progress: 40,
+        progress: 20,
         icon: "https://cdn.svgporn.com/logos/typescript-icon.svg",
         color: "indigo darken-1"
       },
@@ -138,7 +138,7 @@ export default {
         icon:
           "https://www.flamingoajans.com/assets/vendors/devicon/icons/csharp/csharp-original.svg",
         color: "indigo darken-1"
-      },
+      }
       // {
       //   name: "Git",
       //   progress: 80,
@@ -149,13 +149,13 @@ export default {
     web: [
       {
         name: "Angular",
-        progress: 40,
+        progress: 60,
         icon: "https://cdn.svgporn.com/logos/angular-icon.svg",
         color: "red darken-1"
       },
       {
         name: "Vuejs",
-        progress: 30,
+        progress: 20,
         icon: "https://cdn.svgporn.com/logos/vue.svg",
         color: "red darken-1"
       },
@@ -180,23 +180,23 @@ export default {
         color: "teal darken-1"
       },
       {
-        name: "Bootstrap",
-        progress: 80,
-        icon: "https://cdn.svgporn.com/logos/bootstrap.svg",
-        color: "teal darken-1"
-      },
-      {
-        name: "jQuery",
-        progress: 30,
-        icon: "https://cdn.svgporn.com/logos/jquery.svg",
-        color: "teal darken-1"
-      },
-      {
         name: "Vuetify",
         progress: 30,
         icon: "https://cdn.svgporn.com/logos/vuetifyjs.svg",
         color: "teal darken-1"
       },
+      {
+        name: "Bootstrap",
+        progress: 80,
+        icon: "https://cdn.svgporn.com/logos/bootstrap.svg",
+        color: "teal darken-1"
+      },
+      // {
+      //   name: "jQuery",
+      //   progress: 30,
+      //   icon: "https://cdn.svgporn.com/logos/jquery.svg",
+      //   color: "teal darken-1"
+      // },
       {
         name: "UIkit",
         progress: 60,
