@@ -5,7 +5,7 @@ import ProjectPage from "../pages/project/ProjectPage.vue";
 import ProjectContent1 from "../pages/project/contents/project.content.1.vue";
 import ProjectContent2 from "../pages/project/contents/project.content.2.vue";
 import ProjectContent3 from "../pages/project/contents/project.content.3.vue";
-import ProjectContent4 from "../pages/project/contents/project.content.4.vue";
+import ProjectContent4 from "../pages/project/contents/project.content.currency.vue";
 import ProjectContent5 from "../pages/project/contents/project.content.5.vue";
 import ProjectContent6 from "../pages/project/contents/project.content.6.vue";
 import ProjectContent7 from "../pages/project/contents/project.content.7.vue";

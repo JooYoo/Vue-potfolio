@@ -61,6 +61,7 @@
                 target="_blank"
                 v-for="demo in ProjectData.projects[7].demos"
                 :key="demo.id"
+                class="v-btn--active"
               >
                 <span>{{demo.name}}</span>
                 <v-img class="blog-demos-icon" :src="demo.icon"></v-img>

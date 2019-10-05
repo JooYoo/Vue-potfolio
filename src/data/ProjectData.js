@@ -215,9 +215,9 @@ const contents = {
         },
         {
             id: 4,
-            title: 'jsCurrency',
+            title: 'Yu Currency',
             cover: 'https://farm3.staticflickr.com/2582/4105054854_2927d15bc6_b.jpg',
-            date: '2018-06-28',
+            date: '2019-10-01',
             techs: [
                 {
                     name: 'Web App',
@@ -225,72 +225,71 @@ const contents = {
                     icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
                 },
                 {
-                    name: 'VanillaJS',
-                    color: 'yellow darken-2',
-                    icon: 'https://cdn.svgporn.com/logos/javascript.svg'
+                    name: 'ionic',
+                    color: 'blue darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/ionic.svg'
                 },
                 {
-                    name: 'Chartjs',
-                    color: 'pink darken-3',
-                    icon: 'https://www.chartjs.org/img/chartjs-logo.svg'
+                    name: 'Angular',
+                    color: 'red',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
                 },
                 {
-                    name: 'Bootstrap',
-                    color: 'purple darken-3',
-                    icon: 'https://cdn.svgporn.com/logos/bootstrap.svg'
+                    name: 'TypeScript',
+                    color: 'blue darken-4',
+                    icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
                 },
 
                 {
-                    name: 'AJAX',
-                    color: 'blue darken-1',
-                    icon: 'http://codingbin.com/wp-content/uploads/2015/11/ajax-logo.jpg'
+                    name: 'PWA',
+                    color: 'purple',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
                 }
             ],
             screenshots: [
                 {
                     declare: 'main view',
-                    img: `https://farm5.staticflickr.com/4893/44698689220_91a15d313f_z.jpg`,
+                    img: `https://live.staticflickr.com/65535/48840803501_7207765e22_k.jpg`,
                 },
                 {
                     declare: 'strikethrough',
-                    img: `https://farm8.staticflickr.com/7849/45602417225_24f63280e3_z.jpg`
+                    img: `https://live.staticflickr.com/65535/48840976727_93f5aa1b42_k.jpg`
                 },
                 {
                     declare: 'gif',
-                    img: `https://media.giphy.com/media/3feEm9HGcsc2xxzbeK/giphy.gif`
+                    img: `https://live.staticflickr.com/65535/48840435608_a207ae4f79_k.jpg`
                 }
             ],
-            concept: `jsCurrency can calculate currency exchange. 
-                      It updates the newest currency data. 
-                      There is a Calculator build in, 
-                      basic mathmatic opration supported.
-                      The chart shows the exchange rate.`,
+            concept: `Yu Currency is a simple Currency calculator. 
+                     It keeps updating the latest exchange rates, and including 30+ currencies. 
+                     You can use it to handle simple currency calculation. 
+                     Simple, Clean, no Advertisement.`,
             demos: [
                 {
-                    name: 'Web App',
-                    link: 'https://jooyoo.github.io/JS-Currencies/',
+                    name: 'PWA',
+                    link: 'https://jooyoo.github.io/ionic-currency/',
                     icon: 'https://cdn.svgporn.com/logos/safari.svg'
                 },
-                // {
-                //     name: 'Apple AppStore',
-                //     link: '',
-                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
-                // },
-                // {
-                //     name: 'Google Play',
-                //     link: '',
-                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
-                // },
+                {
+                    name: 'Apple AppStore',
+                    link: 'https://apps.apple.com/us/app/yu-currency/id1481925156?l=zh&ls=1',
+                    icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                },
+                {
+                    name: 'Google Play',
+                    link: 'https://play.google.com/store/apps/details?id=io.yu.currency',
+                    icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                },
                 {
                     name: 'Github',
-                    link: 'https://github.com/JooYoo/JS-Currencies',
+                    link: 'https://github.com/JooYoo/ionic-currency',
                     icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
                 },
             ],
-            techTalk: `jsCurrency build with Vanilla + Bootstrap + Chartjs.
-                       I used Ajax to get the newest currency data from https://fix.io API.
-                       The data will update every 30 minutes. Bootstrap as UI library. 
-                       I created the Line Chart by chartjs.`,
+            techTalk: `Yu Currency build with Angular and ionic as UI library.
+                       To get the newest currency data by https://fix.io API.
+                       The data will update every 30 minutes. 
+                       Support iOS, Android and PWA`,
         },
         {
             id: 5,

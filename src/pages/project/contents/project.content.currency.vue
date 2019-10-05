@@ -55,12 +55,13 @@
           <br>
           <p class="display-1">Demos</p>
           <v-card class="blog-demos">
-            <v-bottom-nav absolute color="transparent" height="100px;">
+            <v-bottom-nav absolute  height="100px;">
               <v-btn
                 :href="demo.link"
                 target="_blank"
                 v-for="demo in ProjectData.projects[3].demos"
                 :key="demo.id"
+                class="v-btn--active"
               >
                 <span>{{demo.name}}</span>
                 <v-img class="blog-demos-icon" :src="demo.icon"></v-img>
