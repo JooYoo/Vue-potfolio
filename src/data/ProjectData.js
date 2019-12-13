@@ -460,7 +460,7 @@ const contents = {
                     color: 'blue darken-4',
                     icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
                 },
-              
+
                 {
                     name: 'Bootstrap',
                     color: 'purple darken-3',
@@ -742,6 +742,78 @@ const contents = {
                       the algorithm will find out how similar is this sample compare with the nearest neighbors.
                       The predict the result based on the "high frequency appear" neighbors' label. 
                       User can add more date anytime to optimize the prediction result.`,
+        },
+        {
+            id: 11,
+            title: 'Yu News',
+            cover: 'https://cdn.pixabay.com/photo/2019/12/11/18/19/landscape-4688944_1280.jpg',
+            date: '2019-12-13',
+            techs: [
+                {
+                    name: 'Web App',
+                    color: 'black',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                },
+                {
+                    name: 'ionic',
+                    color: 'blue darken-2',
+                    icon: 'https://cdn.svgporn.com/logos/ionic.svg'
+                },
+                {
+                    name: 'Angular',
+                    color: 'red',
+                    icon: 'https://cdn.svgporn.com/logos/angular-icon.svg'
+                },
+                {
+                    name: 'TypeScript',
+                    color: 'blue darken-4',
+                    icon: 'https://cdn.svgporn.com/logos/typescript-icon.svg'
+                },
+
+                {
+                    name: 'PWA',
+                    color: 'purple',
+                    icon: 'https://user-images.githubusercontent.com/3104648/28351989-7f68389e-6c4b-11e7-9bf2-e9fcd4977e7a.png'
+                }
+            ],
+            screenshots: [
+                {
+                    declare: 'img00',
+                    img: `https://live.staticflickr.com/65535/49211875412_eff10786b9_k.jpg`,
+                },
+                {
+                    declare: 'img01',
+                    img: `https://live.staticflickr.com/65535/49211651556_e2cdf64cd9_k.jpg`,
+                },
+                {
+                    declare: 'img02',
+                    img: `https://live.staticflickr.com/65535/49211875327_9dee2ece3b_k.jpg`,
+                }
+            ],
+            concept: `A News App. To get breaking news headlines, and search for articles from over 30,000 news sources`,
+            demos: [
+                {
+                    name: 'PWA',
+                    link: 'https://jooyoo.github.io/ionic-yuNews',
+                    icon: 'https://cdn.svgporn.com/logos/safari.svg'
+                },
+                // {
+                //     name: 'Apple AppStore',
+                //     link: 'https://itunes.apple.com/in/app/infinitycards/id1451342091?mt=8',
+                //     icon: 'https://image.flaticon.com/icons/svg/831/831276.svg'
+                // },
+                // {
+                //     name: 'Google Play',
+                //     link: 'https://play.google.com/store/apps/details?id=io.zhuyu.InfinityCards',
+                //     icon: 'https://image.flaticon.com/icons/svg/888/888857.svg'
+                // },
+                {
+                    name: 'Github',
+                    link: 'https://github.com/JooYoo/ionic-yuNews',
+                    icon: 'https://cdn.svgporn.com/logos/github-icon.svg'
+                },
+            ],
+            techTalk: `Angular + ionic => PWA`,
         }
     ]
 }
