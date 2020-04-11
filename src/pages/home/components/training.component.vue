@@ -8,7 +8,7 @@
             <v-card>
               <v-list subheader three-line>
                 <v-subheader inset>
-                  <v-list-tile-title>Computer Science Expert | 2016 ~ 2019</v-list-tile-title>
+                  <v-list-tile-title>Fachinformatiker - Anwendungsentwicklung | 2016 ~ 2019</v-list-tile-title>
                 </v-subheader>
 
                 <v-list-tile>

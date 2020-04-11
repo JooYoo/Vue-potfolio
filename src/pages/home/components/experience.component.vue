@@ -41,15 +41,19 @@ export default {
         color: "pink",
         year: "2019",
         title: "Frontend Developer",
-        where: "stellar design und engineering GmbH (DE)",
-        content: `Responsible for Automotive HMI / IVI-System frontend development.`
+        where: "stellar design und engineering GmbH (DE) • Full-time",
+        content: `Frontend development for In-Vehicle Infotainment (IVI) system. 
+                  Work close with UI/UX designer to implement design ideas into usable software. 
+                  Create user interface, and optimize user experience. 
+                  Extend new features to the software. 
+                  Maintain the software components, ensuring its functionality and ease of use.`
       },
       {
         color: "cyan",
         year: "2016",
         title: "Software Developer",
-        where: "artiso solutions GmbH (DE)",
-        content: `Three years apprenticeship as a Software Developer. 
+        where: "artiso solutions GmbH (DE) • Apprenticeship",
+        content: `Three years apprenticeship (Ausbildung) as a Software Developer. 
                   I've learned the basic .Net Technology Stack, such as C#, WPF, ASP.NET Core, etc. 
                   As part of my job, I developed desktop software and websites for internal usage. 
                   For example, lunch management system, software license management system, etc.
@@ -71,7 +75,7 @@ export default {
         color: "orange",
         year: "2015",
         title: "Chinese Instructor",
-        where: "online (CN)",
+        where: "online (CN) • Freelance",
         content: `I thaught Chinese online to students, who come from Australia, America, and Europe.
                   I had to take care of the entire business process myself. Including course developement, marketing, conducting classes, accounting and customer service.
                   In order to help students study efficiently, I created a multimedia eBook using iAuthor, Adobe Photoshop and Keynote.
@@ -83,7 +87,7 @@ export default {
         color: "green",
         year: "2014",
         title: "Graphic Designer",
-        where: "Yunnan University of Finance and Economics (CN)",
+        where: "Yunnan University of Finance and Economics (CN) • Part-time",
         content: `While I was studying for my master's degree, 
                   I worked part time as a Graphic Designer for a department ( Postgraduate Education Center ) at my University.
                   I was responsible for VI Design, 
